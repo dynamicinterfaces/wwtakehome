@@ -1,0 +1,3670 @@
+{
+  "summary": {
+    "repo": "PostHog/posthog",
+    "dateRange": {
+      "start": "2026-04-28T16:56:36Z",
+      "end": "2026-05-09T14:54:27Z"
+    },
+    "totalPRs": 897,
+    "totalEngineers": 130,
+    "totalReviews": 3079,
+    "totalCommits": 3375,
+    "medianCycleTime": 199,
+    "avgPRSize": 415.711259754738
+  },
+  "engineers": [
+    {
+      "login": "webjunkie",
+      "impactScore": 88,
+      "pillars": {
+        "scope": 100,
+        "depth": 97,
+        "leverage": 87,
+        "durability": 60
+      },
+      "metrics": {
+        "prsAuthored": 41,
+        "prsReviewed": 20,
+        "totalAdditions": 51947,
+        "totalDeletions": 47006,
+        "avgFilesPerPR": 12.829268292682928,
+        "avgDirectoriesPerPR": 4.463414634146342,
+        "uniqueDirectories": 69,
+        "reviewsGiven": 23,
+        "reviewsWithSubstance": 11,
+        "avgTimeToReview": 2624.896551724138,
+        "avgCycleTime": 1311.9268292682927,
+        "churnRate": 0.2037037037037037,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "works across 69 different areas of the codebase, averaging 12.8 files per PR. avg cycle time of 21.9h."
+    },
+    {
+      "login": "nickbest-ph",
+      "impactScore": 87,
+      "pillars": {
+        "scope": 98,
+        "depth": 91,
+        "leverage": 78,
+        "durability": 77
+      },
+      "metrics": {
+        "prsAuthored": 19,
+        "prsReviewed": 15,
+        "totalAdditions": 9931,
+        "totalDeletions": 1838,
+        "avgFilesPerPR": 10.736842105263158,
+        "avgDirectoriesPerPR": 5.315789473684211,
+        "uniqueDirectories": 37,
+        "reviewsGiven": 19,
+        "reviewsWithSubstance": 4,
+        "avgTimeToReview": 767.5172413793103,
+        "avgCycleTime": 770.6315789473684,
+        "churnRate": 0.12254901960784313,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "works across 37 different areas of the codebase, averaging 10.7 files per PR. avg cycle time of 12.8h."
+    },
+    {
+      "login": "pauldambra",
+      "impactScore": 87,
+      "pillars": {
+        "scope": 99,
+        "depth": 99,
+        "leverage": 95,
+        "durability": 44
+      },
+      "metrics": {
+        "prsAuthored": 69,
+        "prsReviewed": 29,
+        "totalAdditions": 10803,
+        "totalDeletions": 4925,
+        "avgFilesPerPR": 5.202898550724638,
+        "avgDirectoriesPerPR": 3.0579710144927534,
+        "uniqueDirectories": 42,
+        "reviewsGiven": 130,
+        "reviewsWithSubstance": 126,
+        "avgTimeToReview": 1954.7974379503603,
+        "avgCycleTime": 628.6086956521739,
+        "churnRate": 0.34540389972144847,
+        "aiAssistedPRs": 2,
+        "aiPercentage": 2.898550724637681
+      },
+      "explanation": "works across 42 different areas of the codebase, averaging 5.2 files per PR. 3% of PRs include AI-assisted commits. avg cycle time of 10.5h."
+    },
+    {
+      "login": "rnegron",
+      "impactScore": 86,
+      "pillars": {
+        "scope": 96,
+        "depth": 82,
+        "leverage": 91,
+        "durability": 71
+      },
+      "metrics": {
+        "prsAuthored": 23,
+        "prsReviewed": 32,
+        "totalAdditions": 4054,
+        "totalDeletions": 1232,
+        "avgFilesPerPR": 4.260869565217392,
+        "avgDirectoriesPerPR": 2.782608695652174,
+        "uniqueDirectories": 25,
+        "reviewsGiven": 35,
+        "reviewsWithSubstance": 8,
+        "avgTimeToReview": 865.5365853658536,
+        "avgCycleTime": 1855.2608695652175,
+        "churnRate": 0.15306122448979592,
+        "aiAssistedPRs": 2,
+        "aiPercentage": 8.695652173913043
+      },
+      "explanation": "works across 25 different areas of the codebase, averaging 4.3 files per PR. 9% of PRs include AI-assisted commits. avg cycle time of 1.3 days."
+    },
+    {
+      "login": "TueHaulund",
+      "impactScore": 85,
+      "pillars": {
+        "scope": 97,
+        "depth": 85,
+        "leverage": 79,
+        "durability": 76
+      },
+      "metrics": {
+        "prsAuthored": 10,
+        "prsReviewed": 15,
+        "totalAdditions": 9026,
+        "totalDeletions": 2734,
+        "avgFilesPerPR": 25,
+        "avgDirectoriesPerPR": 5.6,
+        "uniqueDirectories": 23,
+        "reviewsGiven": 18,
+        "reviewsWithSubstance": 3,
+        "avgTimeToReview": 1568.5,
+        "avgCycleTime": 1758.8,
+        "churnRate": 0.12340425531914893,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "works across 23 different areas of the codebase, averaging 25.0 files per PR. avg cycle time of 1.2 days."
+    },
+    {
+      "login": "benjackwhite",
+      "impactScore": 80,
+      "pillars": {
+        "scope": 87,
+        "depth": 92,
+        "leverage": 70,
+        "durability": 64
+      },
+      "metrics": {
+        "prsAuthored": 9,
+        "prsReviewed": 11,
+        "totalAdditions": 5195,
+        "totalDeletions": 720,
+        "avgFilesPerPR": 9.666666666666666,
+        "avgDirectoriesPerPR": 3,
+        "uniqueDirectories": 16,
+        "reviewsGiven": 11,
+        "reviewsWithSubstance": 3,
+        "avgTimeToReview": 132.72727272727272,
+        "avgCycleTime": 2593.5555555555557,
+        "churnRate": 0.19540229885057472,
+        "aiAssistedPRs": 1,
+        "aiPercentage": 11.11111111111111
+      },
+      "explanation": "tackles complex changes with 9 PRs averaging 577 additions each. 11% of PRs include AI-assisted commits. avg cycle time of 1.8 days."
+    },
+    {
+      "login": "richardsolomou",
+      "impactScore": 80,
+      "pillars": {
+        "scope": 78,
+        "depth": 93,
+        "leverage": 73,
+        "durability": 72
+      },
+      "metrics": {
+        "prsAuthored": 14,
+        "prsReviewed": 11,
+        "totalAdditions": 8367,
+        "totalDeletions": 4995,
+        "avgFilesPerPR": 9.071428571428571,
+        "avgDirectoriesPerPR": 2.4285714285714284,
+        "uniqueDirectories": 13,
+        "reviewsGiven": 14,
+        "reviewsWithSubstance": 6,
+        "avgTimeToReview": 521.6,
+        "avgCycleTime": 4178.214285714285,
+        "churnRate": 0.14960629921259844,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "tackles complex changes with 14 PRs averaging 598 additions each. avg cycle time of 2.9 days."
+    },
+    {
+      "login": "sampennington",
+      "impactScore": 79,
+      "pillars": {
+        "scope": 72,
+        "depth": 100,
+        "leverage": 57,
+        "durability": 82
+      },
+      "metrics": {
+        "prsAuthored": 76,
+        "prsReviewed": 11,
+        "totalAdditions": 15303,
+        "totalDeletions": 4525,
+        "avgFilesPerPR": 6.605263157894737,
+        "avgDirectoriesPerPR": 2.1447368421052633,
+        "uniqueDirectories": 12,
+        "reviewsGiven": 13,
+        "reviewsWithSubstance": 1,
+        "avgTimeToReview": 1088.578947368421,
+        "avgCycleTime": 534.7631578947369,
+        "churnRate": 0.07768924302788845,
+        "aiAssistedPRs": 48,
+        "aiPercentage": 63.1578947368421
+      },
+      "explanation": "tackles complex changes with 76 PRs averaging 201 additions each. 63% of PRs include AI-assisted commits. avg cycle time of 8.9h."
+    },
+    {
+      "login": "skoob13",
+      "impactScore": 79,
+      "pillars": {
+        "scope": 80,
+        "depth": 88,
+        "leverage": 89,
+        "durability": 52
+      },
+      "metrics": {
+        "prsAuthored": 15,
+        "prsReviewed": 21,
+        "totalAdditions": 3127,
+        "totalDeletions": 716,
+        "avgFilesPerPR": 6.133333333333334,
+        "avgDirectoriesPerPR": 2.533333333333333,
+        "uniqueDirectories": 14,
+        "reviewsGiven": 24,
+        "reviewsWithSubstance": 10,
+        "avgTimeToReview": 1525.3333333333333,
+        "avgCycleTime": 777,
+        "churnRate": 0.2826086956521739,
+        "aiAssistedPRs": 2,
+        "aiPercentage": 13.333333333333334
+      },
+      "explanation": "multiplies team output with 24 reviews (10 substantive) across others' PRs. 13% of PRs include AI-assisted commits. avg cycle time of 12.9h."
+    },
+    {
+      "login": "eli-r-ph",
+      "impactScore": 77,
+      "pillars": {
+        "scope": 50,
+        "depth": 89,
+        "leverage": 84,
+        "durability": 84
+      },
+      "metrics": {
+        "prsAuthored": 12,
+        "prsReviewed": 19,
+        "totalAdditions": 2084,
+        "totalDeletions": 806,
+        "avgFilesPerPR": 5.166666666666667,
+        "avgDirectoriesPerPR": 2.0833333333333335,
+        "uniqueDirectories": 8,
+        "reviewsGiven": 20,
+        "reviewsWithSubstance": 3,
+        "avgTimeToReview": 629.5909090909091,
+        "avgCycleTime": 811.0833333333334,
+        "churnRate": 0.06451612903225806,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "tackles complex changes with 12 PRs averaging 174 additions each. avg cycle time of 13.5h."
+    },
+    {
+      "login": "veryayskiy",
+      "impactScore": 76,
+      "pillars": {
+        "scope": 84,
+        "depth": 95,
+        "leverage": 52,
+        "durability": 65
+      },
+      "metrics": {
+        "prsAuthored": 16,
+        "prsReviewed": 9,
+        "totalAdditions": 4213,
+        "totalDeletions": 808,
+        "avgFilesPerPR": 7.4375,
+        "avgDirectoriesPerPR": 3.75,
+        "uniqueDirectories": 14,
+        "reviewsGiven": 10,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 1195.1666666666667,
+        "avgCycleTime": 458.75,
+        "churnRate": 0.19327731092436976,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "tackles complex changes with 16 PRs averaging 263 additions each. avg cycle time of 7.6h."
+    },
+    {
+      "login": "lricoy",
+      "impactScore": 75,
+      "pillars": {
+        "scope": 65,
+        "depth": 90,
+        "leverage": 60,
+        "durability": 83
+      },
+      "metrics": {
+        "prsAuthored": 16,
+        "prsReviewed": 11,
+        "totalAdditions": 2812,
+        "totalDeletions": 1157,
+        "avgFilesPerPR": 3.25,
+        "avgDirectoriesPerPR": 2.1875,
+        "uniqueDirectories": 11,
+        "reviewsGiven": 11,
+        "reviewsWithSubstance": 2,
+        "avgTimeToReview": 1398.1818181818182,
+        "avgCycleTime": 714.375,
+        "churnRate": 0.07692307692307693,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "tackles complex changes with 16 PRs averaging 176 additions each. avg cycle time of 11.9h."
+    },
+    {
+      "login": "fasyy612",
+      "impactScore": 74,
+      "pillars": {
+        "scope": 87,
+        "depth": 67,
+        "leverage": 88,
+        "durability": 53
+      },
+      "metrics": {
+        "prsAuthored": 7,
+        "prsReviewed": 11,
+        "totalAdditions": 733,
+        "totalDeletions": 98,
+        "avgFilesPerPR": 4.571428571428571,
+        "avgDirectoriesPerPR": 4.428571428571429,
+        "uniqueDirectories": 15,
+        "reviewsGiven": 19,
+        "reviewsWithSubstance": 18,
+        "avgTimeToReview": 1800.8510638297873,
+        "avgCycleTime": 2722.5714285714284,
+        "churnRate": 0.28125,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 19 reviews (18 substantive) across others' PRs. avg cycle time of 1.9 days."
+    },
+    {
+      "login": "joshsny",
+      "impactScore": 74,
+      "pillars": {
+        "scope": 76,
+        "depth": 93,
+        "leverage": 80,
+        "durability": 35
+      },
+      "metrics": {
+        "prsAuthored": 15,
+        "prsReviewed": 18,
+        "totalAdditions": 1370,
+        "totalDeletions": 336,
+        "avgFilesPerPR": 4.4,
+        "avgDirectoriesPerPR": 2.8,
+        "uniqueDirectories": 13,
+        "reviewsGiven": 18,
+        "reviewsWithSubstance": 2,
+        "avgTimeToReview": 489.72222222222223,
+        "avgCycleTime": 1053.1333333333334,
+        "churnRate": 0.4393939393939394,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "tackles complex changes with 15 PRs averaging 91 additions each. avg cycle time of 17.6h."
+    },
+    {
+      "login": "MarconLP",
+      "impactScore": 74,
+      "pillars": {
+        "scope": 77,
+        "depth": 90,
+        "leverage": 65,
+        "durability": 55
+      },
+      "metrics": {
+        "prsAuthored": 14,
+        "prsReviewed": 12,
+        "totalAdditions": 2400,
+        "totalDeletions": 406,
+        "avgFilesPerPR": 3.642857142857143,
+        "avgDirectoriesPerPR": 2.642857142857143,
+        "uniqueDirectories": 14,
+        "reviewsGiven": 12,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 1165.6666666666667,
+        "avgCycleTime": 3379.5,
+        "churnRate": 0.2549019607843137,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "tackles complex changes with 14 PRs averaging 171 additions each. avg cycle time of 2.3 days."
+    },
+    {
+      "login": "yasen-posthog",
+      "impactScore": 74,
+      "pillars": {
+        "scope": 90,
+        "depth": 65,
+        "leverage": 74,
+        "durability": 69
+      },
+      "metrics": {
+        "prsAuthored": 5,
+        "prsReviewed": 10,
+        "totalAdditions": 3222,
+        "totalDeletions": 283,
+        "avgFilesPerPR": 12,
+        "avgDirectoriesPerPR": 6,
+        "uniqueDirectories": 12,
+        "reviewsGiven": 10,
+        "reviewsWithSubstance": 3,
+        "avgTimeToReview": 2208,
+        "avgCycleTime": 2496.8,
+        "churnRate": 0.16666666666666666,
+        "aiAssistedPRs": 1,
+        "aiPercentage": 20
+      },
+      "explanation": "works across 12 different areas of the codebase, averaging 12.0 files per PR. 20% of PRs include AI-assisted commits. avg cycle time of 1.7 days."
+    },
+    {
+      "login": "haacked",
+      "impactScore": 73,
+      "pillars": {
+        "scope": 95,
+        "depth": 78,
+        "leverage": 59,
+        "durability": 57
+      },
+      "metrics": {
+        "prsAuthored": 16,
+        "prsReviewed": 8,
+        "totalAdditions": 6033,
+        "totalDeletions": 469,
+        "avgFilesPerPR": 4.9375,
+        "avgDirectoriesPerPR": 3.3125,
+        "uniqueDirectories": 23,
+        "reviewsGiven": 8,
+        "reviewsWithSubstance": 6,
+        "avgTimeToReview": 2261.375,
+        "avgCycleTime": 786.1875,
+        "churnRate": 0.22784810126582278,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "works across 23 different areas of the codebase, averaging 4.9 files per PR. avg cycle time of 13.1h."
+    },
+    {
+      "login": "tatoalo",
+      "impactScore": 73,
+      "pillars": {
+        "scope": 79,
+        "depth": 83,
+        "leverage": 92,
+        "durability": 28
+      },
+      "metrics": {
+        "prsAuthored": 10,
+        "prsReviewed": 29,
+        "totalAdditions": 2714,
+        "totalDeletions": 578,
+        "avgFilesPerPR": 7.4,
+        "avgDirectoriesPerPR": 3.4,
+        "uniqueDirectories": 12,
+        "reviewsGiven": 31,
+        "reviewsWithSubstance": 6,
+        "avgTimeToReview": 351.54285714285714,
+        "avgCycleTime": 591.2,
+        "churnRate": 0.6216216216216216,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 31 reviews (6 substantive) across others' PRs. avg cycle time of 9.9h."
+    },
+    {
+      "login": "carlos-marchal-ph",
+      "impactScore": 73,
+      "pillars": {
+        "scope": 94,
+        "depth": 74,
+        "leverage": 75,
+        "durability": 43
+      },
+      "metrics": {
+        "prsAuthored": 7,
+        "prsReviewed": 11,
+        "totalAdditions": 2993,
+        "totalDeletions": 259,
+        "avgFilesPerPR": 8.571428571428571,
+        "avgDirectoriesPerPR": 4.428571428571429,
+        "uniqueDirectories": 20,
+        "reviewsGiven": 11,
+        "reviewsWithSubstance": 4,
+        "avgTimeToReview": 2285.3636363636365,
+        "avgCycleTime": 1477,
+        "churnRate": 0.36666666666666664,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "works across 20 different areas of the codebase, averaging 8.6 files per PR. avg cycle time of 1.0 days."
+    },
+    {
+      "login": "mariusandra",
+      "impactScore": 73,
+      "pillars": {
+        "scope": 77,
+        "depth": 94,
+        "leverage": 50,
+        "durability": 63
+      },
+      "metrics": {
+        "prsAuthored": 11,
+        "prsReviewed": 7,
+        "totalAdditions": 2712,
+        "totalDeletions": 764,
+        "avgFilesPerPR": 6,
+        "avgDirectoriesPerPR": 2.6363636363636362,
+        "uniqueDirectories": 13,
+        "reviewsGiven": 8,
+        "reviewsWithSubstance": 1,
+        "avgTimeToReview": 534.9,
+        "avgCycleTime": 1568.7272727272727,
+        "churnRate": 0.19696969696969696,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "tackles complex changes with 11 PRs averaging 247 additions each. avg cycle time of 1.1 days."
+    },
+    {
+      "login": "orian",
+      "impactScore": 72,
+      "pillars": {
+        "scope": 85,
+        "depth": 77,
+        "leverage": 64,
+        "durability": 57
+      },
+      "metrics": {
+        "prsAuthored": 8,
+        "prsReviewed": 8,
+        "totalAdditions": 2065,
+        "totalDeletions": 439,
+        "avgFilesPerPR": 4.875,
+        "avgDirectoriesPerPR": 4.25,
+        "uniqueDirectories": 15,
+        "reviewsGiven": 17,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 232.6056338028169,
+        "avgCycleTime": 1268.25,
+        "churnRate": 0.23076923076923078,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "works across 15 different areas of the codebase, averaging 4.9 files per PR. avg cycle time of 21.1h."
+    },
+    {
+      "login": "cat-ph",
+      "impactScore": 70,
+      "pillars": {
+        "scope": 93,
+        "depth": 60,
+        "leverage": 76,
+        "durability": 49
+      },
+      "metrics": {
+        "prsAuthored": 6,
+        "prsReviewed": 11,
+        "totalAdditions": 6544,
+        "totalDeletions": 1719,
+        "avgFilesPerPR": 16,
+        "avgDirectoriesPerPR": 5.166666666666667,
+        "uniqueDirectories": 17,
+        "reviewsGiven": 11,
+        "reviewsWithSubstance": 4,
+        "avgTimeToReview": 209.8181818181818,
+        "avgCycleTime": 4943,
+        "churnRate": 0.3125,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "works across 17 different areas of the codebase, averaging 16.0 files per PR. avg cycle time of 3.4 days."
+    },
+    {
+      "login": "vdekrijger",
+      "impactScore": 70,
+      "pillars": {
+        "scope": 86,
+        "depth": 71,
+        "leverage": 87,
+        "durability": 27
+      },
+      "metrics": {
+        "prsAuthored": 6,
+        "prsReviewed": 17,
+        "totalAdditions": 1659,
+        "totalDeletions": 457,
+        "avgFilesPerPR": 11.5,
+        "avgDirectoriesPerPR": 5.166666666666667,
+        "uniqueDirectories": 12,
+        "reviewsGiven": 19,
+        "reviewsWithSubstance": 6,
+        "avgTimeToReview": 1232.5652173913043,
+        "avgCycleTime": 1469.5,
+        "churnRate": 0.6376811594202898,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 19 reviews (6 substantive) across others' PRs. avg cycle time of 1.0 days."
+    },
+    {
+      "login": "Radu-Raicea",
+      "impactScore": 69,
+      "pillars": {
+        "scope": 58,
+        "depth": 52,
+        "leverage": 93,
+        "durability": 80
+      },
+      "metrics": {
+        "prsAuthored": 7,
+        "prsReviewed": 21,
+        "totalAdditions": 1714,
+        "totalDeletions": 484,
+        "avgFilesPerPR": 4.571428571428571,
+        "avgDirectoriesPerPR": 2.7142857142857144,
+        "uniqueDirectories": 9,
+        "reviewsGiven": 36,
+        "reviewsWithSubstance": 19,
+        "avgTimeToReview": 1212.6634615384614,
+        "avgCycleTime": 353.85714285714283,
+        "churnRate": 0.09375,
+        "aiAssistedPRs": 1,
+        "aiPercentage": 14.285714285714285
+      },
+      "explanation": "multiplies team output with 36 reviews (19 substantive) across others' PRs. 14% of PRs include AI-assisted commits. avg cycle time of 5.9h."
+    },
+    {
+      "login": "meikelmosby",
+      "impactScore": 69,
+      "pillars": {
+        "scope": 68,
+        "depth": 80,
+        "leverage": 67,
+        "durability": 54
+      },
+      "metrics": {
+        "prsAuthored": 8,
+        "prsReviewed": 10,
+        "totalAdditions": 926,
+        "totalDeletions": 406,
+        "avgFilesPerPR": 2.875,
+        "avgDirectoriesPerPR": 2.625,
+        "uniqueDirectories": 11,
+        "reviewsGiven": 13,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 976.96,
+        "avgCycleTime": 77.125,
+        "churnRate": 0.2608695652173913,
+        "aiAssistedPRs": 2,
+        "aiPercentage": 25
+      },
+      "explanation": "tackles complex changes with 8 PRs averaging 116 additions each. 25% of PRs include AI-assisted commits. avg cycle time of 1.3h."
+    },
+    {
+      "login": "lucasheriques",
+      "impactScore": 67,
+      "pillars": {
+        "scope": 69,
+        "depth": 87,
+        "leverage": 55,
+        "durability": 50
+      },
+      "metrics": {
+        "prsAuthored": 10,
+        "prsReviewed": 9,
+        "totalAdditions": 3747,
+        "totalDeletions": 323,
+        "avgFilesPerPR": 5.4,
+        "avgDirectoriesPerPR": 3,
+        "uniqueDirectories": 10,
+        "reviewsGiven": 9,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 226.44444444444446,
+        "avgCycleTime": 628.1,
+        "churnRate": 0.2962962962962963,
+        "aiAssistedPRs": 1,
+        "aiPercentage": 10
+      },
+      "explanation": "tackles complex changes with 10 PRs averaging 375 additions each. 10% of PRs include AI-assisted commits. avg cycle time of 10.5h."
+    },
+    {
+      "login": "ablaszkiewicz",
+      "impactScore": 66,
+      "pillars": {
+        "scope": 88,
+        "depth": 67,
+        "leverage": 62,
+        "durability": 43
+      },
+      "metrics": {
+        "prsAuthored": 6,
+        "prsReviewed": 9,
+        "totalAdditions": 2826,
+        "totalDeletions": 555,
+        "avgFilesPerPR": 12.666666666666666,
+        "avgDirectoriesPerPR": 5.333333333333333,
+        "uniqueDirectories": 12,
+        "reviewsGiven": 10,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 2429.3333333333335,
+        "avgCycleTime": 1779.6666666666667,
+        "churnRate": 0.35526315789473684,
+        "aiAssistedPRs": 2,
+        "aiPercentage": 33.33333333333333
+      },
+      "explanation": "works across 12 different areas of the codebase, averaging 12.7 files per PR. 33% of PRs include AI-assisted commits. avg cycle time of 1.2 days."
+    },
+    {
+      "login": "posthog",
+      "impactScore": 65,
+      "pillars": {
+        "scope": 93,
+        "depth": 98,
+        "leverage": 14,
+        "durability": 46
+      },
+      "metrics": {
+        "prsAuthored": 42,
+        "prsReviewed": 1,
+        "totalAdditions": 4248,
+        "totalDeletions": 1600,
+        "avgFilesPerPR": 4.119047619047619,
+        "avgDirectoriesPerPR": 2.4523809523809526,
+        "uniqueDirectories": 23,
+        "reviewsGiven": 2,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 23,
+        "avgCycleTime": 774.9761904761905,
+        "churnRate": 0.34104046242774566,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "tackles complex changes with 42 PRs averaging 101 additions each. avg cycle time of 12.9h."
+    },
+    {
+      "login": "robbie-c",
+      "impactScore": 65,
+      "pillars": {
+        "scope": 73,
+        "depth": 86,
+        "leverage": 19,
+        "durability": 79
+      },
+      "metrics": {
+        "prsAuthored": 11,
+        "prsReviewed": 2,
+        "totalAdditions": 6615,
+        "totalDeletions": 381,
+        "avgFilesPerPR": 7.636363636363637,
+        "avgDirectoriesPerPR": 2.727272727272727,
+        "uniqueDirectories": 11,
+        "reviewsGiven": 3,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 346.6,
+        "avgCycleTime": 1230.090909090909,
+        "churnRate": 0.09523809523809523,
+        "aiAssistedPRs": 3,
+        "aiPercentage": 27.27272727272727
+      },
+      "explanation": "tackles complex changes with 11 PRs averaging 601 additions each. 27% of PRs include AI-assisted commits. avg cycle time of 20.5h."
+    },
+    {
+      "login": "ReeceJones",
+      "impactScore": 65,
+      "pillars": {
+        "scope": 80,
+        "depth": 70,
+        "leverage": 63,
+        "durability": 40
+      },
+      "metrics": {
+        "prsAuthored": 8,
+        "prsReviewed": 9,
+        "totalAdditions": 1940,
+        "totalDeletions": 303,
+        "avgFilesPerPR": 6.5,
+        "avgDirectoriesPerPR": 3.625,
+        "uniqueDirectories": 12,
+        "reviewsGiven": 13,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 3247.074074074074,
+        "avgCycleTime": 888.125,
+        "churnRate": 0.38461538461538464,
+        "aiAssistedPRs": 1,
+        "aiPercentage": 12.5
+      },
+      "explanation": "works across 12 different areas of the codebase, averaging 6.5 files per PR. 13% of PRs include AI-assisted commits. avg cycle time of 14.8h."
+    },
+    {
+      "login": "dmarticus",
+      "impactScore": 65,
+      "pillars": {
+        "scope": 49,
+        "depth": 77,
+        "leverage": 68,
+        "durability": 62
+      },
+      "metrics": {
+        "prsAuthored": 9,
+        "prsReviewed": 7,
+        "totalAdditions": 763,
+        "totalDeletions": 362,
+        "avgFilesPerPR": 2.7777777777777777,
+        "avgDirectoriesPerPR": 2.2222222222222223,
+        "uniqueDirectories": 8,
+        "reviewsGiven": 9,
+        "reviewsWithSubstance": 9,
+        "avgTimeToReview": 2303.230769230769,
+        "avgCycleTime": 2010.7777777777778,
+        "churnRate": 0.2,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "tackles complex changes with 9 PRs averaging 85 additions each. avg cycle time of 1.4 days."
+    },
+    {
+      "login": "danielcarletti",
+      "impactScore": 64,
+      "pillars": {
+        "scope": 61,
+        "depth": 64,
+        "leverage": 70,
+        "durability": 62
+      },
+      "metrics": {
+        "prsAuthored": 6,
+        "prsReviewed": 9,
+        "totalAdditions": 1510,
+        "totalDeletions": 209,
+        "avgFilesPerPR": 4.166666666666667,
+        "avgDirectoriesPerPR": 3.1666666666666665,
+        "uniqueDirectories": 9,
+        "reviewsGiven": 10,
+        "reviewsWithSubstance": 5,
+        "avgTimeToReview": 2576.25,
+        "avgCycleTime": 4615.333333333333,
+        "churnRate": 0.2,
+        "aiAssistedPRs": 6,
+        "aiPercentage": 100
+      },
+      "explanation": "multiplies team output with 10 reviews (5 substantive) across others' PRs. 100% of PRs include AI-assisted commits. avg cycle time of 3.2 days."
+    },
+    {
+      "login": "arthurdedeus",
+      "impactScore": 64,
+      "pillars": {
+        "scope": 92,
+        "depth": 73,
+        "leverage": 51,
+        "durability": 33
+      },
+      "metrics": {
+        "prsAuthored": 7,
+        "prsReviewed": 6,
+        "totalAdditions": 1743,
+        "totalDeletions": 218,
+        "avgFilesPerPR": 6.571428571428571,
+        "avgDirectoriesPerPR": 5,
+        "uniqueDirectories": 17,
+        "reviewsGiven": 6,
+        "reviewsWithSubstance": 2,
+        "avgTimeToReview": 568.6666666666666,
+        "avgCycleTime": 1899.142857142857,
+        "churnRate": 0.4782608695652174,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "works across 17 different areas of the codebase, averaging 6.6 files per PR. avg cycle time of 1.3 days."
+    },
+    {
+      "login": "jonmcwest",
+      "impactScore": 64,
+      "pillars": {
+        "scope": 64,
+        "depth": 97,
+        "leverage": 15,
+        "durability": 78
+      },
+      "metrics": {
+        "prsAuthored": 26,
+        "prsReviewed": 2,
+        "totalAdditions": 7472,
+        "totalDeletions": 1941,
+        "avgFilesPerPR": 4.461538461538462,
+        "avgDirectoriesPerPR": 2.6153846153846154,
+        "uniqueDirectories": 10,
+        "reviewsGiven": 3,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 313,
+        "avgCycleTime": 708.5384615384615,
+        "churnRate": 0.10344827586206896,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "tackles complex changes with 26 PRs averaging 287 additions each. avg cycle time of 11.8h."
+    },
+    {
+      "login": "sortafreel",
+      "impactScore": 63,
+      "pillars": {
+        "scope": 83,
+        "depth": 59,
+        "leverage": 39,
+        "durability": 73
+      },
+      "metrics": {
+        "prsAuthored": 6,
+        "prsReviewed": 4,
+        "totalAdditions": 1518,
+        "totalDeletions": 456,
+        "avgFilesPerPR": 7.166666666666667,
+        "avgDirectoriesPerPR": 3.8333333333333335,
+        "uniqueDirectories": 13,
+        "reviewsGiven": 5,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 2292.8571428571427,
+        "avgCycleTime": 276,
+        "churnRate": 0.13953488372093023,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "works across 13 different areas of the codebase, averaging 7.2 files per PR. avg cycle time of 4.6h."
+    },
+    {
+      "login": "fercgomes",
+      "impactScore": 63,
+      "pillars": {
+        "scope": 83,
+        "depth": 46,
+        "leverage": 81,
+        "durability": 39
+      },
+      "metrics": {
+        "prsAuthored": 5,
+        "prsReviewed": 10,
+        "totalAdditions": 1913,
+        "totalDeletions": 66,
+        "avgFilesPerPR": 8.2,
+        "avgDirectoriesPerPR": 3.4,
+        "uniqueDirectories": 13,
+        "reviewsGiven": 15,
+        "reviewsWithSubstance": 6,
+        "avgTimeToReview": 2235.36,
+        "avgCycleTime": 2887,
+        "churnRate": 0.3902439024390244,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "works across 13 different areas of the codebase, averaging 8.2 files per PR. avg cycle time of 2.0 days."
+    },
+    {
+      "login": "jurajmajerik",
+      "impactScore": 63,
+      "pillars": {
+        "scope": 57,
+        "depth": 96,
+        "leverage": 41,
+        "durability": 47
+      },
+      "metrics": {
+        "prsAuthored": 24,
+        "prsReviewed": 6,
+        "totalAdditions": 893,
+        "totalDeletions": 452,
+        "avgFilesPerPR": 2.25,
+        "avgDirectoriesPerPR": 2.4166666666666665,
+        "uniqueDirectories": 10,
+        "reviewsGiven": 6,
+        "reviewsWithSubstance": 1,
+        "avgTimeToReview": 822.3333333333334,
+        "avgCycleTime": 405.0833333333333,
+        "churnRate": 0.3333333333333333,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "tackles complex changes with 24 PRs averaging 37 additions each. avg cycle time of 6.8h."
+    },
+    {
+      "login": "rafaeelaudibert",
+      "impactScore": 62,
+      "pillars": {
+        "scope": 82,
+        "depth": 63,
+        "leverage": 27,
+        "durability": 77
+      },
+      "metrics": {
+        "prsAuthored": 5,
+        "prsReviewed": 3,
+        "totalAdditions": 980,
+        "totalDeletions": 296,
+        "avgFilesPerPR": 7,
+        "avgDirectoriesPerPR": 4.2,
+        "uniqueDirectories": 12,
+        "reviewsGiven": 5,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 60.18181818181818,
+        "avgCycleTime": 401.4,
+        "churnRate": 0.11428571428571428,
+        "aiAssistedPRs": 4,
+        "aiPercentage": 80
+      },
+      "explanation": "works across 12 different areas of the codebase, averaging 7.0 files per PR. 80% of PRs include AI-assisted commits. avg cycle time of 6.7h."
+    },
+    {
+      "login": "a-lider",
+      "impactScore": 62,
+      "pillars": {
+        "scope": 52,
+        "depth": 76,
+        "leverage": 80,
+        "durability": 33
+      },
+      "metrics": {
+        "prsAuthored": 8,
+        "prsReviewed": 12,
+        "totalAdditions": 421,
+        "totalDeletions": 96,
+        "avgFilesPerPR": 3.875,
+        "avgDirectoriesPerPR": 2.375,
+        "uniqueDirectories": 8,
+        "reviewsGiven": 15,
+        "reviewsWithSubstance": 6,
+        "avgTimeToReview": 413.4782608695652,
+        "avgCycleTime": 2077.5,
+        "churnRate": 0.5161290322580645,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 15 reviews (6 substantive) across others' PRs. avg cycle time of 1.4 days."
+    },
+    {
+      "login": "dmarchuk",
+      "impactScore": 62,
+      "pillars": {
+        "scope": 63,
+        "depth": 72,
+        "leverage": 53,
+        "durability": 58
+      },
+      "metrics": {
+        "prsAuthored": 9,
+        "prsReviewed": 7,
+        "totalAdditions": 984,
+        "totalDeletions": 125,
+        "avgFilesPerPR": 3.5555555555555554,
+        "avgDirectoriesPerPR": 2.6666666666666665,
+        "uniqueDirectories": 10,
+        "reviewsGiven": 8,
+        "reviewsWithSubstance": 2,
+        "avgTimeToReview": 64.1,
+        "avgCycleTime": 1125.4444444444443,
+        "churnRate": 0.21875,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "tackles complex changes with 9 PRs averaging 109 additions each. avg cycle time of 18.8h."
+    },
+    {
+      "login": "VojtechBartos",
+      "impactScore": 62,
+      "pillars": {
+        "scope": 89,
+        "depth": 68,
+        "leverage": 54,
+        "durability": 29
+      },
+      "metrics": {
+        "prsAuthored": 7,
+        "prsReviewed": 8,
+        "totalAdditions": 5047,
+        "totalDeletions": 354,
+        "avgFilesPerPR": 5.857142857142857,
+        "avgDirectoriesPerPR": 3.857142857142857,
+        "uniqueDirectories": 16,
+        "reviewsGiven": 8,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 509.5,
+        "avgCycleTime": 2997.8571428571427,
+        "churnRate": 0.6097560975609756,
+        "aiAssistedPRs": 1,
+        "aiPercentage": 14.285714285714285
+      },
+      "explanation": "works across 16 different areas of the codebase, averaging 5.9 files per PR. 14% of PRs include AI-assisted commits. avg cycle time of 2.1 days."
+    },
+    {
+      "login": "DanielVisca",
+      "impactScore": 62,
+      "pillars": {
+        "scope": 90,
+        "depth": 84,
+        "leverage": 17,
+        "durability": 48
+      },
+      "metrics": {
+        "prsAuthored": 8,
+        "prsReviewed": 2,
+        "totalAdditions": 5700,
+        "totalDeletions": 515,
+        "avgFilesPerPR": 13.25,
+        "avgDirectoriesPerPR": 4.625,
+        "uniqueDirectories": 14,
+        "reviewsGiven": 2,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 139.5,
+        "avgCycleTime": 352.875,
+        "churnRate": 0.330188679245283,
+        "aiAssistedPRs": 3,
+        "aiPercentage": 37.5
+      },
+      "explanation": "works across 14 different areas of the codebase, averaging 13.3 files per PR. 38% of PRs include AI-assisted commits. avg cycle time of 5.9h."
+    },
+    {
+      "login": "mp-hog",
+      "impactScore": 61,
+      "pillars": {
+        "scope": 97,
+        "depth": 80,
+        "leverage": 7,
+        "durability": 53
+      },
+      "metrics": {
+        "prsAuthored": 11,
+        "prsReviewed": 0,
+        "totalAdditions": 2131,
+        "totalDeletions": 356,
+        "avgFilesPerPR": 9.363636363636363,
+        "avgDirectoriesPerPR": 5.818181818181818,
+        "uniqueDirectories": 20,
+        "reviewsGiven": 0,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": null,
+        "avgCycleTime": 937.9090909090909,
+        "churnRate": 0.2621359223300971,
+        "aiAssistedPRs": 1,
+        "aiPercentage": 9.090909090909092
+      },
+      "explanation": "works across 20 different areas of the codebase, averaging 9.4 files per PR. 9% of PRs include AI-assisted commits. avg cycle time of 15.6h."
+    },
+    {
+      "login": "andrewm4894",
+      "impactScore": 60,
+      "pillars": {
+        "scope": 74,
+        "depth": 73,
+        "leverage": 47,
+        "durability": 40
+      },
+      "metrics": {
+        "prsAuthored": 9,
+        "prsReviewed": 6,
+        "totalAdditions": 3326,
+        "totalDeletions": 322,
+        "avgFilesPerPR": 5.888888888888889,
+        "avgDirectoriesPerPR": 3.111111111111111,
+        "uniqueDirectories": 11,
+        "reviewsGiven": 7,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 35.55555555555556,
+        "avgCycleTime": 743.7777777777778,
+        "churnRate": 0.37735849056603776,
+        "aiAssistedPRs": 2,
+        "aiPercentage": 22.22222222222222
+      },
+      "explanation": "works across 11 different areas of the codebase, averaging 5.9 files per PR. 22% of PRs include AI-assisted commits. avg cycle time of 12.4h."
+    },
+    {
+      "login": "rossgray",
+      "impactScore": 60,
+      "pillars": {
+        "scope": 75,
+        "depth": 53,
+        "leverage": 37,
+        "durability": 79
+      },
+      "metrics": {
+        "prsAuthored": 4,
+        "prsReviewed": 3,
+        "totalAdditions": 911,
+        "totalDeletions": 138,
+        "avgFilesPerPR": 5.25,
+        "avgDirectoriesPerPR": 4.75,
+        "uniqueDirectories": 9,
+        "reviewsGiven": 3,
+        "reviewsWithSubstance": 1,
+        "avgTimeToReview": 2366.6666666666665,
+        "avgCycleTime": 325.75,
+        "churnRate": 0.09523809523809523,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "ships code that sticks — 90% of changed files remain untouched after 21 days. avg cycle time of 5.4h."
+    },
+    {
+      "login": "Piccirello",
+      "impactScore": 60,
+      "pillars": {
+        "scope": 51,
+        "depth": 56,
+        "leverage": 67,
+        "durability": 67
+      },
+      "metrics": {
+        "prsAuthored": 6,
+        "prsReviewed": 7,
+        "totalAdditions": 432,
+        "totalDeletions": 60,
+        "avgFilesPerPR": 1.8333333333333333,
+        "avgDirectoriesPerPR": 2,
+        "uniqueDirectories": 9,
+        "reviewsGiven": 10,
+        "reviewsWithSubstance": 5,
+        "avgTimeToReview": 1060.625,
+        "avgCycleTime": 812.3333333333334,
+        "churnRate": 0.18181818181818182,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 10 reviews (5 substantive) across others' PRs. avg cycle time of 13.5h."
+    },
+    {
+      "login": "adamleithp",
+      "impactScore": 60,
+      "pillars": {
+        "scope": 44,
+        "depth": 61,
+        "leverage": 55,
+        "durability": 85
+      },
+      "metrics": {
+        "prsAuthored": 7,
+        "prsReviewed": 7,
+        "totalAdditions": 2882,
+        "totalDeletions": 1160,
+        "avgFilesPerPR": 10,
+        "avgDirectoriesPerPR": 2,
+        "uniqueDirectories": 5,
+        "reviewsGiven": 7,
+        "reviewsWithSubstance": 2,
+        "avgTimeToReview": 152.57142857142858,
+        "avgCycleTime": 319.57142857142856,
+        "churnRate": 0.05714285714285714,
+        "aiAssistedPRs": 3,
+        "aiPercentage": 42.857142857142854
+      },
+      "explanation": "ships code that sticks — 94% of changed files remain untouched after 21 days. 43% of PRs include AI-assisted commits. avg cycle time of 5.3h."
+    },
+    {
+      "login": "thmsobrmlr",
+      "impactScore": 59,
+      "pillars": {
+        "scope": 67,
+        "depth": 87,
+        "leverage": 33,
+        "durability": 38
+      },
+      "metrics": {
+        "prsAuthored": 13,
+        "prsReviewed": 3,
+        "totalAdditions": 1071,
+        "totalDeletions": 232,
+        "avgFilesPerPR": 2.6923076923076925,
+        "avgDirectoriesPerPR": 2.5384615384615383,
+        "uniqueDirectories": 11,
+        "reviewsGiven": 3,
+        "reviewsWithSubstance": 2,
+        "avgTimeToReview": 855,
+        "avgCycleTime": 1701.3076923076924,
+        "churnRate": 0.4,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "tackles complex changes with 13 PRs averaging 82 additions each. avg cycle time of 1.2 days."
+    },
+    {
+      "login": "mcoll-posthog",
+      "impactScore": 59,
+      "pillars": {
+        "scope": 81,
+        "depth": 66,
+        "leverage": 7,
+        "durability": 87
+      },
+      "metrics": {
+        "prsAuthored": 6,
+        "prsReviewed": 0,
+        "totalAdditions": 4056,
+        "totalDeletions": 650,
+        "avgFilesPerPR": 8.5,
+        "avgDirectoriesPerPR": 3.5,
+        "uniqueDirectories": 12,
+        "reviewsGiven": 0,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": null,
+        "avgCycleTime": 671.6666666666666,
+        "churnRate": 0.0196078431372549,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "ships code that sticks — 98% of changed files remain untouched after 21 days. avg cycle time of 11.2h."
+    },
+    {
+      "login": "gustavohstrassburger",
+      "impactScore": 59,
+      "pillars": {
+        "scope": 47,
+        "depth": 69,
+        "leverage": 50,
+        "durability": 69
+      },
+      "metrics": {
+        "prsAuthored": 6,
+        "prsReviewed": 6,
+        "totalAdditions": 2063,
+        "totalDeletions": 172,
+        "avgFilesPerPR": 4,
+        "avgDirectoriesPerPR": 2.5,
+        "uniqueDirectories": 7,
+        "reviewsGiven": 6,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 2182.1666666666665,
+        "avgCycleTime": 2279.6666666666665,
+        "churnRate": 0.16666666666666666,
+        "aiAssistedPRs": 2,
+        "aiPercentage": 33.33333333333333
+      },
+      "explanation": "tackles complex changes with 6 PRs averaging 344 additions each. 33% of PRs include AI-assisted commits. avg cycle time of 1.6 days."
+    },
+    {
+      "login": "Twixes",
+      "impactScore": 59,
+      "pillars": {
+        "scope": 73,
+        "depth": 58,
+        "leverage": 58,
+        "durability": 42
+      },
+      "metrics": {
+        "prsAuthored": 7,
+        "prsReviewed": 7,
+        "totalAdditions": 1193,
+        "totalDeletions": 295,
+        "avgFilesPerPR": 3.4285714285714284,
+        "avgDirectoriesPerPR": 3.4285714285714284,
+        "uniqueDirectories": 11,
+        "reviewsGiven": 8,
+        "reviewsWithSubstance": 3,
+        "avgTimeToReview": 969.3,
+        "avgCycleTime": 1273.4285714285713,
+        "churnRate": 0.375,
+        "aiAssistedPRs": 1,
+        "aiPercentage": 14.285714285714285
+      },
+      "explanation": "works across 11 different areas of the codebase, averaging 3.4 files per PR. 14% of PRs include AI-assisted commits. avg cycle time of 21.2h."
+    },
+    {
+      "login": "estefaniarabadan",
+      "impactScore": 59,
+      "pillars": {
+        "scope": 46,
+        "depth": 47,
+        "leverage": 86,
+        "durability": 59
+      },
+      "metrics": {
+        "prsAuthored": 4,
+        "prsReviewed": 8,
+        "totalAdditions": 264,
+        "totalDeletions": 8,
+        "avgFilesPerPR": 3.5,
+        "avgDirectoriesPerPR": 2.75,
+        "uniqueDirectories": 6,
+        "reviewsGiven": 23,
+        "reviewsWithSubstance": 9,
+        "avgTimeToReview": 8752.08527131783,
+        "avgCycleTime": 1787,
+        "churnRate": 0.21428571428571427,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 23 reviews (9 substantive) across others' PRs. avg cycle time of 1.2 days."
+    },
+    {
+      "login": "Gilbert09",
+      "impactScore": 59,
+      "pillars": {
+        "scope": 60,
+        "depth": 79,
+        "leverage": 45,
+        "durability": 47
+      },
+      "metrics": {
+        "prsAuthored": 9,
+        "prsReviewed": 5,
+        "totalAdditions": 2499,
+        "totalDeletions": 274,
+        "avgFilesPerPR": 5.222222222222222,
+        "avgDirectoriesPerPR": 3.5555555555555554,
+        "uniqueDirectories": 8,
+        "reviewsGiven": 5,
+        "reviewsWithSubstance": 2,
+        "avgTimeToReview": 677.4,
+        "avgCycleTime": 720.5555555555555,
+        "churnRate": 0.3404255319148936,
+        "aiAssistedPRs": 1,
+        "aiPercentage": 11.11111111111111
+      },
+      "explanation": "tackles complex changes with 9 PRs averaging 278 additions each. 11% of PRs include AI-assisted commits. avg cycle time of 12.0h."
+    },
+    {
+      "login": "gesh",
+      "impactScore": 58,
+      "pillars": {
+        "scope": 56,
+        "depth": 81,
+        "leverage": 43,
+        "durability": 45
+      },
+      "metrics": {
+        "prsAuthored": 9,
+        "prsReviewed": 5,
+        "totalAdditions": 8170,
+        "totalDeletions": 158,
+        "avgFilesPerPR": 6.777777777777778,
+        "avgDirectoriesPerPR": 3.4444444444444446,
+        "uniqueDirectories": 7,
+        "reviewsGiven": 5,
+        "reviewsWithSubstance": 1,
+        "avgTimeToReview": 3748,
+        "avgCycleTime": 425.55555555555554,
+        "churnRate": 0.3442622950819672,
+        "aiAssistedPRs": 9,
+        "aiPercentage": 100
+      },
+      "explanation": "tackles complex changes with 9 PRs averaging 908 additions each. 100% of PRs include AI-assisted commits. avg cycle time of 7.1h."
+    },
+    {
+      "login": "georgemunyoro",
+      "impactScore": 58,
+      "pillars": {
+        "scope": 28,
+        "depth": 32,
+        "leverage": 93,
+        "durability": 93
+      },
+      "metrics": {
+        "prsAuthored": 1,
+        "prsReviewed": 12,
+        "totalAdditions": 167,
+        "totalDeletions": 10,
+        "avgFilesPerPR": 2,
+        "avgDirectoriesPerPR": 2,
+        "uniqueDirectories": 2,
+        "reviewsGiven": 12,
+        "reviewsWithSubstance": 1,
+        "avgTimeToReview": 1637.4166666666667,
+        "avgCycleTime": 2924,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 12 reviews (1 substantive) across others' PRs. avg cycle time of 2.0 days."
+    },
+    {
+      "login": "jose-sequeira",
+      "impactScore": 58,
+      "pillars": {
+        "scope": 71,
+        "depth": 54,
+        "leverage": 35,
+        "durability": 74
+      },
+      "metrics": {
+        "prsAuthored": 6,
+        "prsReviewed": 3,
+        "totalAdditions": 345,
+        "totalDeletions": 489,
+        "avgFilesPerPR": 3.6666666666666665,
+        "avgDirectoriesPerPR": 2.5,
+        "uniqueDirectories": 12,
+        "reviewsGiven": 3,
+        "reviewsWithSubstance": 1,
+        "avgTimeToReview": 3258,
+        "avgCycleTime": 192.33333333333334,
+        "churnRate": 0.13636363636363635,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "ships code that sticks — 86% of changed files remain untouched after 21 days. avg cycle time of 3.2h."
+    },
+    {
+      "login": "jordanm-posthog",
+      "impactScore": 55,
+      "pillars": {
+        "scope": 55,
+        "depth": 75,
+        "leverage": 36,
+        "durability": 51
+      },
+      "metrics": {
+        "prsAuthored": 8,
+        "prsReviewed": 4,
+        "totalAdditions": 1644,
+        "totalDeletions": 292,
+        "avgFilesPerPR": 3.5,
+        "avgDirectoriesPerPR": 2.625,
+        "uniqueDirectories": 9,
+        "reviewsGiven": 4,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 1751.75,
+        "avgCycleTime": 84.5,
+        "churnRate": 0.2857142857142857,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "tackles complex changes with 8 PRs averaging 206 additions each. avg cycle time of 1.4h."
+    },
+    {
+      "login": "patricio-posthog",
+      "impactScore": 55,
+      "pillars": {
+        "scope": 25,
+        "depth": 27,
+        "leverage": 90,
+        "durability": 93
+      },
+      "metrics": {
+        "prsAuthored": 1,
+        "prsReviewed": 8,
+        "totalAdditions": 55,
+        "totalDeletions": 3,
+        "avgFilesPerPR": 1,
+        "avgDirectoriesPerPR": 2,
+        "uniqueDirectories": 2,
+        "reviewsGiven": 8,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 1164.75,
+        "avgCycleTime": 952,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "ships code that sticks — 100% of changed files remain untouched after 21 days. avg cycle time of 15.9h."
+    },
+    {
+      "login": "frankh",
+      "impactScore": 55,
+      "pillars": {
+        "scope": 59,
+        "depth": 48,
+        "leverage": 77,
+        "durability": 34
+      },
+      "metrics": {
+        "prsAuthored": 3,
+        "prsReviewed": 9,
+        "totalAdditions": 320,
+        "totalDeletions": 80,
+        "avgFilesPerPR": 3.6666666666666665,
+        "avgDirectoriesPerPR": 3,
+        "uniqueDirectories": 9,
+        "reviewsGiven": 9,
+        "reviewsWithSubstance": 2,
+        "avgTimeToReview": 267.8888888888889,
+        "avgCycleTime": 465.3333333333333,
+        "churnRate": 0.45454545454545453,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 9 reviews (2 substantive) across others' PRs. avg cycle time of 7.8h."
+    },
+    {
+      "login": "turnipdabeets",
+      "impactScore": 55,
+      "pillars": {
+        "scope": 44,
+        "depth": 23,
+        "leverage": 72,
+        "durability": 93
+      },
+      "metrics": {
+        "prsAuthored": 1,
+        "prsReviewed": 4,
+        "totalAdditions": 19,
+        "totalDeletions": 0,
+        "avgFilesPerPR": 2,
+        "avgDirectoriesPerPR": 4,
+        "uniqueDirectories": 4,
+        "reviewsGiven": 4,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 2.25,
+        "avgCycleTime": 132,
+        "churnRate": 0,
+        "aiAssistedPRs": 1,
+        "aiPercentage": 100
+      },
+      "explanation": "ships code that sticks — 100% of changed files remain untouched after 21 days. 100% of PRs include AI-assisted commits. avg cycle time of 2.2h."
+    },
+    {
+      "login": "bciaraldi",
+      "impactScore": 54,
+      "pillars": {
+        "scope": 37,
+        "depth": 49,
+        "leverage": 44,
+        "durability": 93
+      },
+      "metrics": {
+        "prsAuthored": 4,
+        "prsReviewed": 4,
+        "totalAdditions": 148,
+        "totalDeletions": 37,
+        "avgFilesPerPR": 1.75,
+        "avgDirectoriesPerPR": 2,
+        "uniqueDirectories": 5,
+        "reviewsGiven": 5,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 71.14285714285714,
+        "avgCycleTime": 2251,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "ships code that sticks — 100% of changed files remain untouched after 21 days. avg cycle time of 1.6 days."
+    },
+    {
+      "login": "brandonleung",
+      "impactScore": 54,
+      "pillars": {
+        "scope": 31,
+        "depth": 39,
+        "leverage": 83,
+        "durability": 69
+      },
+      "metrics": {
+        "prsAuthored": 2,
+        "prsReviewed": 9,
+        "totalAdditions": 348,
+        "totalDeletions": 391,
+        "avgFilesPerPR": 6,
+        "avgDirectoriesPerPR": 2,
+        "uniqueDirectories": 2,
+        "reviewsGiven": 9,
+        "reviewsWithSubstance": 1,
+        "avgTimeToReview": 802.3333333333334,
+        "avgCycleTime": 1696,
+        "churnRate": 0.16666666666666666,
+        "aiAssistedPRs": 1,
+        "aiPercentage": 50
+      },
+      "explanation": "multiplies team output with 9 reviews (1 substantive) across others' PRs. 50% of PRs include AI-assisted commits. avg cycle time of 1.2 days."
+    },
+    {
+      "login": "matheus-vb",
+      "impactScore": 54,
+      "pillars": {
+        "scope": 53,
+        "depth": 55,
+        "leverage": 49,
+        "durability": 60
+      },
+      "metrics": {
+        "prsAuthored": 6,
+        "prsReviewed": 5,
+        "totalAdditions": 2420,
+        "totalDeletions": 209,
+        "avgFilesPerPR": 5.5,
+        "avgDirectoriesPerPR": 2.3333333333333335,
+        "uniqueDirectories": 8,
+        "reviewsGiven": 5,
+        "reviewsWithSubstance": 2,
+        "avgTimeToReview": 1594.4,
+        "avgCycleTime": 1920,
+        "churnRate": 0.21212121212121213,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "ships code that sticks — 79% of changed files remain untouched after 21 days. avg cycle time of 1.3 days."
+    },
+    {
+      "login": "rodrigoi",
+      "impactScore": 54,
+      "pillars": {
+        "scope": 30,
+        "depth": 60,
+        "leverage": 41,
+        "durability": 93
+      },
+      "metrics": {
+        "prsAuthored": 5,
+        "prsReviewed": 3,
+        "totalAdditions": 911,
+        "totalDeletions": 1156,
+        "avgFilesPerPR": 5.4,
+        "avgDirectoriesPerPR": 2,
+        "uniqueDirectories": 2,
+        "reviewsGiven": 3,
+        "reviewsWithSubstance": 3,
+        "avgTimeToReview": 198,
+        "avgCycleTime": 1316.8,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "ships code that sticks — 100% of changed files remain untouched after 21 days. avg cycle time of 21.9h."
+    },
+    {
+      "login": "ryans-posthog",
+      "impactScore": 54,
+      "pillars": {
+        "scope": 43,
+        "depth": 57,
+        "leverage": 36,
+        "durability": 86
+      },
+      "metrics": {
+        "prsAuthored": 4,
+        "prsReviewed": 3,
+        "totalAdditions": 300,
+        "totalDeletions": 104,
+        "avgFilesPerPR": 4.75,
+        "avgDirectoriesPerPR": 3.5,
+        "uniqueDirectories": 4,
+        "reviewsGiven": 3,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 98.66666666666667,
+        "avgCycleTime": 1964.5,
+        "churnRate": 0.05263157894736842,
+        "aiAssistedPRs": 2,
+        "aiPercentage": 50
+      },
+      "explanation": "ships code that sticks — 95% of changed files remain untouched after 21 days. 50% of PRs include AI-assisted commits. avg cycle time of 1.4 days."
+    },
+    {
+      "login": "cvolzer3",
+      "impactScore": 53,
+      "pillars": {
+        "scope": 45,
+        "depth": 50,
+        "leverage": 66,
+        "durability": 50
+      },
+      "metrics": {
+        "prsAuthored": 7,
+        "prsReviewed": 10,
+        "totalAdditions": 944,
+        "totalDeletions": 87,
+        "avgFilesPerPR": 1.8571428571428572,
+        "avgDirectoriesPerPR": 2.2857142857142856,
+        "uniqueDirectories": 7,
+        "reviewsGiven": 10,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 1306.3,
+        "avgCycleTime": 1796,
+        "churnRate": 0.3076923076923077,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 10 reviews (0 substantive) across others' PRs. avg cycle time of 1.2 days."
+    },
+    {
+      "login": "z0br0wn",
+      "impactScore": 53,
+      "pillars": {
+        "scope": 57,
+        "depth": 43,
+        "leverage": 40,
+        "durability": 81
+      },
+      "metrics": {
+        "prsAuthored": 3,
+        "prsReviewed": 3,
+        "totalAdditions": 9835,
+        "totalDeletions": 814,
+        "avgFilesPerPR": 22,
+        "avgDirectoriesPerPR": 3,
+        "uniqueDirectories": 4,
+        "reviewsGiven": 4,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 30.833333333333332,
+        "avgCycleTime": 3081,
+        "churnRate": 0.09090909090909091,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "ships code that sticks — 91% of changed files remain untouched after 21 days. avg cycle time of 2.1 days."
+    },
+    {
+      "login": "sakce",
+      "impactScore": 50,
+      "pillars": {
+        "scope": 63,
+        "depth": 36,
+        "leverage": 46,
+        "durability": 62
+      },
+      "metrics": {
+        "prsAuthored": 2,
+        "prsReviewed": 3,
+        "totalAdditions": 823,
+        "totalDeletions": 508,
+        "avgFilesPerPR": 5,
+        "avgDirectoriesPerPR": 4.5,
+        "uniqueDirectories": 7,
+        "reviewsGiven": 3,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 8.333333333333334,
+        "avgCycleTime": 660.5,
+        "churnRate": 0.2,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "works across 7 different areas of the codebase, averaging 5.0 files per PR. avg cycle time of 11.0h."
+    },
+    {
+      "login": "ksvat",
+      "impactScore": 50,
+      "pillars": {
+        "scope": 67,
+        "depth": 70,
+        "leverage": 18,
+        "durability": 37
+      },
+      "metrics": {
+        "prsAuthored": 12,
+        "prsReviewed": 2,
+        "totalAdditions": 2544,
+        "totalDeletions": 250,
+        "avgFilesPerPR": 4.166666666666667,
+        "avgDirectoriesPerPR": 3.5833333333333335,
+        "uniqueDirectories": 9,
+        "reviewsGiven": 2,
+        "reviewsWithSubstance": 1,
+        "avgTimeToReview": 1037.5,
+        "avgCycleTime": 1399.5,
+        "churnRate": 0.42,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "tackles complex changes with 12 PRs averaging 212 additions each. avg cycle time of 23.3h."
+    },
+    {
+      "login": "fuziontech",
+      "impactScore": 49,
+      "pillars": {
+        "scope": 33,
+        "depth": 37,
+        "leverage": 46,
+        "durability": 93
+      },
+      "metrics": {
+        "prsAuthored": 2,
+        "prsReviewed": 3,
+        "totalAdditions": 704,
+        "totalDeletions": 1152,
+        "avgFilesPerPR": 2.5,
+        "avgDirectoriesPerPR": 2.5,
+        "uniqueDirectories": 3,
+        "reviewsGiven": 3,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 23.333333333333332,
+        "avgCycleTime": 540.5,
+        "churnRate": 0,
+        "aiAssistedPRs": 2,
+        "aiPercentage": 100
+      },
+      "explanation": "ships code that sticks — 100% of changed files remain untouched after 21 days. 100% of PRs include AI-assisted commits. avg cycle time of 9.0h."
+    },
+    {
+      "login": "MattBro",
+      "impactScore": 49,
+      "pillars": {
+        "scope": 70,
+        "depth": 62,
+        "leverage": 22,
+        "durability": 36
+      },
+      "metrics": {
+        "prsAuthored": 7,
+        "prsReviewed": 2,
+        "totalAdditions": 985,
+        "totalDeletions": 146,
+        "avgFilesPerPR": 3.2857142857142856,
+        "avgDirectoriesPerPR": 3,
+        "uniqueDirectories": 11,
+        "reviewsGiven": 2,
+        "reviewsWithSubstance": 2,
+        "avgTimeToReview": 5095.5,
+        "avgCycleTime": 3717.5714285714284,
+        "churnRate": 0.43478260869565216,
+        "aiAssistedPRs": 5,
+        "aiPercentage": 71.42857142857143
+      },
+      "explanation": "works across 11 different areas of the codebase, averaging 3.3 files per PR. 71% of PRs include AI-assisted commits. avg cycle time of 2.6 days."
+    },
+    {
+      "login": "scheduled-actions-posthog",
+      "impactScore": 47,
+      "pillars": {
+        "scope": 28,
+        "depth": 83,
+        "leverage": 7,
+        "durability": 69
+      },
+      "metrics": {
+        "prsAuthored": 15,
+        "prsReviewed": 0,
+        "totalAdditions": 767,
+        "totalDeletions": 515,
+        "avgFilesPerPR": 2,
+        "avgDirectoriesPerPR": 2,
+        "uniqueDirectories": 2,
+        "reviewsGiven": 0,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": null,
+        "avgCycleTime": 180.46666666666667,
+        "churnRate": 0.16666666666666666,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "tackles complex changes with 15 PRs averaging 51 additions each. avg cycle time of 3.0h."
+    },
+    {
+      "login": "EDsCODE",
+      "impactScore": 47,
+      "pillars": {
+        "scope": 40,
+        "depth": 53,
+        "leverage": 16,
+        "durability": 83
+      },
+      "metrics": {
+        "prsAuthored": 4,
+        "prsReviewed": 1,
+        "totalAdditions": 771,
+        "totalDeletions": 291,
+        "avgFilesPerPR": 3.25,
+        "avgDirectoriesPerPR": 2.5,
+        "uniqueDirectories": 4,
+        "reviewsGiven": 1,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 982,
+        "avgCycleTime": 252.5,
+        "churnRate": 0.07692307692307693,
+        "aiAssistedPRs": 1,
+        "aiPercentage": 25
+      },
+      "explanation": "ships code that sticks — 92% of changed files remain untouched after 21 days. 25% of PRs include AI-assisted commits. avg cycle time of 4.2h."
+    },
+    {
+      "login": "slshults",
+      "impactScore": 47,
+      "pillars": {
+        "scope": 62,
+        "depth": 50,
+        "leverage": 33,
+        "durability": 42
+      },
+      "metrics": {
+        "prsAuthored": 3,
+        "prsReviewed": 2,
+        "totalAdditions": 250,
+        "totalDeletions": 21,
+        "avgFilesPerPR": 5.333333333333333,
+        "avgDirectoriesPerPR": 3.6666666666666665,
+        "uniqueDirectories": 8,
+        "reviewsGiven": 2,
+        "reviewsWithSubstance": 1,
+        "avgTimeToReview": 3,
+        "avgCycleTime": 2627.3333333333335,
+        "churnRate": 0.375,
+        "aiAssistedPRs": 1,
+        "aiPercentage": 33.33333333333333
+      },
+      "explanation": "works across 8 different areas of the codebase, averaging 5.3 files per PR. 33% of PRs include AI-assisted commits. avg cycle time of 1.8 days."
+    },
+    {
+      "login": "andyzzhao",
+      "impactScore": 47,
+      "pillars": {
+        "scope": 53,
+        "depth": 57,
+        "leverage": 38,
+        "durability": 37
+      },
+      "metrics": {
+        "prsAuthored": 6,
+        "prsReviewed": 3,
+        "totalAdditions": 1281,
+        "totalDeletions": 51,
+        "avgFilesPerPR": 3.1666666666666665,
+        "avgDirectoriesPerPR": 2.3333333333333335,
+        "uniqueDirectories": 9,
+        "reviewsGiven": 4,
+        "reviewsWithSubstance": 2,
+        "avgTimeToReview": 4950,
+        "avgCycleTime": 314.5,
+        "churnRate": 0.42105263157894735,
+        "aiAssistedPRs": 1,
+        "aiPercentage": 16.666666666666664
+      },
+      "explanation": "tackles complex changes with 6 PRs averaging 214 additions each. 17% of PRs include AI-assisted commits. avg cycle time of 5.2h."
+    },
+    {
+      "login": "gewenyu99",
+      "impactScore": 47,
+      "pillars": {
+        "scope": 38,
+        "depth": 34,
+        "leverage": 35,
+        "durability": 93
+      },
+      "metrics": {
+        "prsAuthored": 1,
+        "prsReviewed": 1,
+        "totalAdditions": 31,
+        "totalDeletions": 30,
+        "avgFilesPerPR": 14,
+        "avgDirectoriesPerPR": 2,
+        "uniqueDirectories": 2,
+        "reviewsGiven": 1,
+        "reviewsWithSubstance": 1,
+        "avgTimeToReview": 3228,
+        "avgCycleTime": 139,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "ships code that sticks — 100% of changed files remain untouched after 21 days. avg cycle time of 2.3h."
+    },
+    {
+      "login": "pawel-cebula",
+      "impactScore": 46,
+      "pillars": {
+        "scope": 35,
+        "depth": 37,
+        "leverage": 83,
+        "durability": 25
+      },
+      "metrics": {
+        "prsAuthored": 2,
+        "prsReviewed": 6,
+        "totalAdditions": 77,
+        "totalDeletions": 6,
+        "avgFilesPerPR": 3,
+        "avgDirectoriesPerPR": 2,
+        "uniqueDirectories": 4,
+        "reviewsGiven": 11,
+        "reviewsWithSubstance": 11,
+        "avgTimeToReview": 463.92,
+        "avgCycleTime": 504.5,
+        "churnRate": 0.6666666666666666,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 11 reviews (11 substantive) across others' PRs. avg cycle time of 8.4h."
+    },
+    {
+      "login": "gantoine",
+      "impactScore": 44,
+      "pillars": {
+        "scope": 66,
+        "depth": 24,
+        "leverage": 27,
+        "durability": 67
+      },
+      "metrics": {
+        "prsAuthored": 1,
+        "prsReviewed": 1,
+        "totalAdditions": 41,
+        "totalDeletions": 581,
+        "avgFilesPerPR": 11,
+        "avgDirectoriesPerPR": 5,
+        "uniqueDirectories": 5,
+        "reviewsGiven": 1,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 6,
+        "avgCycleTime": 100,
+        "churnRate": 0.18181818181818182,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "ships code that sticks — 82% of changed files remain untouched after 21 days. avg cycle time of 1.7h."
+    },
+    {
+      "login": "mendral-app",
+      "impactScore": 44,
+      "pillars": {
+        "scope": 70,
+        "depth": 63,
+        "leverage": 7,
+        "durability": 27
+      },
+      "metrics": {
+        "prsAuthored": 13,
+        "prsReviewed": 0,
+        "totalAdditions": 115,
+        "totalDeletions": 649,
+        "avgFilesPerPR": 1.2307692307692308,
+        "avgDirectoriesPerPR": 1.8461538461538463,
+        "uniqueDirectories": 13,
+        "reviewsGiven": 0,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": null,
+        "avgCycleTime": 352.7692307692308,
+        "churnRate": 0.625,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "works across 13 different areas of the codebase, averaging 1.2 files per PR. avg cycle time of 5.9h."
+    },
+    {
+      "login": "arnaudhillen",
+      "impactScore": 44,
+      "pillars": {
+        "scope": 47,
+        "depth": 38,
+        "leverage": 57,
+        "durability": 31
+      },
+      "metrics": {
+        "prsAuthored": 2,
+        "prsReviewed": 4,
+        "totalAdditions": 753,
+        "totalDeletions": 27,
+        "avgFilesPerPR": 5.5,
+        "avgDirectoriesPerPR": 3.5,
+        "uniqueDirectories": 5,
+        "reviewsGiven": 4,
+        "reviewsWithSubstance": 1,
+        "avgTimeToReview": 1805.25,
+        "avgCycleTime": 655.5,
+        "churnRate": 0.5454545454545454,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 4 reviews (1 substantive) across others' PRs. avg cycle time of 10.9h."
+    },
+    {
+      "login": "willwearing",
+      "impactScore": 44,
+      "pillars": {
+        "scope": 91,
+        "depth": 44,
+        "leverage": 7,
+        "durability": 30
+      },
+      "metrics": {
+        "prsAuthored": 2,
+        "prsReviewed": 0,
+        "totalAdditions": 931,
+        "totalDeletions": 95,
+        "avgFilesPerPR": 10,
+        "avgDirectoriesPerPR": 7,
+        "uniqueDirectories": 12,
+        "reviewsGiven": 0,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": null,
+        "avgCycleTime": 577,
+        "churnRate": 0.55,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "works across 12 different areas of the codebase, averaging 10.0 files per PR. avg cycle time of 9.6h."
+    },
+    {
+      "login": "pl",
+      "impactScore": 43,
+      "pillars": {
+        "scope": 42,
+        "depth": 43,
+        "leverage": 17,
+        "durability": 75
+      },
+      "metrics": {
+        "prsAuthored": 2,
+        "prsReviewed": 1,
+        "totalAdditions": 65,
+        "totalDeletions": 57,
+        "avgFilesPerPR": 4,
+        "avgDirectoriesPerPR": 2.5,
+        "uniqueDirectories": 5,
+        "reviewsGiven": 1,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 7,
+        "avgCycleTime": 39,
+        "churnRate": 0.125,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "ships code that sticks — 88% of changed files remain untouched after 21 days. avg cycle time of 0.7h."
+    },
+    {
+      "login": "jonathanlab",
+      "impactScore": 43,
+      "pillars": {
+        "scope": 60,
+        "depth": 41,
+        "leverage": 41,
+        "durability": 26
+      },
+      "metrics": {
+        "prsAuthored": 3,
+        "prsReviewed": 3,
+        "totalAdditions": 412,
+        "totalDeletions": 52,
+        "avgFilesPerPR": 4.666666666666667,
+        "avgDirectoriesPerPR": 3.6666666666666665,
+        "uniqueDirectories": 8,
+        "reviewsGiven": 3,
+        "reviewsWithSubstance": 1,
+        "avgTimeToReview": 281.3333333333333,
+        "avgCycleTime": 3286.6666666666665,
+        "churnRate": 0.6428571428571429,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "works across 8 different areas of the codebase, averaging 4.7 files per PR. avg cycle time of 2.3 days."
+    },
+    {
+      "login": "christiaan-ph",
+      "impactScore": 43,
+      "pillars": {
+        "scope": 41,
+        "depth": 40,
+        "leverage": 7,
+        "durability": 93
+      },
+      "metrics": {
+        "prsAuthored": 3,
+        "prsReviewed": 0,
+        "totalAdditions": 175,
+        "totalDeletions": 2,
+        "avgFilesPerPR": 2,
+        "avgDirectoriesPerPR": 2,
+        "uniqueDirectories": 6,
+        "reviewsGiven": 0,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": null,
+        "avgCycleTime": 435,
+        "churnRate": 0,
+        "aiAssistedPRs": 1,
+        "aiPercentage": 33.33333333333333
+      },
+      "explanation": "ships code that sticks — 100% of changed files remain untouched after 21 days. 33% of PRs include AI-assisted commits. avg cycle time of 7.3h."
+    },
+    {
+      "login": "hpouillot",
+      "impactScore": 43,
+      "pillars": {
+        "scope": 32,
+        "depth": 33,
+        "leverage": 27,
+        "durability": 93
+      },
+      "metrics": {
+        "prsAuthored": 1,
+        "prsReviewed": 1,
+        "totalAdditions": 114,
+        "totalDeletions": 102,
+        "avgFilesPerPR": 8,
+        "avgDirectoriesPerPR": 2,
+        "uniqueDirectories": 2,
+        "reviewsGiven": 1,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 5,
+        "avgCycleTime": 139,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "ships code that sticks — 100% of changed files remain untouched after 21 days. avg cycle time of 2.3h."
+    },
+    {
+      "login": "nicowaltz",
+      "impactScore": 41,
+      "pillars": {
+        "scope": 48,
+        "depth": 45,
+        "leverage": 7,
+        "durability": 67
+      },
+      "metrics": {
+        "prsAuthored": 3,
+        "prsReviewed": 0,
+        "totalAdditions": 1268,
+        "totalDeletions": 170,
+        "avgFilesPerPR": 3.6666666666666665,
+        "avgDirectoriesPerPR": 2.6666666666666665,
+        "uniqueDirectories": 7,
+        "reviewsGiven": 0,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": null,
+        "avgCycleTime": 1130.3333333333333,
+        "churnRate": 0.18181818181818182,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "ships code that sticks — 82% of changed files remain untouched after 21 days. avg cycle time of 18.8h."
+    },
+    {
+      "login": "andehen",
+      "impactScore": 41,
+      "pillars": {
+        "scope": 37,
+        "depth": 40,
+        "leverage": 53,
+        "durability": 32
+      },
+      "metrics": {
+        "prsAuthored": 3,
+        "prsReviewed": 5,
+        "totalAdditions": 540,
+        "totalDeletions": 117,
+        "avgFilesPerPR": 5,
+        "avgDirectoriesPerPR": 2,
+        "uniqueDirectories": 4,
+        "reviewsGiven": 5,
+        "reviewsWithSubstance": 1,
+        "avgTimeToReview": 37.6,
+        "avgCycleTime": 117.33333333333333,
+        "churnRate": 0.5333333333333333,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 5 reviews (1 substantive) across others' PRs. avg cycle time of 2.0h."
+    },
+    {
+      "login": "havenbarnes",
+      "impactScore": 40,
+      "pillars": {
+        "scope": 54,
+        "depth": 30,
+        "leverage": 27,
+        "durability": 56
+      },
+      "metrics": {
+        "prsAuthored": 1,
+        "prsReviewed": 1,
+        "totalAdditions": 165,
+        "totalDeletions": 7,
+        "avgFilesPerPR": 4,
+        "avgDirectoriesPerPR": 5,
+        "uniqueDirectories": 5,
+        "reviewsGiven": 1,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 1,
+        "avgCycleTime": 662,
+        "churnRate": 0.25,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "ships code that sticks — 75% of changed files remain untouched after 21 days. avg cycle time of 11.0h."
+    },
+    {
+      "login": "tomasfarias",
+      "impactScore": 39,
+      "pillars": {
+        "scope": 40,
+        "depth": 33,
+        "leverage": 77,
+        "durability": 1
+      },
+      "metrics": {
+        "prsAuthored": 2,
+        "prsReviewed": 7,
+        "totalAdditions": 87,
+        "totalDeletions": 1,
+        "avgFilesPerPR": 1.5,
+        "avgDirectoriesPerPR": 2.5,
+        "uniqueDirectories": 5,
+        "reviewsGiven": 15,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 4281.65306122449,
+        "avgCycleTime": 38,
+        "churnRate": 1,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 15 reviews (0 substantive) across others' PRs. avg cycle time of 0.6h."
+    },
+    {
+      "login": "k11kirky",
+      "impactScore": 39,
+      "pillars": {
+        "scope": 50,
+        "depth": 51,
+        "leverage": 43,
+        "durability": 2
+      },
+      "metrics": {
+        "prsAuthored": 4,
+        "prsReviewed": 4,
+        "totalAdditions": 1074,
+        "totalDeletions": 49,
+        "avgFilesPerPR": 3.75,
+        "avgDirectoriesPerPR": 3,
+        "uniqueDirectories": 7,
+        "reviewsGiven": 4,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 59.75,
+        "avgCycleTime": 605.5,
+        "churnRate": 0.9333333333333333,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "tackles complex changes with 4 PRs averaging 269 additions each. avg cycle time of 10.1h."
+    },
+    {
+      "login": "xljones",
+      "impactScore": 37,
+      "pillars": {
+        "scope": 34,
+        "depth": 42,
+        "leverage": 7,
+        "durability": 73
+      },
+      "metrics": {
+        "prsAuthored": 4,
+        "prsReviewed": 0,
+        "totalAdditions": 82,
+        "totalDeletions": 24,
+        "avgFilesPerPR": 1.75,
+        "avgDirectoriesPerPR": 2,
+        "uniqueDirectories": 4,
+        "reviewsGiven": 0,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": null,
+        "avgCycleTime": 2882.25,
+        "churnRate": 0.14285714285714285,
+        "aiAssistedPRs": 1,
+        "aiPercentage": 25
+      },
+      "explanation": "ships code that sticks — 86% of changed files remain untouched after 21 days. 25% of PRs include AI-assisted commits. avg cycle time of 2.0 days."
+    },
+    {
+      "login": "oliverb123",
+      "impactScore": 37,
+      "pillars": {
+        "scope": 38,
+        "depth": 30,
+        "leverage": 72,
+        "durability": 3
+      },
+      "metrics": {
+        "prsAuthored": 1,
+        "prsReviewed": 4,
+        "totalAdditions": 116,
+        "totalDeletions": 3,
+        "avgFilesPerPR": 14,
+        "avgDirectoriesPerPR": 2,
+        "uniqueDirectories": 2,
+        "reviewsGiven": 4,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 315.25,
+        "avgCycleTime": 1356,
+        "churnRate": 0.8571428571428571,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 4 reviews (0 substantive) across others' PRs. avg cycle time of 22.6h."
+    },
+    {
+      "login": "inkeep",
+      "impactScore": 37,
+      "pillars": {
+        "scope": 33,
+        "depth": 27,
+        "leverage": 7,
+        "durability": 93
+      },
+      "metrics": {
+        "prsAuthored": 2,
+        "prsReviewed": 0,
+        "totalAdditions": 50,
+        "totalDeletions": 14,
+        "avgFilesPerPR": 1.5,
+        "avgDirectoriesPerPR": 2.5,
+        "uniqueDirectories": 3,
+        "reviewsGiven": 0,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": null,
+        "avgCycleTime": 178,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "ships code that sticks — 100% of changed files remain untouched after 21 days. avg cycle time of 3.0h."
+    },
+    {
+      "login": "alex-kozh",
+      "impactScore": 36,
+      "pillars": {
+        "scope": 36,
+        "depth": 22,
+        "leverage": 7,
+        "durability": 93
+      },
+      "metrics": {
+        "prsAuthored": 1,
+        "prsReviewed": 0,
+        "totalAdditions": 3,
+        "totalDeletions": 0,
+        "avgFilesPerPR": 2,
+        "avgDirectoriesPerPR": 3,
+        "uniqueDirectories": 3,
+        "reviewsGiven": 0,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": null,
+        "avgCycleTime": 59,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "ships code that sticks — 100% of changed files remain untouched after 21 days. avg cycle time of 1.0h."
+    },
+    {
+      "login": "abigailbramble",
+      "impactScore": 36,
+      "pillars": {
+        "scope": 25,
+        "depth": 31,
+        "leverage": 7,
+        "durability": 93
+      },
+      "metrics": {
+        "prsAuthored": 1,
+        "prsReviewed": 0,
+        "totalAdditions": 27,
+        "totalDeletions": 21,
+        "avgFilesPerPR": 1,
+        "avgDirectoriesPerPR": 2,
+        "uniqueDirectories": 2,
+        "reviewsGiven": 0,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": null,
+        "avgCycleTime": 1077,
+        "churnRate": 0,
+        "aiAssistedPRs": 1,
+        "aiPercentage": 100
+      },
+      "explanation": "ships code that sticks — 100% of changed files remain untouched after 21 days. 100% of PRs include AI-assisted commits. avg cycle time of 17.9h."
+    },
+    {
+      "login": "clr182",
+      "impactScore": 35,
+      "pillars": {
+        "scope": 25,
+        "depth": 29,
+        "leverage": 7,
+        "durability": 93
+      },
+      "metrics": {
+        "prsAuthored": 1,
+        "prsReviewed": 0,
+        "totalAdditions": 30,
+        "totalDeletions": 11,
+        "avgFilesPerPR": 1,
+        "avgDirectoriesPerPR": 2,
+        "uniqueDirectories": 2,
+        "reviewsGiven": 0,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": null,
+        "avgCycleTime": 971,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "ships code that sticks — 100% of changed files remain untouched after 21 days. avg cycle time of 16.2h."
+    },
+    {
+      "login": "aspicer",
+      "impactScore": 34,
+      "pillars": {
+        "scope": 25,
+        "depth": 26,
+        "leverage": 7,
+        "durability": 93
+      },
+      "metrics": {
+        "prsAuthored": 1,
+        "prsReviewed": 0,
+        "totalAdditions": 7,
+        "totalDeletions": 0,
+        "avgFilesPerPR": 1,
+        "avgDirectoriesPerPR": 2,
+        "uniqueDirectories": 2,
+        "reviewsGiven": 0,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": null,
+        "avgCycleTime": 986,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "ships code that sticks — 100% of changed files remain untouched after 21 days. avg cycle time of 16.4h."
+    },
+    {
+      "login": "HaynesPostHog",
+      "impactScore": 34,
+      "pillars": {
+        "scope": 25,
+        "depth": 25,
+        "leverage": 7,
+        "durability": 93
+      },
+      "metrics": {
+        "prsAuthored": 1,
+        "prsReviewed": 0,
+        "totalAdditions": 6,
+        "totalDeletions": 0,
+        "avgFilesPerPR": 1,
+        "avgDirectoriesPerPR": 2,
+        "uniqueDirectories": 2,
+        "reviewsGiven": 0,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": null,
+        "avgCycleTime": 63,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "ships code that sticks — 100% of changed files remain untouched after 21 days. avg cycle time of 1.1h."
+    },
+    {
+      "login": "greptile-apps",
+      "impactScore": 33,
+      "pillars": {
+        "scope": 10,
+        "depth": 10,
+        "leverage": 100,
+        "durability": 14
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 495,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "avgDirectoriesPerPR": null,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 522,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 251.47804054054055,
+        "avgCycleTime": null,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 522 reviews (0 substantive) across others' PRs."
+    },
+    {
+      "login": "copilot-pull-request-reviewer",
+      "impactScore": 33,
+      "pillars": {
+        "scope": 10,
+        "depth": 10,
+        "leverage": 98,
+        "durability": 14
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 110,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "avgDirectoriesPerPR": null,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 116,
+        "reviewsWithSubstance": 134,
+        "avgTimeToReview": 213.76865671641792,
+        "avgCycleTime": null,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 116 reviews (134 substantive) across others' PRs."
+    },
+    {
+      "login": "github-actions",
+      "impactScore": 33,
+      "pillars": {
+        "scope": 10,
+        "depth": 10,
+        "leverage": 99,
+        "durability": 14
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 299,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "avgDirectoriesPerPR": null,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 412,
+        "reviewsWithSubstance": 810,
+        "avgTimeToReview": 225.99753086419753,
+        "avgCycleTime": null,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 412 reviews (810 substantive) across others' PRs."
+    },
+    {
+      "login": "graphite-app",
+      "impactScore": 33,
+      "pillars": {
+        "scope": 10,
+        "depth": 10,
+        "leverage": 97,
+        "durability": 14
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 94,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "avgDirectoriesPerPR": null,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 107,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 739.6861313868613,
+        "avgCycleTime": null,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 107 reviews (0 substantive) across others' PRs."
+    },
+    {
+      "login": "feliperalmeida",
+      "impactScore": 33,
+      "pillars": {
+        "scope": 23,
+        "depth": 23,
+        "leverage": 62,
+        "durability": 25
+      },
+      "metrics": {
+        "prsAuthored": 1,
+        "prsReviewed": 3,
+        "totalAdditions": 31,
+        "totalDeletions": 1,
+        "avgFilesPerPR": 3,
+        "avgDirectoriesPerPR": 1,
+        "uniqueDirectories": 1,
+        "reviewsGiven": 3,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 49.333333333333336,
+        "avgCycleTime": 46,
+        "churnRate": 0.6666666666666666,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 3 reviews (0 substantive) across others' PRs. avg cycle time of 0.8h."
+    },
+    {
+      "login": "stamphog",
+      "impactScore": 33,
+      "pillars": {
+        "scope": 10,
+        "depth": 10,
+        "leverage": 97,
+        "durability": 14
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 95,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "avgDirectoriesPerPR": null,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 109,
+        "reviewsWithSubstance": 137,
+        "avgTimeToReview": 644.5539568345324,
+        "avgCycleTime": null,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 109 reviews (137 substantive) across others' PRs."
+    },
+    {
+      "login": "hex-security-app",
+      "impactScore": 32,
+      "pillars": {
+        "scope": 10,
+        "depth": 10,
+        "leverage": 94,
+        "durability": 14
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 20,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "avgDirectoriesPerPR": null,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 26,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 135.225,
+        "avgCycleTime": null,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 26 reviews (0 substantive) across others' PRs."
+    },
+    {
+      "login": "chatgpt-codex-connector",
+      "impactScore": 32,
+      "pillars": {
+        "scope": 10,
+        "depth": 10,
+        "leverage": 96,
+        "durability": 14
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 66,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "avgDirectoriesPerPR": null,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 67,
+        "reviewsWithSubstance": 69,
+        "avgTimeToReview": 581.9855072463768,
+        "avgCycleTime": null,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 67 reviews (69 substantive) across others' PRs."
+    },
+    {
+      "login": "jamesefhawkins",
+      "impactScore": 32,
+      "pillars": {
+        "scope": 21,
+        "depth": 20,
+        "leverage": 7,
+        "durability": 93
+      },
+      "metrics": {
+        "prsAuthored": 1,
+        "prsReviewed": 0,
+        "totalAdditions": 1,
+        "totalDeletions": 1,
+        "avgFilesPerPR": 1,
+        "avgDirectoriesPerPR": 0,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 0,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": null,
+        "avgCycleTime": 82,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "ships code that sticks — 100% of changed files remain untouched after 21 days. avg cycle time of 1.4h."
+    },
+    {
+      "login": "tests-posthog",
+      "impactScore": 32,
+      "pillars": {
+        "scope": 21,
+        "depth": 21,
+        "leverage": 7,
+        "durability": 93
+      },
+      "metrics": {
+        "prsAuthored": 1,
+        "prsReviewed": 0,
+        "totalAdditions": 1881,
+        "totalDeletions": 265,
+        "avgFilesPerPR": 1,
+        "avgDirectoriesPerPR": 0,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 0,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": null,
+        "avgCycleTime": 1931,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "ships code that sticks — 100% of changed files remain untouched after 21 days. avg cycle time of 1.3 days."
+    },
+    {
+      "login": "rorylshanks",
+      "impactScore": 31,
+      "pillars": {
+        "scope": 10,
+        "depth": 10,
+        "leverage": 90,
+        "durability": 14
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 9,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "avgDirectoriesPerPR": null,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 9,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 346.8888888888889,
+        "avgCycleTime": null,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 9 reviews (0 substantive) across others' PRs."
+    },
+    {
+      "login": "abhischekt",
+      "impactScore": 30,
+      "pillars": {
+        "scope": 10,
+        "depth": 10,
+        "leverage": 85,
+        "durability": 14
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 4,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "avgDirectoriesPerPR": null,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 10,
+        "reviewsWithSubstance": 8,
+        "avgTimeToReview": 1162.7884615384614,
+        "avgCycleTime": null,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 10 reviews (8 substantive) across others' PRs."
+    },
+    {
+      "login": "ioannisj",
+      "impactScore": 30,
+      "pillars": {
+        "scope": 25,
+        "depth": 28,
+        "leverage": 59,
+        "durability": 1
+      },
+      "metrics": {
+        "prsAuthored": 1,
+        "prsReviewed": 2,
+        "totalAdditions": 4,
+        "totalDeletions": 2,
+        "avgFilesPerPR": 1,
+        "avgDirectoriesPerPR": 2,
+        "uniqueDirectories": 2,
+        "reviewsGiven": 5,
+        "reviewsWithSubstance": 4,
+        "avgTimeToReview": 78.47058823529412,
+        "avgCycleTime": 20,
+        "churnRate": 1,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 5 reviews (4 substantive) across others' PRs. avg cycle time of 0.3h."
+    },
+    {
+      "login": "jabahamondes",
+      "impactScore": 29,
+      "pillars": {
+        "scope": 10,
+        "depth": 10,
+        "leverage": 82,
+        "durability": 14
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 5,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "avgDirectoriesPerPR": null,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 5,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 625.4,
+        "avgCycleTime": null,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 5 reviews (0 substantive) across others' PRs."
+    },
+    {
+      "login": "marandaneto",
+      "impactScore": 26,
+      "pillars": {
+        "scope": 10,
+        "depth": 10,
+        "leverage": 72,
+        "durability": 14
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 4,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "avgDirectoriesPerPR": null,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 4,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 13.75,
+        "avgCycleTime": null,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 4 reviews (0 substantive) across others' PRs."
+    },
+    {
+      "login": "andrewjmcgehee",
+      "impactScore": 26,
+      "pillars": {
+        "scope": 10,
+        "depth": 10,
+        "leverage": 69,
+        "durability": 14
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 3,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "avgDirectoriesPerPR": null,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 5,
+        "reviewsWithSubstance": 3,
+        "avgTimeToReview": 136.0909090909091,
+        "avgCycleTime": null,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 5 reviews (3 substantive) across others' PRs."
+    },
+    {
+      "login": "fivestarspicy",
+      "impactScore": 26,
+      "pillars": {
+        "scope": 30,
+        "depth": 35,
+        "leverage": 7,
+        "durability": 30
+      },
+      "metrics": {
+        "prsAuthored": 1,
+        "prsReviewed": 0,
+        "totalAdditions": 171,
+        "totalDeletions": 2,
+        "avgFilesPerPR": 5,
+        "avgDirectoriesPerPR": 2,
+        "uniqueDirectories": 2,
+        "reviewsGiven": 0,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": null,
+        "avgCycleTime": 167,
+        "churnRate": 0.6,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "tackles complex changes with 1 PRs averaging 171 additions each. avg cycle time of 2.8h."
+    },
+    {
+      "login": "tpgilmore",
+      "impactScore": 24,
+      "pillars": {
+        "scope": 10,
+        "depth": 10,
+        "leverage": 62,
+        "durability": 14
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 3,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "avgDirectoriesPerPR": null,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 3,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 340.6666666666667,
+        "avgCycleTime": null,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 3 reviews (0 substantive) across others' PRs."
+    },
+    {
+      "login": "posthog-js-upgrader",
+      "impactScore": 22,
+      "pillars": {
+        "scope": 22,
+        "depth": 47,
+        "leverage": 7,
+        "durability": 3
+      },
+      "metrics": {
+        "prsAuthored": 7,
+        "prsReviewed": 0,
+        "totalAdditions": 396,
+        "totalDeletions": 262,
+        "avgFilesPerPR": 2,
+        "avgDirectoriesPerPR": 0,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 0,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": null,
+        "avgCycleTime": 21.857142857142858,
+        "churnRate": 0.8571428571428571,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "tackles complex changes with 7 PRs averaging 57 additions each. avg cycle time of 0.4h."
+    },
+    {
+      "login": "copilot-swe-agent",
+      "impactScore": 20,
+      "pillars": {
+        "scope": 10,
+        "depth": 10,
+        "leverage": 48,
+        "durability": 14
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 2,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "avgDirectoriesPerPR": null,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 10,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 1536.939024390244,
+        "avgCycleTime": null,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 10 reviews (0 substantive) across others' PRs."
+    },
+    {
+      "login": "raquelmsmith",
+      "impactScore": 16,
+      "pillars": {
+        "scope": 10,
+        "depth": 10,
+        "leverage": 32,
+        "durability": 14
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 1,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "avgDirectoriesPerPR": null,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 2,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 124,
+        "avgCycleTime": null,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 2 reviews (0 substantive) across others' PRs."
+    },
+    {
+      "login": "eleftheriatrivyzaki",
+      "impactScore": 15,
+      "pillars": {
+        "scope": 10,
+        "depth": 10,
+        "leverage": 27,
+        "durability": 14
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 1,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "avgDirectoriesPerPR": null,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 1,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 38,
+        "avgCycleTime": null,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 1 reviews (0 substantive) across others' PRs."
+    },
+    {
+      "login": "charlesvien",
+      "impactScore": 15,
+      "pillars": {
+        "scope": 10,
+        "depth": 10,
+        "leverage": 27,
+        "durability": 14
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 1,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "avgDirectoriesPerPR": null,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 1,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 291,
+        "avgCycleTime": null,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 1 reviews (0 substantive) across others' PRs."
+    },
+    {
+      "login": "joethreepwood",
+      "impactScore": 15,
+      "pillars": {
+        "scope": 10,
+        "depth": 10,
+        "leverage": 27,
+        "durability": 14
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 1,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "avgDirectoriesPerPR": null,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 1,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 74,
+        "avgCycleTime": null,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 1 reviews (0 substantive) across others' PRs."
+    },
+    {
+      "login": "benben",
+      "impactScore": 15,
+      "pillars": {
+        "scope": 10,
+        "depth": 10,
+        "leverage": 27,
+        "durability": 14
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 1,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "avgDirectoriesPerPR": null,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 1,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 20,
+        "avgCycleTime": null,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 1 reviews (0 substantive) across others' PRs."
+    },
+    {
+      "login": "edwinyjlim",
+      "impactScore": 15,
+      "pillars": {
+        "scope": 10,
+        "depth": 10,
+        "leverage": 27,
+        "durability": 14
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 1,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "avgDirectoriesPerPR": null,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 1,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 138,
+        "avgCycleTime": null,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 1 reviews (0 substantive) across others' PRs."
+    },
+    {
+      "login": "MattPua",
+      "impactScore": 15,
+      "pillars": {
+        "scope": 10,
+        "depth": 10,
+        "leverage": 27,
+        "durability": 14
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 1,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "avgDirectoriesPerPR": null,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 1,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 24,
+        "avgCycleTime": null,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 1 reviews (0 substantive) across others' PRs."
+    },
+    {
+      "login": "jghoman",
+      "impactScore": 15,
+      "pillars": {
+        "scope": 10,
+        "depth": 10,
+        "leverage": 27,
+        "durability": 14
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 1,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "avgDirectoriesPerPR": null,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 1,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 10,
+        "avgCycleTime": null,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 1 reviews (0 substantive) across others' PRs."
+    },
+    {
+      "login": "adboio",
+      "impactScore": 15,
+      "pillars": {
+        "scope": 10,
+        "depth": 10,
+        "leverage": 27,
+        "durability": 14
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 1,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "avgDirectoriesPerPR": null,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 1,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 19,
+        "avgCycleTime": null,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 1 reviews (0 substantive) across others' PRs."
+    },
+    {
+      "login": "veria-ai",
+      "impactScore": 13,
+      "pillars": {
+        "scope": 10,
+        "depth": 10,
+        "leverage": 20,
+        "durability": 14
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 1,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "avgDirectoriesPerPR": null,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 3,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 681,
+        "avgCycleTime": null,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 3 reviews (0 substantive) across others' PRs."
+    },
+    {
+      "login": "harsh21234i",
+      "impactScore": 13,
+      "pillars": {
+        "scope": 10,
+        "depth": 10,
+        "leverage": 20,
+        "durability": 14
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 1,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "avgDirectoriesPerPR": null,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 2,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 30.5,
+        "avgCycleTime": null,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 2 reviews (0 substantive) across others' PRs."
+    },
+    {
+      "login": "github-advanced-security",
+      "impactScore": 13,
+      "pillars": {
+        "scope": 10,
+        "depth": 10,
+        "leverage": 20,
+        "durability": 14
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 1,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "avgDirectoriesPerPR": null,
+        "uniqueDirectories": 0,
+        "reviewsGiven": 1,
+        "reviewsWithSubstance": 0,
+        "avgTimeToReview": 751,
+        "avgCycleTime": null,
+        "churnRate": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "multiplies team output with 1 reviews (0 substantive) across others' PRs."
+    }
+  ],
+  "topFive": [
+    {
+      "login": "webjunkie",
+      "impactScore": 88,
+      "pillars": {
+        "scope": 100,
+        "depth": 97,
+        "leverage": 87,
+        "durability": 60
+      },
+      "metrics": {
+        "prsAuthored": 41,
+        "prsReviewed": 20,
+        "totalAdditions": 51947,
+        "totalDeletions": 47006,
+        "avgFilesPerPR": 12.829268292682928,
+        "avgDirectoriesPerPR": 4.463414634146342,
+        "uniqueDirectories": 69,
+        "reviewsGiven": 23,
+        "reviewsWithSubstance": 11,
+        "avgTimeToReview": 2624.896551724138,
+        "avgCycleTime": 1311.9268292682927,
+        "churnRate": 0.2037037037037037,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "works across 69 different areas of the codebase, averaging 12.8 files per PR. avg cycle time of 21.9h."
+    },
+    {
+      "login": "nickbest-ph",
+      "impactScore": 87,
+      "pillars": {
+        "scope": 98,
+        "depth": 91,
+        "leverage": 78,
+        "durability": 77
+      },
+      "metrics": {
+        "prsAuthored": 19,
+        "prsReviewed": 15,
+        "totalAdditions": 9931,
+        "totalDeletions": 1838,
+        "avgFilesPerPR": 10.736842105263158,
+        "avgDirectoriesPerPR": 5.315789473684211,
+        "uniqueDirectories": 37,
+        "reviewsGiven": 19,
+        "reviewsWithSubstance": 4,
+        "avgTimeToReview": 767.5172413793103,
+        "avgCycleTime": 770.6315789473684,
+        "churnRate": 0.12254901960784313,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "works across 37 different areas of the codebase, averaging 10.7 files per PR. avg cycle time of 12.8h."
+    },
+    {
+      "login": "pauldambra",
+      "impactScore": 87,
+      "pillars": {
+        "scope": 99,
+        "depth": 99,
+        "leverage": 95,
+        "durability": 44
+      },
+      "metrics": {
+        "prsAuthored": 69,
+        "prsReviewed": 29,
+        "totalAdditions": 10803,
+        "totalDeletions": 4925,
+        "avgFilesPerPR": 5.202898550724638,
+        "avgDirectoriesPerPR": 3.0579710144927534,
+        "uniqueDirectories": 42,
+        "reviewsGiven": 130,
+        "reviewsWithSubstance": 126,
+        "avgTimeToReview": 1954.7974379503603,
+        "avgCycleTime": 628.6086956521739,
+        "churnRate": 0.34540389972144847,
+        "aiAssistedPRs": 2,
+        "aiPercentage": 2.898550724637681
+      },
+      "explanation": "works across 42 different areas of the codebase, averaging 5.2 files per PR. 3% of PRs include AI-assisted commits. avg cycle time of 10.5h."
+    },
+    {
+      "login": "rnegron",
+      "impactScore": 86,
+      "pillars": {
+        "scope": 96,
+        "depth": 82,
+        "leverage": 91,
+        "durability": 71
+      },
+      "metrics": {
+        "prsAuthored": 23,
+        "prsReviewed": 32,
+        "totalAdditions": 4054,
+        "totalDeletions": 1232,
+        "avgFilesPerPR": 4.260869565217392,
+        "avgDirectoriesPerPR": 2.782608695652174,
+        "uniqueDirectories": 25,
+        "reviewsGiven": 35,
+        "reviewsWithSubstance": 8,
+        "avgTimeToReview": 865.5365853658536,
+        "avgCycleTime": 1855.2608695652175,
+        "churnRate": 0.15306122448979592,
+        "aiAssistedPRs": 2,
+        "aiPercentage": 8.695652173913043
+      },
+      "explanation": "works across 25 different areas of the codebase, averaging 4.3 files per PR. 9% of PRs include AI-assisted commits. avg cycle time of 1.3 days."
+    },
+    {
+      "login": "TueHaulund",
+      "impactScore": 85,
+      "pillars": {
+        "scope": 97,
+        "depth": 85,
+        "leverage": 79,
+        "durability": 76
+      },
+      "metrics": {
+        "prsAuthored": 10,
+        "prsReviewed": 15,
+        "totalAdditions": 9026,
+        "totalDeletions": 2734,
+        "avgFilesPerPR": 25,
+        "avgDirectoriesPerPR": 5.6,
+        "uniqueDirectories": 23,
+        "reviewsGiven": 18,
+        "reviewsWithSubstance": 3,
+        "avgTimeToReview": 1568.5,
+        "avgCycleTime": 1758.8,
+        "churnRate": 0.12340425531914893,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "works across 23 different areas of the codebase, averaging 25.0 files per PR. avg cycle time of 1.2 days."
+    }
+  ],
+  "weights": {
+    "scope": 0.25,
+    "depth": 0.3,
+    "leverage": 0.25,
+    "durability": 0.2
+  }
+}
