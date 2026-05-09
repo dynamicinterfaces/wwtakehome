@@ -1,7 +1,6 @@
 import { useState, useMemo } from 'react'
 import type { ScoredDataset, ScoreWeights, PRAnalysis, DimensionScores } from './types'
 import { computeScores } from './scoring'
-import { SummaryCards } from './components/SummaryCards'
 import { EngineerList } from './components/EngineerList'
 import { ScoreDashboard } from './components/ScoreDashboard'
 import { PropertiesPanel } from './components/PropertiesPanel'
@@ -85,6 +84,7 @@ export function App() {
           <EngineerList
             engineers={dataset.topFive}
             allEngineers={dataset.engineers}
+            summary={dataset.summary}
             selectedLogin={selectedEngineer}
             onSelect={handleSelectEngineer}
           />
@@ -93,7 +93,6 @@ export function App() {
         {/* Center: Score dashboard */}
         <div className="flex-1 overflow-y-auto">
           <div className="p-6 space-y-6 max-w-4xl mx-auto">
-            <SummaryCards summary={dataset.summary} />
             <ScoreDashboard
               engineer={selectedData}
               weights={weights}
