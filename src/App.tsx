@@ -1,11 +1,10 @@
 import { useState, useMemo } from 'react'
-import type { ScoredDataset, ScoreWeights, PRAnalysis } from './types'
+import type { ScoredDataset, ScoreWeights, PRAnalysis, DimensionScores } from './types'
 import { computeScores } from './scoring'
 import { SummaryCards } from './components/SummaryCards'
-import { TopEngineers } from './components/TopEngineers'
-import { EngineerDetail } from './components/EngineerDetail'
-import { Methodology } from './components/Methodology'
-import { WeightSliders } from './components/WeightSliders'
+import { EngineerList } from './components/EngineerList'
+import { ScoreDashboard } from './components/ScoreDashboard'
+import { PropertiesPanel } from './components/PropertiesPanel'
 import rawPRData from './data/posthog-prs.json'
 import rawAnalyses from './data/pr-analyses.json'
 import type { GitHubPR } from './types'
@@ -13,9 +12,12 @@ import type { GitHubPR } from './types'
 const prs = rawPRData as unknown as GitHubPR[]
 const analyses = rawAnalyses as unknown as PRAnalysis[]
 
+export type PanelView = 'none' | 'detail' | 'methodology'
+
 export function App() {
   const [selectedEngineer, setSelectedEngineer] = useState<string | null>(null)
-  const [showMethodology, setShowMethodology] = useState(false)
+  const [panelView, setPanelView] = useState<PanelView>('none')
+  const [focusedDimension, setFocusedDimension] = useState<keyof DimensionScores | null>(null)
   const [weights, setWeights] = useState<ScoreWeights>({
     effort: 0.15,
     strategic: 0.20,
@@ -31,71 +33,92 @@ export function App() {
     [weights]
   )
 
-  const selectedData = dataset.engineers.find(e => e.login === selectedEngineer)
+  const selectedData = dataset.engineers.find(e => e.login === selectedEngineer) ?? null
+
+  const handleSelectEngineer = (login: string | null) => {
+    setSelectedEngineer(login)
+    if (login) setPanelView('detail')
+    else setPanelView('none')
+    setFocusedDimension(null)
+  }
+
+  const handleScoreClick = () => {
+    setPanelView('methodology')
+    setFocusedDimension(null)
+  }
+
+  const handleDimensionClick = (dim: keyof DimensionScores) => {
+    setFocusedDimension(dim)
+    setPanelView('methodology')
+  }
+
+  const handleClosePanel = () => {
+    setPanelView('none')
+    setFocusedDimension(null)
+  }
+
+  const panelOpen = panelView !== 'none'
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="h-screen flex flex-col bg-background text-foreground overflow-hidden">
       {/* Header */}
-      <header className="border-b border-border sticky top-0 z-50 bg-background/80 backdrop-blur-xl">
-        <div className="max-w-7xl mx-auto px-6 h-14 flex items-center justify-between">
+      <header className="shrink-0 border-b border-border bg-background/80 backdrop-blur-xl z-50">
+        <div className="px-6 h-12 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <h1 className="text-sm font-semibold tracking-tight">Engineering Impact</h1>
-            <span className="text-xs text-muted-foreground">PostHog/posthog</span>
-            <span className="text-xs text-muted-foreground">90 days</span>
+            <span className="text-[11px] text-muted-foreground">PostHog/posthog</span>
+            <span className="text-[11px] text-muted-foreground">90 days</span>
           </div>
-          <div className="flex items-center gap-3">
-            <button
-              onClick={() => setShowMethodology(true)}
-              className="text-xs text-muted-foreground hover:text-foreground transition-colors"
-            >
-              How scores work
-            </button>
-          </div>
+          <button
+            onClick={handleScoreClick}
+            className="text-[11px] text-muted-foreground hover:text-foreground transition-colors"
+          >
+            How scores work
+          </button>
         </div>
       </header>
 
-      {/* Main content — single page, no scroll beyond viewport */}
-      <main className="max-w-7xl mx-auto px-6 py-6 space-y-6">
-        <SummaryCards summary={dataset.summary} />
+      {/* 3-column body */}
+      <div className="flex-1 flex overflow-hidden">
+        {/* Left: Engineer list */}
+        <div className="w-72 shrink-0 border-r border-border overflow-y-auto">
+          <EngineerList
+            engineers={dataset.topFive}
+            allEngineers={dataset.engineers}
+            selectedLogin={selectedEngineer}
+            onSelect={handleSelectEngineer}
+          />
+        </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          <div className="lg:col-span-2">
-            <TopEngineers
-              engineers={dataset.topFive}
-              selectedLogin={selectedEngineer}
-              onSelect={setSelectedEngineer}
-              onScoreClick={() => setShowMethodology(true)}
+        {/* Center: Score dashboard */}
+        <div className="flex-1 overflow-y-auto">
+          <div className="p-6 space-y-6 max-w-4xl mx-auto">
+            <SummaryCards summary={dataset.summary} />
+            <ScoreDashboard
+              engineer={selectedData}
+              weights={weights}
+              onScoreClick={handleScoreClick}
+              onDimensionClick={handleDimensionClick}
             />
           </div>
-
-          <div className="space-y-4">
-            <WeightSliders weights={weights} onChange={setWeights} />
-            {selectedData && <EngineerDetail engineer={selectedData} />}
-          </div>
         </div>
-      </main>
 
-      {/* Methodology overlay */}
-      {showMethodology && (
-        <div className="fixed inset-0 z-[100] flex items-start justify-center pt-16 px-4">
-          <div
-            className="absolute inset-0 bg-background/80 backdrop-blur-sm"
-            onClick={() => setShowMethodology(false)}
-          />
-          <div className="relative max-w-4xl w-full max-h-[calc(100vh-8rem)] overflow-y-auto rounded-xl border border-border bg-card shadow-2xl">
-            <div className="sticky top-0 flex items-center justify-between p-4 border-b border-border bg-card/95 backdrop-blur-sm rounded-t-xl">
-              <span className="text-sm font-semibold">How Scores Work</span>
-              <button
-                onClick={() => setShowMethodology(false)}
-                className="text-muted-foreground hover:text-foreground text-lg leading-none px-2"
-              >
-                &times;
-              </button>
-            </div>
-            <Methodology />
-          </div>
+        {/* Right: Properties panel (slides in) */}
+        <div className={`shrink-0 border-l border-border overflow-y-auto transition-all duration-200 ${
+          panelOpen ? 'w-96' : 'w-0'
+        }`}>
+          {panelOpen && (
+            <PropertiesPanel
+              view={panelView}
+              engineer={selectedData}
+              focusedDimension={focusedDimension}
+              onClose={handleClosePanel}
+              onSwitchToDetail={() => setPanelView('detail')}
+              onSwitchToMethodology={() => setPanelView('methodology')}
+            />
+          )}
         </div>
-      )}
+      </div>
     </div>
   )
 }

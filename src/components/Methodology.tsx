@@ -1,4 +1,10 @@
-export function Methodology() {
+import type { DimensionScores } from '../types'
+
+interface Props {
+  focusedDimension?: keyof DimensionScores | null
+}
+
+export function Methodology({ focusedDimension }: Props) {
   return (
     <div className="p-6 space-y-6">
 
