@@ -1,0 +1,1829 @@
+[
+  {
+    "prNumber": 58223,
+    "effortHours": 0.5,
+    "useCases": [
+      "ai-product"
+    ],
+    "productArea": "llm-analytics",
+    "impactType": "fix",
+    "strategicScore": 4,
+    "strategicReason": "Minor UX improvement for LLM analytics trace export functionality supporting AI-assisted product understanding.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 5,
+    "confidence": 0.85
+  },
+  {
+    "prNumber": 58222,
+    "effortHours": 2,
+    "useCases": [
+      "ai-product"
+    ],
+    "productArea": "llm-analytics",
+    "impactType": "feature",
+    "strategicScore": 5,
+    "strategicReason": "Enhances LLM analytics sharing capabilities with improved UX, supporting the AI-assisted product understanding use case.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58219,
+    "effortHours": 0.5,
+    "useCases": [],
+    "productArea": "mcp-server",
+    "impactType": "docs",
+    "strategicScore": 7,
+    "strategicReason": "Improves documentation for MCP/AI agents, which is a current hot strategic priority.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 4,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58217,
+    "effortHours": 3,
+    "useCases": [],
+    "productArea": "infrastructure",
+    "impactType": "performance",
+    "strategicScore": 6,
+    "strategicReason": "Reduces database load through intelligent caching, improving platform reliability and performance for all users.",
+    "qualitySignals": {
+      "hasProblemStatement": true,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 7,
+    "confidence": 0.85
+  },
+  {
+    "prNumber": 58212,
+    "effortHours": 4,
+    "useCases": [],
+    "productArea": "infrastructure",
+    "impactType": "refactor",
+    "strategicScore": 4,
+    "strategicReason": "Code health improvement for shared compression utilities, supporting maintainability but no direct user impact.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58209,
+    "effortHours": 8,
+    "useCases": [],
+    "productArea": "infrastructure",
+    "impactType": "performance",
+    "strategicScore": 6,
+    "strategicReason": "Improves database connection management for person queries, enhancing platform scalability and performance.",
+    "qualitySignals": {
+      "hasProblemStatement": true,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58204,
+    "effortHours": 1,
+    "useCases": [],
+    "productArea": "infrastructure",
+    "impactType": "fix",
+    "strategicScore": 3,
+    "strategicReason": "Bug fix for legal document integration, addressing functionality but limited to specific workflow.",
+    "qualitySignals": {
+      "hasProblemStatement": true,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 7,
+    "confidence": 0.85
+  },
+  {
+    "prNumber": 58203,
+    "effortHours": 20,
+    "useCases": [
+      "debug-issues"
+    ],
+    "productArea": "session-replay",
+    "impactType": "feature",
+    "strategicScore": 8,
+    "strategicReason": "Major Session Replay enhancement adding vision capabilities, directly advancing a hot strategic priority with new debugging functionality.",
+    "qualitySignals": {
+      "hasProblemStatement": true,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": true
+    },
+    "qualityScore": 7,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58202,
+    "effortHours": 3,
+    "useCases": [],
+    "productArea": "infrastructure",
+    "impactType": "chore",
+    "strategicScore": 3,
+    "strategicReason": "Infrastructure metrics improvements for capture pipeline, supporting observability but limited user impact.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 4,
+    "confidence": 0.75
+  },
+  {
+    "prNumber": 58200,
+    "effortHours": 2,
+    "useCases": [],
+    "productArea": "mcp-server",
+    "impactType": "docs",
+    "strategicScore": 6,
+    "strategicReason": "Developer experience improvement for MCP/AI agents development, supporting the hot strategic priority of AI agent capabilities.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": true
+    },
+    "qualityScore": 5,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58195,
+    "effortHours": 3,
+    "useCases": [
+      "ai-product"
+    ],
+    "productArea": "llm-analytics",
+    "impactType": "chore",
+    "strategicScore": 6,
+    "strategicReason": "Improves LLM Analytics trace skill documentation and tooling, supporting the hot strategic priority of AI agents/MCP.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 4,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58192,
+    "effortHours": 2,
+    "useCases": [
+      "user-navigation",
+      "business-outcomes"
+    ],
+    "productArea": "product-analytics",
+    "impactType": "fix",
+    "strategicScore": 5,
+    "strategicReason": "Fixes chart visualization issue that improves user experience in data presentation across analytics features.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.85
+  },
+  {
+    "prNumber": 58190,
+    "effortHours": 1,
+    "useCases": [
+      "ai-product"
+    ],
+    "productArea": "llm-analytics",
+    "impactType": "chore",
+    "strategicScore": 4,
+    "strategicReason": "Maintains accuracy of LLM cost tracking which is important for the strategic LLM Analytics product area.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 3,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58187,
+    "effortHours": 4,
+    "useCases": [
+      "user-navigation",
+      "business-outcomes"
+    ],
+    "productArea": "product-analytics",
+    "impactType": "refactor",
+    "strategicScore": 3,
+    "strategicReason": "Code refactoring that improves maintainability of trends visualization but doesn't directly advance strategic priorities.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58184,
+    "effortHours": 3,
+    "useCases": [],
+    "productArea": "infrastructure",
+    "impactType": "chore",
+    "strategicScore": 5,
+    "strategicReason": "Updates agent monitoring skills for MCP/AI agents strategic priority, improving operational reliability.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 4,
+    "confidence": 0.75
+  },
+  {
+    "prNumber": 58181,
+    "effortHours": 3,
+    "useCases": [
+      "user-navigation"
+    ],
+    "productArea": "web-analytics",
+    "impactType": "fix",
+    "strategicScore": 8,
+    "strategicReason": "Fixes critical functionality in Web Analytics digest feature, directly supporting the hot strategic priority of Web Analytics.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 7,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58180,
+    "effortHours": 6,
+    "useCases": [],
+    "productArea": "workflows",
+    "impactType": "feature",
+    "strategicScore": 4,
+    "strategicReason": "Adds messaging preference management functionality but doesn't directly advance core strategic priorities.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58175,
+    "effortHours": 4,
+    "useCases": [],
+    "productArea": "infrastructure",
+    "impactType": "fix",
+    "strategicScore": 6,
+    "strategicReason": "Fixes ClickHouse routing issues that improve system reliability and support all product analytics use cases.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 7,
+    "confidence": 0.85
+  },
+  {
+    "prNumber": 58172,
+    "effortHours": 0.5,
+    "useCases": [],
+    "productArea": "infrastructure",
+    "impactType": "chore",
+    "strategicScore": 2,
+    "strategicReason": "Administrative change for code ownership that has minimal strategic impact.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 3,
+    "confidence": 0.95
+  },
+  {
+    "prNumber": 58169,
+    "effortHours": 2,
+    "useCases": [],
+    "productArea": "infrastructure",
+    "impactType": "feature",
+    "strategicScore": 3,
+    "strategicReason": "Adds operational control for batch processing but doesn't directly advance user-facing strategic priorities.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58168,
+    "effortHours": 2,
+    "useCases": [
+      "ai-product"
+    ],
+    "productArea": "llm-analytics",
+    "impactType": "fix",
+    "strategicScore": 7,
+    "strategicReason": "Fixes LLM gateway integration with Bedrock models, directly supporting AI-assisted product understanding which is a hot strategic priority.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58164,
+    "effortHours": 3,
+    "useCases": [
+      "ai-product"
+    ],
+    "productArea": "mcp-server",
+    "impactType": "fix",
+    "strategicScore": 9,
+    "strategicReason": "Fixes MCP tool registration which is critical for AI agents functionality, the highest strategic priority area.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 7,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58163,
+    "effortHours": 8,
+    "useCases": [
+      "ai-product"
+    ],
+    "productArea": "posthog-ai",
+    "impactType": "fix",
+    "strategicScore": 6,
+    "strategicReason": "Fixes test infrastructure issues for PostHog AI, enabling more reliable development of AI features.",
+    "qualitySignals": {
+      "hasProblemStatement": true,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 7,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58161,
+    "effortHours": 0.5,
+    "useCases": [
+      "debug-issues"
+    ],
+    "productArea": "session-replay",
+    "impactType": "fix",
+    "strategicScore": 7,
+    "strategicReason": "Improves session replay inspector functionality, supporting the strategic priority of session replay improvements.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 4,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58160,
+    "effortHours": 3,
+    "useCases": [
+      "user-navigation",
+      "business-outcomes"
+    ],
+    "productArea": "design-system",
+    "impactType": "fix",
+    "strategicScore": 6,
+    "strategicReason": "Improves chart interaction UX in the component library, supporting the strategic priority of building better design system components.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58159,
+    "effortHours": 1,
+    "useCases": [],
+    "productArea": "devex",
+    "impactType": "fix",
+    "strategicScore": 5,
+    "strategicReason": "Fixes developer tooling issue, supporting the strategic priority of improving developer experience.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58158,
+    "effortHours": 0.5,
+    "useCases": [
+      "user-navigation"
+    ],
+    "productArea": "web-analytics",
+    "impactType": "fix",
+    "strategicScore": 7,
+    "strategicReason": "Improves web analytics UX by fixing documentation links, directly supporting the strategic priority of web analytics.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 4,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58147,
+    "effortHours": 12,
+    "useCases": [
+      "user-navigation",
+      "business-outcomes"
+    ],
+    "productArea": "design-system",
+    "impactType": "refactor",
+    "strategicScore": 6,
+    "strategicReason": "Improves chart component architecture and performance, supporting the strategic priority of building a robust component library.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 7,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58146,
+    "effortHours": 10,
+    "useCases": [
+      "feature-rollouts"
+    ],
+    "productArea": "workflows",
+    "impactType": "fix",
+    "strategicScore": 5,
+    "strategicReason": "Improves workflow reliability for batch processing, supporting automated customer engagement features.",
+    "qualitySignals": {
+      "hasProblemStatement": true,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 7,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58144,
+    "effortHours": 2,
+    "useCases": [
+      "debug-issues"
+    ],
+    "productArea": "session-replay",
+    "impactType": "fix",
+    "strategicScore": 6,
+    "strategicReason": "Ensures proper migration of session replay features to support infrastructure scaling and the session replay strategic priority.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58140,
+    "effortHours": 4,
+    "useCases": [
+      "business-outcomes"
+    ],
+    "productArea": "batch-exports",
+    "impactType": "chore",
+    "strategicScore": 5,
+    "strategicReason": "Improves data warehouse integration reliability for business outcomes tracking.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58139,
+    "effortHours": 1,
+    "useCases": [],
+    "productArea": "workflows",
+    "impactType": "fix",
+    "strategicScore": 3,
+    "strategicReason": "Minor UX improvement for workflows feature but not a strategic priority area.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 4,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58136,
+    "effortHours": 1,
+    "useCases": [],
+    "productArea": "workflows",
+    "impactType": "fix",
+    "strategicScore": 2,
+    "strategicReason": "Reverts a feature, indicating potential issues but workflows is not a strategic priority.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 5,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58130,
+    "effortHours": 6,
+    "useCases": [
+      "user-navigation",
+      "feature-adoption"
+    ],
+    "productArea": "mcp-server",
+    "impactType": "feature",
+    "strategicScore": 9,
+    "strategicReason": "Directly advances MCP/AI agents strategic priority with retention chart visualization for product analytics.",
+    "qualitySignals": {
+      "hasProblemStatement": true,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58129,
+    "effortHours": 2,
+    "useCases": [
+      "user-navigation"
+    ],
+    "productArea": "product-analytics",
+    "impactType": "feature",
+    "strategicScore": 7,
+    "strategicReason": "Enhances product analytics data quality for MCP/API integration, supporting strategic priority.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 7,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58128,
+    "effortHours": 12,
+    "useCases": [
+      "debug-issues"
+    ],
+    "productArea": "session-replay",
+    "impactType": "feature",
+    "strategicScore": 8,
+    "strategicReason": "Major foundational work for replay vision feature, advancing session replay strategic priority.",
+    "qualitySignals": {
+      "hasProblemStatement": true,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": true
+    },
+    "qualityScore": 7,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58127,
+    "effortHours": 1,
+    "useCases": [
+      "user-navigation"
+    ],
+    "productArea": "web-analytics",
+    "impactType": "fix",
+    "strategicScore": 7,
+    "strategicReason": "Fixes web vitals bundle shipping, directly supporting web analytics strategic priority.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 5,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58125,
+    "effortHours": 5,
+    "useCases": [],
+    "productArea": "signals",
+    "impactType": "fix",
+    "strategicScore": 4,
+    "strategicReason": "Infrastructure improvement for signals temporal workflows but signals is not a core strategic priority.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": true
+    },
+    "qualityScore": 7,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58124,
+    "effortHours": 3,
+    "useCases": [],
+    "productArea": "infrastructure",
+    "impactType": "feature",
+    "strategicScore": 6,
+    "strategicReason": "Improves API observability which supports overall platform reliability and DevEx strategic priority.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 7,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58123,
+    "effortHours": 2,
+    "useCases": [
+      "user-navigation"
+    ],
+    "productArea": "infrastructure",
+    "impactType": "fix",
+    "strategicScore": 5,
+    "strategicReason": "Improves sessions data reliability which supports product analytics but is maintenance work.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 5,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58120,
+    "effortHours": 1,
+    "useCases": [],
+    "productArea": "posthog-ai",
+    "impactType": "chore",
+    "strategicScore": 2,
+    "strategicReason": "Removes dead code from AI features, improving code maintainability but no direct user impact.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 4,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58119,
+    "effortHours": 0.5,
+    "useCases": [],
+    "productArea": "data-warehouse",
+    "impactType": "fix",
+    "strategicScore": 3,
+    "strategicReason": "Fixes test reliability in data warehouse imports, improving development velocity but no user-facing impact.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 5,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58118,
+    "effortHours": 1.5,
+    "useCases": [],
+    "productArea": "design-system",
+    "impactType": "refactor",
+    "strategicScore": 4,
+    "strategicReason": "Improves UI consistency with standardized loading skeletons, supporting design system strategic priority.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 5,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58116,
+    "effortHours": 3,
+    "useCases": [
+      "ai-product"
+    ],
+    "productArea": "mcp-server",
+    "impactType": "fix",
+    "strategicScore": 8,
+    "strategicReason": "Fixes MCP tool functionality across multiple product areas, directly advancing the hot strategic priority of MCP/AI agents.",
+    "qualitySignals": {
+      "hasProblemStatement": true,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58114,
+    "effortHours": 1,
+    "useCases": [
+      "ai-product"
+    ],
+    "productArea": "llm-analytics",
+    "impactType": "fix",
+    "strategicScore": 6,
+    "strategicReason": "Fixes trace preview functionality in LLM analytics, improving AI product understanding capabilities.",
+    "qualitySignals": {
+      "hasProblemStatement": true,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 5,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58113,
+    "effortHours": 0.5,
+    "useCases": [],
+    "productArea": "mcp-server",
+    "impactType": "chore",
+    "strategicScore": 1,
+    "strategicReason": "Removes codeowner assignments with no functional impact on users or product capabilities.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 3,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58112,
+    "effortHours": 0.5,
+    "useCases": [],
+    "productArea": "infrastructure",
+    "impactType": "fix",
+    "strategicScore": 3,
+    "strategicReason": "Improves navigation in health monitoring UI, enhancing operational visibility but limited user impact.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 4,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58111,
+    "effortHours": 2.5,
+    "useCases": [],
+    "productArea": "infrastructure",
+    "impactType": "fix",
+    "strategicScore": 4,
+    "strategicReason": "Improves data pipeline reliability for persons-on-events backfill, supporting data accuracy but indirect user benefit.",
+    "qualitySignals": {
+      "hasProblemStatement": true,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 7,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58108,
+    "effortHours": 1,
+    "useCases": [
+      "ai-product"
+    ],
+    "productArea": "llm-analytics",
+    "impactType": "chore",
+    "strategicScore": 5,
+    "strategicReason": "Updates LLM cost tracking data, maintaining accuracy for AI analytics cost calculations.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 4,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58100,
+    "effortHours": 0.5,
+    "useCases": [],
+    "productArea": "infrastructure",
+    "impactType": "chore",
+    "strategicScore": 2,
+    "strategicReason": "Reassigns ownership of data processing jobs, improving team organization but no user impact.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 4,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58098,
+    "effortHours": 1,
+    "useCases": [
+      "business-outcomes"
+    ],
+    "productArea": "batch-exports",
+    "impactType": "fix",
+    "strategicScore": 4,
+    "strategicReason": "Improves error clarity for data warehouse exports, supporting PostHog as source of truth for customer data.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 3,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58097,
+    "effortHours": 0.5,
+    "useCases": [],
+    "productArea": "infrastructure",
+    "impactType": "chore",
+    "strategicScore": 2,
+    "strategicReason": "Minor CI improvement that reduces noise but has no direct user impact.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 3,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58095,
+    "effortHours": 8,
+    "useCases": [
+      "user-navigation",
+      "feature-adoption",
+      "debug-issues"
+    ],
+    "productArea": "devex",
+    "impactType": "performance",
+    "strategicScore": 8,
+    "strategicReason": "Directly advances DevEx strategic priority by improving frontend performance through lazy loading optimization.",
+    "qualitySignals": {
+      "hasProblemStatement": true,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 7,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58093,
+    "effortHours": 2,
+    "useCases": [],
+    "productArea": "infrastructure",
+    "impactType": "feature",
+    "strategicScore": 3,
+    "strategicReason": "Internal admin tooling improvement that supports operational efficiency but has no direct user impact.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 4,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58092,
+    "effortHours": 4,
+    "useCases": [],
+    "productArea": "design-system",
+    "impactType": "test",
+    "strategicScore": 7,
+    "strategicReason": "Directly supports component library strategic priority by adding comprehensive test coverage for hog-charts utils.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58091,
+    "effortHours": 0.5,
+    "useCases": [],
+    "productArea": "infrastructure",
+    "impactType": "fix",
+    "strategicScore": 5,
+    "strategicReason": "Improves reliability of settings UI, enhancing overall user experience and platform stability.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 4,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58089,
+    "effortHours": 6,
+    "useCases": [],
+    "productArea": "design-system",
+    "impactType": "refactor",
+    "strategicScore": 8,
+    "strategicReason": "Directly advances component library strategic priority by making hog-charts self-contained and reusable.",
+    "qualitySignals": {
+      "hasProblemStatement": true,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58087,
+    "effortHours": 3,
+    "useCases": [
+      "ai-product"
+    ],
+    "productArea": "llm-analytics",
+    "impactType": "fix",
+    "strategicScore": 7,
+    "strategicReason": "Fixes critical UI bug in LLM analytics, supporting AI-assisted product understanding strategic priority.",
+    "qualitySignals": {
+      "hasProblemStatement": true,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 7,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58085,
+    "effortHours": 4,
+    "useCases": [
+      "user-feedback"
+    ],
+    "productArea": "surveys",
+    "impactType": "fix",
+    "strategicScore": 6,
+    "strategicReason": "Enhances survey targeting capabilities, improving user feedback collection and advancing product analytics use case.",
+    "qualitySignals": {
+      "hasProblemStatement": true,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 7,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58075,
+    "effortHours": 2,
+    "useCases": [
+      "user-feedback"
+    ],
+    "productArea": "surveys",
+    "impactType": "fix",
+    "strategicScore": 5,
+    "strategicReason": "Fixes UI consistency issue in surveys responses, improving user experience for feedback collection.",
+    "qualitySignals": {
+      "hasProblemStatement": true,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 5,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58074,
+    "effortHours": 4,
+    "useCases": [
+      "user-navigation"
+    ],
+    "productArea": "web-analytics",
+    "impactType": "feature",
+    "strategicScore": 8,
+    "strategicReason": "Directly advances the hot strategic priority of Web Analytics by adding live bot detection capabilities.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 4,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58072,
+    "effortHours": 12,
+    "useCases": [
+      "user-feedback"
+    ],
+    "productArea": "surveys",
+    "impactType": "feature",
+    "strategicScore": 6,
+    "strategicReason": "Improves survey functionality with notification capabilities but not a current strategic priority.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 5,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58071,
+    "effortHours": 3,
+    "useCases": [],
+    "productArea": "infrastructure",
+    "impactType": "performance",
+    "strategicScore": 4,
+    "strategicReason": "Improves build performance and code splitting but has limited direct user impact.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 3,
+    "confidence": 0.7
+  },
+  {
+    "prNumber": 58070,
+    "effortHours": 16,
+    "useCases": [
+      "ai-product"
+    ],
+    "productArea": "mcp-server",
+    "impactType": "feature",
+    "strategicScore": 10,
+    "strategicReason": "Directly advances the highest strategic priority of MCP/AI agents by enabling tagger tools.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58068,
+    "effortHours": 6,
+    "useCases": [
+      "feature-rollouts"
+    ],
+    "productArea": "feature-flags",
+    "impactType": "performance",
+    "strategicScore": 5,
+    "strategicReason": "Improves feature flags performance which supports reliable feature rollouts but not a current strategic priority.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 3,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58067,
+    "effortHours": 3,
+    "useCases": [],
+    "productArea": "devex",
+    "impactType": "fix",
+    "strategicScore": 7,
+    "strategicReason": "Directly supports the strategic priority of DevEx by fixing development tooling issues.",
+    "qualitySignals": {
+      "hasProblemStatement": true,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 4,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58065,
+    "effortHours": 8,
+    "useCases": [],
+    "productArea": "infrastructure",
+    "impactType": "chore",
+    "strategicScore": 3,
+    "strategicReason": "Infrastructure migration work that supports overall platform but has no direct user impact.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 4,
+    "confidence": 0.7
+  },
+  {
+    "prNumber": 58064,
+    "effortHours": 4,
+    "useCases": [
+      "business-outcomes"
+    ],
+    "productArea": "data-warehouse",
+    "impactType": "fix",
+    "strategicScore": 5,
+    "strategicReason": "Fixes data import functionality which supports business outcomes tracking but not a strategic priority.",
+    "qualitySignals": {
+      "hasProblemStatement": true,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58062,
+    "effortHours": 6,
+    "useCases": [
+      "ai-product"
+    ],
+    "productArea": "mcp-server",
+    "impactType": "feature",
+    "strategicScore": 9,
+    "strategicReason": "Advances the top strategic priority of MCP/AI agents by enabling skill archive functionality.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 5,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58061,
+    "effortHours": 12,
+    "useCases": [
+      "ai-product"
+    ],
+    "productArea": "mcp-server",
+    "impactType": "feature",
+    "strategicScore": 10,
+    "strategicReason": "Directly enables the highest strategic priority of MCP/AI agents by providing analytics capabilities for the MCP server.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58060,
+    "effortHours": 0.5,
+    "useCases": [],
+    "productArea": "infrastructure",
+    "impactType": "chore",
+    "strategicScore": 1,
+    "strategicReason": "Routine dependency update with no direct user impact or strategic advancement.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 3,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58059,
+    "effortHours": 1,
+    "useCases": [
+      "ai-product"
+    ],
+    "productArea": "llm-analytics",
+    "impactType": "chore",
+    "strategicScore": 6,
+    "strategicReason": "Updates LLM cost tracking which supports the hot strategic priority of AI/LLM analytics for accurate usage insights.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 4,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58058,
+    "effortHours": 8,
+    "useCases": [],
+    "productArea": "infrastructure",
+    "impactType": "fix",
+    "strategicScore": 2,
+    "strategicReason": "Fixes internal approval workflow functionality but doesn't directly impact end users or core product features.",
+    "qualitySignals": {
+      "hasProblemStatement": true,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58055,
+    "effortHours": 12,
+    "useCases": [
+      "user-navigation",
+      "feature-adoption"
+    ],
+    "productArea": "product-analytics",
+    "impactType": "fix",
+    "strategicScore": 7,
+    "strategicReason": "Fixes broken layouts in funnel customer journey visualizations, directly improving core analytics user experience.",
+    "qualitySignals": {
+      "hasProblemStatement": true,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 7,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58054,
+    "effortHours": 6,
+    "useCases": [
+      "user-navigation",
+      "business-outcomes"
+    ],
+    "productArea": "product-analytics",
+    "impactType": "feature",
+    "strategicScore": 5,
+    "strategicReason": "Improves property definitions filtering which enhances data accuracy and analytics capabilities for better user insights.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 5,
+    "confidence": 0.7
+  },
+  {
+    "prNumber": 58051,
+    "effortHours": 0.5,
+    "useCases": [],
+    "productArea": "llm-analytics",
+    "impactType": "chore",
+    "strategicScore": 3,
+    "strategicReason": "Improves code ownership for LLM analytics which supports the hot strategic AI priority through better maintainability.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 3,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58049,
+    "effortHours": 2,
+    "useCases": [
+      "ai-product"
+    ],
+    "productArea": "llm-analytics",
+    "impactType": "fix",
+    "strategicScore": 6,
+    "strategicReason": "Fixes installation documentation for LLM analytics, reducing friction for adopting the hot strategic AI analytics priority.",
+    "qualitySignals": {
+      "hasProblemStatement": true,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 4,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58046,
+    "effortHours": 0.5,
+    "useCases": [
+      "ai-product"
+    ],
+    "productArea": "llm-analytics",
+    "impactType": "fix",
+    "strategicScore": 4,
+    "strategicReason": "Removes outdated UI elements in LLM analytics, improving user experience for the strategic AI product area.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 3,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58044,
+    "effortHours": 4,
+    "useCases": [
+      "business-outcomes"
+    ],
+    "productArea": "data-warehouse",
+    "impactType": "fix",
+    "strategicScore": 5,
+    "strategicReason": "Fixes CDC availability gating in data warehouse, ensuring proper data pipeline functionality for business outcomes tracking.",
+    "qualitySignals": {
+      "hasProblemStatement": true,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.7
+  },
+  {
+    "prNumber": 58043,
+    "effortHours": 10,
+    "useCases": [
+      "business-outcomes"
+    ],
+    "productArea": "data-warehouse",
+    "impactType": "fix",
+    "strategicScore": 4,
+    "strategicReason": "Fixes organization configuration usage in data staging, improving data warehouse reliability for multi-tenant deployments.",
+    "qualitySignals": {
+      "hasProblemStatement": true,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 7,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58042,
+    "effortHours": 4,
+    "useCases": [
+      "ai-product"
+    ],
+    "productArea": "signals",
+    "impactType": "fix",
+    "strategicScore": 7,
+    "strategicReason": "Fixes GitHub integration fallback for signals product, directly supporting AI-assisted product understanding use case.",
+    "qualitySignals": {
+      "hasProblemStatement": true,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 7,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58040,
+    "effortHours": 0.5,
+    "useCases": [],
+    "productArea": "infrastructure",
+    "impactType": "fix",
+    "strategicScore": 3,
+    "strategicReason": "Infrastructure fix for Rust build environment that supports overall development capability.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 4,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58039,
+    "effortHours": 2,
+    "useCases": [],
+    "productArea": "product-analytics",
+    "impactType": "fix",
+    "strategicScore": 4,
+    "strategicReason": "Improves user experience in notebooks feature by fixing link display functionality.",
+    "qualitySignals": {
+      "hasProblemStatement": true,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58038,
+    "effortHours": 8,
+    "useCases": [
+      "user-navigation",
+      "business-outcomes"
+    ],
+    "productArea": "web-analytics",
+    "impactType": "refactor",
+    "strategicScore": 8,
+    "strategicReason": "Strategic refactoring of web analytics digest system, directly advancing the hot priority of Web Analytics improvements.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 7,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58035,
+    "effortHours": 12,
+    "useCases": [
+      "user-navigation",
+      "feature-adoption",
+      "business-outcomes"
+    ],
+    "productArea": "product-analytics",
+    "impactType": "feature",
+    "strategicScore": 6,
+    "strategicReason": "Adds infrastructure for persons-on-events analytics processing, enhancing core product analytics capabilities.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.7
+  },
+  {
+    "prNumber": 58030,
+    "effortHours": 1,
+    "useCases": [],
+    "productArea": "infrastructure",
+    "impactType": "fix",
+    "strategicScore": 5,
+    "strategicReason": "Fixes authentication flow that could impact user onboarding experience for startups.",
+    "qualitySignals": {
+      "hasProblemStatement": true,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 5,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58028,
+    "effortHours": 6,
+    "useCases": [
+      "user-navigation",
+      "feature-adoption",
+      "business-outcomes"
+    ],
+    "productArea": "product-analytics",
+    "impactType": "feature",
+    "strategicScore": 6,
+    "strategicReason": "Improves trends visualization with new bar chart component, enhancing core product analytics user experience.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 7,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58027,
+    "effortHours": 4,
+    "useCases": [],
+    "productArea": "design-system",
+    "impactType": "feature",
+    "strategicScore": 7,
+    "strategicReason": "Adds storybook documentation for new chart components, directly supporting the strategic priority of component library development.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 7,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58026,
+    "effortHours": 8,
+    "useCases": [
+      "user-navigation",
+      "feature-adoption",
+      "business-outcomes"
+    ],
+    "productArea": "design-system",
+    "impactType": "feature",
+    "strategicScore": 8,
+    "strategicReason": "Creates new TimeSeriesBarChart component for hog-charts library, directly advancing the strategic priority of component library (Quill) development.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 8,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58025,
+    "effortHours": 2,
+    "useCases": [],
+    "productArea": "product-analytics",
+    "impactType": "refactor",
+    "strategicScore": 5,
+    "strategicReason": "Code organization improvement that supports maintainability of trends visualization components.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58022,
+    "effortHours": 8,
+    "useCases": [],
+    "productArea": "infrastructure",
+    "impactType": "performance",
+    "strategicScore": 4,
+    "strategicReason": "Infrastructure improvement adding Valkey mirror for CDP services improves system reliability and performance.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58016,
+    "effortHours": 3,
+    "useCases": [
+      "ai-product"
+    ],
+    "productArea": "llm-analytics",
+    "impactType": "docs",
+    "strategicScore": 7,
+    "strategicReason": "Documentation for LLM analytics skills supports the strategic priority of AI-assisted product understanding.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 4,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58010,
+    "effortHours": 2,
+    "useCases": [
+      "ai-product"
+    ],
+    "productArea": "signals",
+    "impactType": "docs",
+    "strategicScore": 6,
+    "strategicReason": "Documentation improvement for signals inbox skill enhances AI-assisted product understanding capabilities.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 4,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58009,
+    "effortHours": 1,
+    "useCases": [],
+    "productArea": "posthog-code",
+    "impactType": "feature",
+    "strategicScore": 5,
+    "strategicReason": "Admin interface improvement for PostHog Code supports developer experience strategic priority.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 3,
+    "confidence": 0.7
+  },
+  {
+    "prNumber": 58008,
+    "effortHours": 0.5,
+    "useCases": [],
+    "productArea": "posthog-code",
+    "impactType": "chore",
+    "strategicScore": 3,
+    "strategicReason": "Minor admin interface cleanup for PostHog Code with limited user impact.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 3,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58005,
+    "effortHours": 0.5,
+    "useCases": [],
+    "productArea": "devex",
+    "impactType": "chore",
+    "strategicScore": 5,
+    "strategicReason": "CI optimization improves developer experience by reducing unnecessary build runs.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": false,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 4,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58004,
+    "effortHours": 12,
+    "useCases": [
+      "user-navigation",
+      "ai-product"
+    ],
+    "productArea": "mcp-server",
+    "impactType": "feature",
+    "strategicScore": 9,
+    "strategicReason": "Lifecycle visualizer directly advances the strategic MCP/AI agents priority with significant user value for understanding user navigation.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 7,
+    "confidence": 0.9
+  },
+  {
+    "prNumber": 58003,
+    "effortHours": 3,
+    "useCases": [
+      "user-navigation"
+    ],
+    "productArea": "product-analytics",
+    "impactType": "refactor",
+    "strategicScore": 4,
+    "strategicReason": "Schema sharing improvement enhances dashboard functionality consistency across frontend and backend.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58002,
+    "effortHours": 4,
+    "useCases": [
+      "debug-issues"
+    ],
+    "productArea": "error-tracking",
+    "impactType": "feature",
+    "strategicScore": 6,
+    "strategicReason": "Error tracking pipeline configuration enhancement improves ingestion control for debugging user issues.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 6,
+    "confidence": 0.8
+  },
+  {
+    "prNumber": 58001,
+    "effortHours": 2,
+    "useCases": [],
+    "productArea": "error-tracking",
+    "impactType": "chore",
+    "strategicScore": 3,
+    "strategicReason": "Pipeline naming standardization improves code consistency but has minimal user impact.",
+    "qualitySignals": {
+      "hasProblemStatement": false,
+      "hasTestingPlan": true,
+      "hasTradeoffDiscussion": false,
+      "hasChangelog": false
+    },
+    "qualityScore": 5,
+    "confidence": 0.9
+  }
+]

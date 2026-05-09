@@ -11,6 +11,7 @@
     "compute-scores": "npx tsx scripts/compute-scores.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.95.1",
     "@octokit/graphql": "^8.2.1",
     "lucide-react": "^0.511.0",
     "react": "^19.1.0",

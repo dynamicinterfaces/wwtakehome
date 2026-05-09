@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react'
-import type { ScoredDataset, ScoreWeights } from './types'
+import type { ScoredDataset, ScoreWeights, PRAnalysis } from './types'
 import { computeScores } from './scoring'
 import { Header } from './components/Header'
 import { SummaryCards } from './components/SummaryCards'
@@ -8,22 +8,27 @@ import { EngineerDetail } from './components/EngineerDetail'
 import { Methodology } from './components/Methodology'
 import { WeightSliders } from './components/WeightSliders'
 import rawPRData from './data/posthog-prs.json'
+import rawAnalyses from './data/pr-analyses.json'
 import type { GitHubPR } from './types'
 
 const prs = rawPRData as unknown as GitHubPR[]
+const analyses = rawAnalyses as unknown as PRAnalysis[]
 
 export function App() {
   const [selectedEngineer, setSelectedEngineer] = useState<string | null>(null)
   const [weights, setWeights] = useState<ScoreWeights>({
-    scope: 0.25,
-    depth: 0.30,
-    leverage: 0.25,
-    durability: 0.20,
+    effort: 0.15,
+    strategic: 0.20,
+    impactMix: 0.10,
+    quality: 0.10,
+    collaboration: 0.15,
+    velocity: 0.15,
+    scope: 0.15,
   })
   const [showMethodology, setShowMethodology] = useState(false)
 
   const dataset: ScoredDataset = useMemo(
-    () => computeScores(prs, weights),
+    () => computeScores(prs, analyses, weights),
     [weights]
   )
 

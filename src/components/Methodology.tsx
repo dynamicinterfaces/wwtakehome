@@ -4,144 +4,97 @@ export function Methodology() {
       <h2 className="text-xl font-semibold">Methodology</h2>
 
       <section>
-        <h3 className="text-base font-semibold mb-2 text-accent-light">
-          Defining "Impact"
-        </h3>
+        <h3 className="text-base font-semibold mb-2 text-accent-light">Defining "Impact"</h3>
         <p className="text-sm text-white/60 leading-relaxed">
-          Impact is not output volume. An engineer who ships 100 trivial PRs is less impactful
-          than one who ships 10 cross-cutting architectural changes that enable the entire team.
-          We define impact as <strong className="text-white/80">the measurable effect of an
-          engineer's work on the codebase, team, and product durability</strong>, decomposed into
-          four pillars:
+          Impact is not output volume. We define it as <strong className="text-white/80">the measurable
+          effect of an engineer's work on PostHog's product, team, and strategic direction</strong>.
+          Unlike pure metric aggregation (DORA, SPACE), we use LLM analysis to understand
+          <em> what</em> was built — not just how fast. And unlike any existing tool, we score
+          alignment to PostHog's own documented use cases and north star.
         </p>
       </section>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <PillarCard
-          name="Scope"
-          color="text-blue-400"
-          description="Breadth of system change. How many distinct areas of the codebase does the engineer touch? Cross-cutting changes that span multiple subsystems indicate architectural influence."
-          signals={[
-            'Unique directories modified across all PRs',
-            'Average files changed per PR',
-            'Cross-directory changes (touching frontend + backend, etc.)',
-          ]}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <DimCard name="Effort Output" color="text-rose-400" tag="LLM"
+          description="Expert-hours shipped — how long would this take a senior PostHog engineer? Inspired by WorkWeave's Silk 1 model but transparent."
+          signals={['LLM reads PR title, files, commit messages', 'Estimates complexity, not just LOC', 'Log-scaled fallback when LLM unavailable']}
         />
-        <PillarCard
-          name="Depth"
-          color="text-emerald-400"
-          description="Technical complexity of changes. Not lines-of-code (gameable), but cognitive complexity — refactors, balanced add/delete ratios, test coverage, and review iteration."
-          signals={[
-            'Code file ratio (vs config/docs)',
-            'Add/delete balance (refactoring signal)',
-            'Test co-changes with production code',
-            'Review cycles (more iteration = harder problems)',
-            'Log-scaled change size (diminishing returns)',
-          ]}
+        <DimCard name="Strategic Alignment" color="text-amber-400" tag="LLM + PostHog"
+          description="Does this PR advance PostHog's north star? Scored against their 8 documented use cases, 17 product areas, and current strategic priorities."
+          signals={['Maps PRs to use cases (analytics, replay, flags, AI...)', 'Weights hot areas higher (MCP, Web Analytics, Experiments)', 'Effort-weighted: big strategic PRs count more']}
         />
-        <PillarCard
-          name="Leverage"
-          color="text-amber-400"
-          description="Team multiplier effect. Engineers who review others' code, provide substantive feedback, and unblock teammates amplify the entire team's output."
-          signals={[
-            'Unique PRs reviewed',
-            'Substantive reviews (>20 chars, not just \"LGTM\")',
-            'Approval count (unblocking others)',
-            'Review-to-author ratio (high = team multiplier)',
-          ]}
+        <DimCard name="Impact Type Mix" color="text-emerald-400" tag="LLM + Commits"
+          description="Features create new value, fixes ensure reliability. A healthy mix weighted toward features signals forward progress."
+          signals={['Conventional commit prefix classification', 'LLM override for ambiguous PRs', 'Weighted: feature > fix > refactor > chore']}
         />
-        <PillarCard
-          name="Durability"
-          color="text-purple-400"
-          description="Work that endures. Code that gets reverted or rewritten within 21 days wasn't truly impactful. Durable code solves the problem correctly the first time."
-          signals={[
-            'Churn rate (files modified by others within 21 days)',
-            'Merge success rate (merged vs closed)',
-            'Inverse of rework frequency',
-          ]}
+        <DimCard name="PR Quality" color="text-cyan-400" tag="LLM"
+          description="Quality of the engineering process — problem framing, testing rigor, tradeoff discussion. Not code style, but engineering communication."
+          signals={['Problem statement explains user-visible impact', 'Testing plan is specific (not just &quot;tested locally&quot;)', 'Tradeoffs explicitly discussed', 'Changelog entry present']}
+        />
+        <DimCard name="Collaboration" color="text-blue-400" tag="SPACE-C"
+          description="Team multiplier effect from the SPACE framework's Communication dimension. Engineers who review deeply and respond fast amplify everyone."
+          signals={['Unique PRs reviewed', 'Substantive reviews (not just LGTM)', 'Review turnaround speed', 'Approval count (unblocking others)']}
+        />
+        <DimCard name="Velocity" color="text-violet-400" tag="DORA-lite"
+          description="Shipping cadence from DORA metrics — cycle time, merge frequency, and consistency. Fast AND consistent beats fast-but-bursty."
+          signals={['Cycle time (open → merge)', 'Merge frequency (PRs/week)', 'Consistency (low variance in shipping cadence)', 'Inverse log-scaled cycle time']}
+        />
+        <DimCard name="Scope & Ownership" color="text-pink-400" tag="Git"
+          description="Breadth of system influence. Cross-cutting changes spanning frontend + backend + infra signal architectural impact."
+          signals={['Unique directories touched', 'Cross-cutting PRs (3+ top-level dirs)', 'Average files per PR', 'Breadth across product areas']}
         />
       </div>
 
       <section>
-        <h3 className="text-base font-semibold mb-2 text-accent-light">
-          Scoring Algorithm
-        </h3>
+        <h3 className="text-base font-semibold mb-2 text-accent-light">Scoring Algorithm</h3>
         <div className="text-sm text-white/60 leading-relaxed space-y-3">
           <p>
-            Each pillar produces a raw score from GitHub signals. Raw scores are then
-            <strong className="text-white/80"> percentile-normalized</strong> across all
-            engineers in the dataset (0-100 scale), so a score of 75 means "better than 75%
-            of engineers in this repo."
+            Each dimension produces a raw score. Raw scores are <strong className="text-white/80">percentile-normalized</strong> across
+            all engineers (0-100), so 75 = "better than 75% of engineers." The composite is:
           </p>
-          <p>
-            The composite Impact Score is a weighted sum:
-          </p>
-          <code className="block bg-surface-0 rounded-lg p-3 text-accent-light font-mono text-xs">
-            Impact = 0.25 × Scope + 0.30 × Depth + 0.25 × Leverage + 0.20 × Durability
+          <code className="block bg-surface-0 rounded-lg p-3 text-accent-light font-mono text-xs leading-relaxed">
+            Impact = 0.15×Effort + 0.20×Strategic + 0.10×ImpactMix + 0.10×Quality<br/>
+            {'       '}+ 0.15×Collaboration + 0.15×Velocity + 0.15×Scope
           </code>
           <p>
-            Weights are adjustable via the sliders — different organizations may value
-            different pillars. A platform team might weight Leverage higher; a greenfield
-            team might weight Depth.
+            Strategic Alignment gets the highest default weight (20%) because it answers the
+            question no other tool does: <em>"Is this engineer driving the product forward?"</em>
           </p>
         </div>
       </section>
 
       <section>
-        <h3 className="text-base font-semibold mb-2 text-accent-light">
-          AI Attribution
-        </h3>
+        <h3 className="text-base font-semibold mb-2 text-accent-light">The Gap We Fill</h3>
         <p className="text-sm text-white/60 leading-relaxed">
-          AI-assisted PRs are detected via <code className="text-accent-light/80">Co-Authored-By</code>
-          trailers in commit messages, matching known AI tool email patterns (GitHub Copilot,
-          Cursor, Claude, Devin). This is a high-confidence signal — present only when the tool
-          explicitly adds the trailer.
-        </p>
-      </section>
-
-      <section>
-        <h3 className="text-base font-semibold mb-2 text-accent-light">
-          Limitations & Anti-Patterns
-        </h3>
-        <p className="text-sm text-white/60 leading-relaxed">
-          This system deliberately avoids gameable metrics (LOC, commit count, PR count).
-          However, no metric system is perfect. Goodhart's Law applies: "When a measure
-          becomes a target, it ceases to be a good measure." These scores should inform
-          conversations, not replace judgment. Engineers working on hard-to-measure work
-          (incident response, mentoring, architecture design) may be underrepresented by
-          any Git-based metric.
+          No existing platform — WorkWeave, Jellyfish, Swarmia, LinearB, or DX — maps PRs
+          to a company's documented use cases or north star. Jellyfish maps to Jira epics
+          (requires structure). WorkWeave scores effort (not alignment). DX measures experience
+          (not direction). We score PostHog PRs against their own 8 use cases, 17 product teams,
+          and 5 company values — something no existing tool does.
         </p>
       </section>
 
       <section className="text-xs text-white/30 pt-4 border-t border-white/5">
-        <p>
-          Data source: GitHub GraphQL API. Analysis period: last 90 days of merged PRs.
-          Framework draws on DORA (Google), SPACE (Microsoft Research), and DevEx (ACM Queue 2023)
-          research. Percentile normalization ensures fair comparison across varying contribution levels.
-        </p>
+        Data: GitHub GraphQL API, 90 days of merged PRs. LLM: Claude Sonnet 4 for effort/strategic/quality scoring.
+        Frameworks: DORA (Google), SPACE (Microsoft), DevEx (ACM 2023), Silk 1 (WorkWeave, for inspiration).
       </section>
     </div>
   )
 }
 
-function PillarCard({
-  name,
-  color,
-  description,
-  signals,
-}: {
-  name: string
-  color: string
-  description: string
-  signals: string[]
+function DimCard({ name, color, tag, description, signals }: {
+  name: string; color: string; tag: string; description: string; signals: string[]
 }) {
   return (
     <div className="rounded-lg bg-surface-0 border border-white/5 p-4">
-      <h4 className={`font-semibold mb-2 ${color}`}>{name}</h4>
+      <div className="flex items-center gap-2 mb-2">
+        <h4 className={`font-semibold text-sm ${color}`}>{name}</h4>
+        <span className="text-[9px] px-1.5 py-0.5 rounded bg-white/5 text-white/40 uppercase tracking-wider">{tag}</span>
+      </div>
       <p className="text-xs text-white/50 mb-3 leading-relaxed">{description}</p>
       <ul className="space-y-1">
         {signals.map(s => (
-          <li key={s} className="text-xs text-white/40 flex items-start gap-2">
+          <li key={s} className="text-[11px] text-white/40 flex items-start gap-2">
             <span className={`mt-1.5 w-1 h-1 rounded-full shrink-0 ${color.replace('text-', 'bg-')}`} />
             {s}
           </li>

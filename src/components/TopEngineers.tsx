@@ -8,12 +8,23 @@ interface Props {
 }
 
 const RANK_COLORS = [
-  'from-amber-400 to-amber-600',   // 1st
-  'from-gray-300 to-gray-400',     // 2nd
-  'from-orange-400 to-orange-600', // 3rd
-  'from-accent-light to-accent',   // 4th
-  'from-accent-light to-accent',   // 5th
+  'from-amber-400 to-amber-600',
+  'from-gray-300 to-gray-400',
+  'from-orange-400 to-orange-600',
+  'from-accent-light to-accent',
+  'from-accent-light to-accent',
 ]
+
+const USE_CASE_LABELS: Record<string, string> = {
+  'user-navigation': 'Navigation',
+  'feature-adoption': 'Adoption',
+  'hypothesis-validation': 'Experiments',
+  'user-feedback': 'Surveys',
+  'business-outcomes': 'Business',
+  'feature-rollouts': 'Flags',
+  'debug-issues': 'Debug',
+  'ai-product': 'AI',
+}
 
 export function TopEngineers({ engineers, selectedLogin, onSelect }: Props) {
   return (
@@ -33,18 +44,22 @@ export function TopEngineers({ engineers, selectedLogin, onSelect }: Props) {
             } p-5`}
           >
             <div className="flex items-start gap-4">
-              {/* Rank badge */}
               <div className={`shrink-0 w-10 h-10 rounded-full bg-gradient-to-br ${RANK_COLORS[i]} flex items-center justify-center text-surface-0 font-bold text-sm`}>
                 {i + 1}
               </div>
 
               <div className="flex-1 min-w-0">
                 <div className="flex items-center justify-between mb-1">
-                  <div className="flex items-center gap-3">
+                  <div className="flex items-center gap-2 flex-wrap">
                     <span className="font-semibold">{eng.login}</span>
+                    {eng.metrics.productAreas.slice(0, 2).map(pa => (
+                      <span key={pa.area} className="text-[10px] px-1.5 py-0.5 rounded bg-white/5 text-white/50">
+                        {pa.area}
+                      </span>
+                    ))}
                     {eng.metrics.aiPercentage > 0 && (
-                      <span className="text-xs px-2 py-0.5 rounded-full bg-purple-500/15 text-purple-300 border border-purple-500/20">
-                        {eng.metrics.aiPercentage.toFixed(0)}% AI-assisted
+                      <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-purple-500/15 text-purple-300 border border-purple-500/20">
+                        {eng.metrics.aiPercentage.toFixed(0)}% AI
                       </span>
                     )}
                   </div>
@@ -57,12 +72,17 @@ export function TopEngineers({ engineers, selectedLogin, onSelect }: Props) {
                   {eng.explanation}
                 </p>
 
-                <PillarBar pillars={eng.pillars} />
+                <PillarBar dimensions={eng.dimensions} />
 
-                <div className="flex gap-4 mt-3 text-xs text-white/40">
-                  <span>{eng.metrics.prsAuthored} PRs authored</span>
-                  <span>{eng.metrics.prsReviewed} PRs reviewed</span>
-                  <span>{formatNumber(eng.metrics.totalAdditions + eng.metrics.totalDeletions)} lines changed</span>
+                <div className="flex gap-3 mt-3 text-xs text-white/40 flex-wrap">
+                  <span>{eng.metrics.prsAuthored} PRs</span>
+                  <span>{eng.metrics.totalEffortHours.toFixed(0)}h effort</span>
+                  <span>{eng.metrics.prsReviewed} reviews</span>
+                  {eng.metrics.useCasesAdvanced.length > 0 && (
+                    <span className="text-amber-400/60">
+                      {eng.metrics.useCasesAdvanced.map(uc => USE_CASE_LABELS[uc] || uc).join(', ')}
+                    </span>
+                  )}
                 </div>
               </div>
             </div>
@@ -71,9 +91,4 @@ export function TopEngineers({ engineers, selectedLogin, onSelect }: Props) {
       })}
     </div>
   )
-}
-
-function formatNumber(n: number): string {
-  if (n >= 1000) return (n / 1000).toFixed(1) + 'k'
-  return n.toFixed(0)
 }
