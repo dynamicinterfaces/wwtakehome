@@ -69,9 +69,9 @@ export function EngineerList({ engineers, allEngineers, summary, selectedLogin, 
             >
               <div className="flex items-center gap-3">
                 <span className={`shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-[10px] font-bold ${
-                  i === 0 ? 'bg-[hsl(var(--dim-strategic))] text-black'
-                  : i === 1 ? 'bg-zinc-400 text-black'
-                  : i === 2 ? 'bg-[hsl(var(--dim-effort))] text-white'
+                  i === 0 ? 'bg-primary text-primary-foreground'
+                  : i === 1 ? 'bg-primary/70 text-primary-foreground'
+                  : i === 2 ? 'bg-primary/50 text-primary-foreground'
                   : 'bg-secondary text-secondary-foreground'
                 }`}>
                   {i + 1}

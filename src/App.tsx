@@ -42,7 +42,7 @@ export function App() {
   }
 
   const handleScoreClick = () => {
-    setPanelView('methodology')
+    setPanelView('detail')
     setFocusedDimension(null)
   }
 
