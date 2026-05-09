@@ -52,7 +52,11 @@ function buildPRSummary(pr: GitHubPR): string {
 
   const fileCategories = categorizeFiles(pr.files)
 
+  // Truncate body to 800 chars — enough for problem statement + testing plan
+  const body = (pr.body || '').slice(0, 800)
+
   return `PR #${pr.number}: "${pr.title}"
+${body ? `Description:\n${body}${pr.body && pr.body.length > 800 ? '\n[truncated]' : ''}` : 'Description: (none)'}
 Files changed: ${pr.changedFiles} (+${pr.additions}/-${pr.deletions})
 Directories: ${pr.directories.slice(0, 10).join(', ')}
 Key files: ${pr.files.slice(0, 8).join(', ')}${pr.files.length > 8 ? ` (+${pr.files.length - 8} more)` : ''}
