@@ -1,12 +1,14 @@
+import { Card } from './ui/card'
+
 export function Methodology() {
   return (
-    <div className="rounded-xl bg-surface-1 border border-white/5 p-8 space-y-6">
+    <Card className="p-8 space-y-6">
       <h2 className="text-xl font-semibold">Methodology</h2>
 
       <section>
-        <h3 className="text-base font-semibold mb-2 text-accent-light">Defining "Impact"</h3>
-        <p className="text-sm text-white/60 leading-relaxed">
-          Impact is not output volume. We define it as <strong className="text-white/80">the measurable
+        <h3 className="text-base font-semibold mb-2 text-primary">Defining "Impact"</h3>
+        <p className="text-sm text-muted-foreground leading-relaxed">
+          Impact is not output volume. We define it as <strong className="text-foreground">the measurable
           effect of an engineer's work on PostHog's product, team, and strategic direction</strong>.
           Unlike pure metric aggregation (DORA, SPACE), we use LLM analysis to understand
           <em> what</em> was built — not just how fast. And unlike any existing tool, we score
@@ -46,13 +48,13 @@ export function Methodology() {
       </div>
 
       <section>
-        <h3 className="text-base font-semibold mb-2 text-accent-light">Scoring Algorithm</h3>
-        <div className="text-sm text-white/60 leading-relaxed space-y-3">
+        <h3 className="text-base font-semibold mb-2 text-primary">Scoring Algorithm</h3>
+        <div className="text-sm text-muted-foreground leading-relaxed space-y-3">
           <p>
-            Each dimension produces a raw score. Raw scores are <strong className="text-white/80">percentile-normalized</strong> across
+            Each dimension produces a raw score. Raw scores are <strong className="text-foreground">percentile-normalized</strong> across
             all engineers (0-100), so 75 = "better than 75% of engineers." The composite is:
           </p>
-          <code className="block bg-surface-0 rounded-lg p-3 text-accent-light font-mono text-xs leading-relaxed">
+          <code className="block bg-background rounded-lg p-3 text-primary font-mono text-xs leading-relaxed">
             Impact = 0.15×Effort + 0.20×Strategic + 0.10×ImpactMix + 0.10×Quality<br/>
             {'       '}+ 0.15×Collaboration + 0.15×Velocity + 0.15×Scope
           </code>
@@ -64,8 +66,8 @@ export function Methodology() {
       </section>
 
       <section>
-        <h3 className="text-base font-semibold mb-2 text-accent-light">The Gap We Fill</h3>
-        <p className="text-sm text-white/60 leading-relaxed">
+        <h3 className="text-base font-semibold mb-2 text-primary">The Gap We Fill</h3>
+        <p className="text-sm text-muted-foreground leading-relaxed">
           No existing platform — WorkWeave, Jellyfish, Swarmia, LinearB, or DX — maps PRs
           to a company's documented use cases or north star. Jellyfish maps to Jira epics
           (requires structure). WorkWeave scores effort (not alignment). DX measures experience
@@ -74,11 +76,11 @@ export function Methodology() {
         </p>
       </section>
 
-      <section className="text-xs text-white/30 pt-4 border-t border-white/5">
+      <section className="text-xs text-muted-foreground pt-4 border-t border-border">
         Data: GitHub GraphQL API, 90 days of merged PRs. LLM: Claude Sonnet 4 for effort/strategic/quality scoring.
         Frameworks: DORA (Google), SPACE (Microsoft), DevEx (ACM 2023), Silk 1 (WorkWeave, for inspiration).
       </section>
-    </div>
+    </Card>
   )
 }
 
@@ -86,15 +88,15 @@ function DimCard({ name, color, tag, description, signals }: {
   name: string; color: string; tag: string; description: string; signals: string[]
 }) {
   return (
-    <div className="rounded-lg bg-surface-0 border border-white/5 p-4">
+    <div className="rounded-lg bg-background border border-border p-4">
       <div className="flex items-center gap-2 mb-2">
         <h4 className={`font-semibold text-sm ${color}`}>{name}</h4>
-        <span className="text-[9px] px-1.5 py-0.5 rounded bg-white/5 text-white/40 uppercase tracking-wider">{tag}</span>
+        <span className="text-[9px] px-1.5 py-0.5 rounded bg-white/5 text-muted-foreground uppercase tracking-wider">{tag}</span>
       </div>
-      <p className="text-xs text-white/50 mb-3 leading-relaxed">{description}</p>
+      <p className="text-xs text-muted-foreground mb-3 leading-relaxed">{description}</p>
       <ul className="space-y-1">
         {signals.map(s => (
-          <li key={s} className="text-[11px] text-white/40 flex items-start gap-2">
+          <li key={s} className="text-[11px] text-muted-foreground flex items-start gap-2">
             <span className={`mt-1.5 w-1 h-1 rounded-full shrink-0 ${color.replace('text-', 'bg-')}`} />
             {s}
           </li>

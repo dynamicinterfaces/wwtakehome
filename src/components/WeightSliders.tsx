@@ -1,3 +1,4 @@
+import { Card, CardContent } from './ui/card'
 import type { ScoreWeights } from '../types'
 
 interface Props {
@@ -5,14 +6,14 @@ interface Props {
   onChange: (weights: ScoreWeights) => void
 }
 
-const DIMS: { key: keyof ScoreWeights; label: string; color: string }[] = [
-  { key: 'effort', label: 'Effort Output', color: '#fb7185' },
-  { key: 'strategic', label: 'Strategic Alignment', color: '#fbbf24' },
-  { key: 'impactMix', label: 'Impact Type Mix', color: '#34d399' },
-  { key: 'quality', label: 'PR Quality', color: '#22d3ee' },
-  { key: 'collaboration', label: 'Collaboration', color: '#60a5fa' },
-  { key: 'velocity', label: 'Velocity (DORA)', color: '#a78bfa' },
-  { key: 'scope', label: 'Scope & Ownership', color: '#f472b6' },
+const DIMS: { key: keyof ScoreWeights; label: string; colorVar: string }[] = [
+  { key: 'effort', label: 'Effort Output', colorVar: '--chart-5' },
+  { key: 'strategic', label: 'Strategic Alignment', colorVar: '--chart-3' },
+  { key: 'impactMix', label: 'Impact Type Mix', colorVar: '--chart-2' },
+  { key: 'quality', label: 'PR Quality', colorVar: '--chart-6' },
+  { key: 'collaboration', label: 'Collaboration', colorVar: '--chart-1' },
+  { key: 'velocity', label: 'Velocity (DORA)', colorVar: '--chart-4' },
+  { key: 'scope', label: 'Scope & Ownership', colorVar: '--chart-7' },
 ]
 
 export function WeightSliders({ weights, onChange }: Props) {
@@ -28,33 +29,35 @@ export function WeightSliders({ weights, onChange }: Props) {
   }
 
   return (
-    <div className="rounded-xl bg-surface-1 border border-white/5 p-5">
-      <h3 className="font-semibold mb-1 text-sm">Impact Weights</h3>
-      <p className="text-[10px] text-white/40 mb-4">
-        Adjust how each dimension contributes. Weights auto-normalize.
-      </p>
+    <Card>
+      <CardContent>
+        <h3 className="font-semibold text-sm text-foreground mb-1">Impact Weights</h3>
+        <p className="text-[10px] text-muted-foreground mb-4">
+          Adjust how each dimension contributes. Weights auto-normalize.
+        </p>
 
-      <div className="space-y-3">
-        {DIMS.map(({ key, label, color }) => (
-          <div key={key}>
-            <div className="flex items-center justify-between mb-0.5">
-              <label className="text-[11px] text-white/60">{label}</label>
-              <span className="text-[10px] tabular-nums text-white/40">
-                {(weights[key] * 100).toFixed(0)}%
-              </span>
+        <div className="space-y-3">
+          {DIMS.map(({ key, label, colorVar }) => (
+            <div key={key}>
+              <div className="flex items-center justify-between mb-0.5">
+                <label className="text-[11px] text-muted-foreground">{label}</label>
+                <span className="text-[10px] tabular-nums text-muted-foreground">
+                  {(weights[key] * 100).toFixed(0)}%
+                </span>
+              </div>
+              <input
+                type="range" min={0} max={100}
+                value={weights[key] * 100}
+                onChange={e => handleChange(key, Number(e.target.value) / 100)}
+                className="w-full h-1.5 rounded-full appearance-none cursor-pointer"
+                style={{
+                  background: `linear-gradient(to right, hsl(var(${colorVar})) 0%, hsl(var(${colorVar})) ${weights[key] * 100}%, hsl(var(--muted)) ${weights[key] * 100}%)`,
+                }}
+              />
             </div>
-            <input
-              type="range" min={0} max={100}
-              value={weights[key] * 100}
-              onChange={e => handleChange(key, Number(e.target.value) / 100)}
-              className="w-full h-1.5 rounded-full appearance-none cursor-pointer"
-              style={{
-                background: `linear-gradient(to right, ${color} 0%, ${color} ${weights[key] * 100}%, rgba(255,255,255,0.05) ${weights[key] * 100}%)`,
-              }}
-            />
-          </div>
-        ))}
-      </div>
-    </div>
+          ))}
+        </div>
+      </CardContent>
+    </Card>
   )
 }

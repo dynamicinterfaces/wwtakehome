@@ -35,7 +35,7 @@ export function App() {
   const selectedData = dataset.engineers.find(e => e.login === selectedEngineer)
 
   return (
-    <div className="min-h-screen bg-surface-0 text-white">
+    <div className="min-h-screen bg-background text-foreground">
       <Header
         onMethodologyClick={() => setShowMethodology(!showMethodology)}
         showMethodology={showMethodology}
