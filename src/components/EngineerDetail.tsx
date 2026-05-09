@@ -6,14 +6,14 @@ interface Props {
   engineer: EngineerImpact
 }
 
-const DIM_CONFIG: { key: keyof DimensionScores; label: string; colorVar: string }[] = [
-  { key: 'effort', label: 'Effort', colorVar: '--chart-5' },
-  { key: 'strategic', label: 'Strategic', colorVar: '--chart-3' },
-  { key: 'impactMix', label: 'Impact', colorVar: '--chart-2' },
-  { key: 'quality', label: 'Quality', colorVar: '--chart-6' },
-  { key: 'collaboration', label: 'Collab', colorVar: '--chart-1' },
-  { key: 'velocity', label: 'Velocity', colorVar: '--chart-4' },
-  { key: 'scope', label: 'Scope', colorVar: '--chart-7' },
+const DIM_CONFIG: { key: keyof DimensionScores; label: string; cssVar: string }[] = [
+  { key: 'effort', label: 'Effort', cssVar: '--dim-effort' },
+  { key: 'strategic', label: 'Strategic', cssVar: '--dim-strategic' },
+  { key: 'impactMix', label: 'Impact', cssVar: '--dim-impact' },
+  { key: 'quality', label: 'Quality', cssVar: '--dim-quality' },
+  { key: 'collaboration', label: 'Collab', cssVar: '--dim-collaboration' },
+  { key: 'velocity', label: 'Velocity', cssVar: '--dim-velocity' },
+  { key: 'scope', label: 'Scope', cssVar: '--dim-scope' },
 ]
 
 function dur(minutes: number | null): string {
@@ -40,13 +40,13 @@ export function EngineerDetail({ engineer: eng }: Props) {
       <CardContent className="space-y-5">
         {/* Dimension donuts */}
         <div className="grid grid-cols-4 gap-2">
-          {DIM_CONFIG.map(({ key, label, colorVar }) => (
+          {DIM_CONFIG.map(({ key, label, cssVar }) => (
             <div key={key} className="text-center">
               <div className="relative w-12 h-12 mx-auto mb-0.5">
                 <svg viewBox="0 0 36 36" className="w-full h-full -rotate-90">
                   <circle cx="18" cy="18" r="16" fill="none" stroke="hsl(var(--muted))" strokeWidth="3" />
                   <circle cx="18" cy="18" r="16" fill="none"
-                    stroke={`hsl(var(${colorVar}))`} strokeWidth="3"
+                    stroke={`hsl(var(${cssVar}))`} strokeWidth="3"
                     strokeDasharray={`${dimensions[key]} ${100 - dimensions[key]}`} strokeLinecap="round" />
                 </svg>
                 <span className="absolute inset-0 flex items-center justify-center text-[11px] font-semibold tabular-nums text-foreground">

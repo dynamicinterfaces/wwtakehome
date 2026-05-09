@@ -1,9 +1,6 @@
-import { Card } from './ui/card'
-
 export function Methodology() {
   return (
-    <Card className="p-8 space-y-6">
-      <h2 className="text-xl font-semibold">Methodology</h2>
+    <div className="p-6 space-y-6">
 
       <section>
         <h3 className="text-base font-semibold mb-2 text-primary">Defining "Impact"</h3>
@@ -80,7 +77,7 @@ export function Methodology() {
         Data: GitHub GraphQL API, 90 days of merged PRs. LLM: Claude Sonnet 4 for effort/strategic/quality scoring.
         Frameworks: DORA (Google), SPACE (Microsoft), DevEx (ACM 2023), Silk 1 (WorkWeave, for inspiration).
       </section>
-    </Card>
+    </div>
   )
 }
 

@@ -12,25 +12,26 @@
     --popover-foreground: 220 14% 96%;
     --primary: 238 84% 67%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 222 30% 16%;
+    --secondary: 222 30% 14%;
     --secondary-foreground: 220 14% 96%;
-    --muted: 222 30% 16%;
-    --muted-foreground: 220 10% 55%;
+    --muted: 222 30% 14%;
+    --muted-foreground: 220 10% 50%;
     --accent: 238 84% 67%;
     --accent-foreground: 0 0% 100%;
     --destructive: 0 84% 60%;
-    --border: 220 13% 18%;
-    --input: 220 13% 18%;
+    --border: 220 13% 15%;
+    --input: 220 13% 15%;
     --ring: 238 84% 67%;
     --radius: 0.625rem;
 
-    --chart-1: 238 84% 67%;
-    --chart-2: 160 84% 39%;
-    --chart-3: 38 92% 50%;
-    --chart-4: 280 67% 60%;
-    --chart-5: 350 80% 65%;
-    --chart-6: 200 80% 55%;
-    --chart-7: 320 70% 55%;
+    /* 7 dimension colors — the ONLY accent colors in the app */
+    --dim-effort: 350 80% 65%;
+    --dim-strategic: 38 92% 50%;
+    --dim-impact: 160 84% 39%;
+    --dim-quality: 190 80% 55%;
+    --dim-collaboration: 238 84% 67%;
+    --dim-velocity: 280 67% 60%;
+    --dim-scope: 320 70% 55%;
   }
 }
 
