@@ -40,6 +40,30 @@ function percentileRank(value: number, distribution: number[]): number {
 }
 
 // ============================================================
+// Bot detection — filter non-human reviewers
+// ============================================================
+
+const KNOWN_BOTS = new Set([
+  'greptile-apps', 'github-actions', 'copilot-pull-request-reviewer',
+  'stamphog', 'graphite-app', 'chatgpt-codex-connector', 'dependabot',
+  'renovate', 'codecov', 'sonarcloud', 'mergify',
+])
+
+function isBot(login: string): boolean {
+  if (login.includes('[bot]')) return true
+  if (login.endsWith('-bot')) return true
+  if (KNOWN_BOTS.has(login)) return true
+  if (/-(app|apps|bot|connector|reviewer)$/i.test(login)) return true
+  return false
+}
+
+/** Filter out automated review patterns (QA Swarm, etc.) */
+function isAutomatedReview(body: string): boolean {
+  if (!body) return false
+  return /^QA Swarm/i.test(body.trim())
+}
+
+// ============================================================
 // Data grouping
 // ============================================================
 
@@ -61,13 +85,13 @@ function groupByEngineer(
   }
 
   for (const pr of prs) {
-    if (pr.author.includes('[bot]') || pr.authorType === 'Bot') continue
+    if (isBot(pr.author) || pr.authorType === 'Bot') continue
     const eng = getOrCreate(pr.author)
     eng.authoredPRs.push(pr)
     const a = analyses.get(pr.number)
     if (a) eng.analyses.push(a)
     for (const review of pr.reviews) {
-      if (review.author !== pr.author && !review.author.includes('[bot]'))
+      if (review.author !== pr.author && !isBot(review.author))
         getOrCreate(review.author).reviewedPRs.push(pr)
     }
   }
@@ -128,49 +152,86 @@ function scoreImpactMix(eng: EngineerRaw): number {
 // ============================================================
 // D4: PR QUALITY — Engineering communication rigor
 // ============================================================
-// Rubric: Average LLM quality score across PRs.
-// LLM evaluates (from real PR body, not inferred):
-//   - Problem statement explains user-visible impact
-//   - Testing plan is specific
-//   - Tradeoffs explicitly discussed
-//   - Changelog entry present
-// Data: LLM qualityScore (0–10).
-// Measures: engineering communication, not code style.
+// Rubric: Deterministic score from LLM-extracted boolean signals.
+// NOT the LLM's subjective 0-10 — we compute it ourselves from:
+//   - Problem statement (+2.5) — explains user-visible impact
+//   - Testing plan (+3.0) — specific test strategy, not "tested locally"
+//   - Tradeoff discussion (+2.5) — explicitly weighs alternatives
+//   - Changelog (+2.0) — communicates changes to users
+// Data: LLM qualitySignals booleans (verified against real PR body).
+// Max: 10. Range: 0-10 with clear differentiation.
 
 function scoreQuality(eng: EngineerRaw): number {
   if (eng.analyses.length === 0) return 0
-  return eng.analyses.reduce((sum, a) => sum + a.qualityScore, 0) / eng.analyses.length
+
+  let totalQuality = 0
+  for (const a of eng.analyses) {
+    const s = a.qualitySignals
+    let prScore = 0
+    if (s.hasProblemStatement) prScore += 2.5
+    if (s.hasTestingPlan) prScore += 3.0
+    if (s.hasTradeoffDiscussion) prScore += 2.5
+    if (s.hasChangelog) prScore += 2.0
+    totalQuality += prScore
+  }
+
+  return totalQuality / eng.analyses.length
 }
 
 // ============================================================
 // D5: COLLABORATION — Team multiplier effect (SPACE-C)
 // ============================================================
-// Rubric: Composite of four review signals:
-//   1. Unique PRs reviewed (breadth of input)
-//   2. Substantive reviews — body > 50 chars (depth of input)
-//   3. Approvals given (unblocking velocity)
-//   4. Review turnaround — log-inverse of avg response time
-// Data: GitHub review objects (state, body, timestamps).
-// Measures: how much this engineer amplifies the team.
+// Rubric: Composite of review QUALITY, not just volume.
+// Bot reviews are filtered out at the grouping stage.
+// Per-review quality score (0-4):
+//   +1 body > 50 chars (not empty/LGTM)
+//   +1 contains question (engagement with the code)
+//   +1 contains code block or suggestion keyword (actionable)
+//   +1 CHANGES_REQUESTED state (courage to push back)
+// Aggregated signals:
+//   1. Total review quality points (sum of per-review scores)
+//   2. Unique PRs reviewed (breadth)
+//   3. Review turnaround speed (log-inverse)
+// Data: GitHub review objects, bot-filtered.
+// Measures: how much this engineer makes others' code better.
+
+function reviewQualityScore(review: { body: string; state: string }): number {
+  let score = 0
+  if (review.body.length > 50) score += 1
+  if (review.body.includes('?')) score += 1
+  if (review.body.includes('```') || /\bsuggest|consider|maybe|could we|what if|nit:|minor:|instead of/i.test(review.body)) score += 1
+  if (review.state === 'CHANGES_REQUESTED') score += 1
+  return score
+}
 
 function scoreCollaboration(eng: EngineerRaw): number {
-  const uniqueReviewed = new Set(eng.reviewedPRs.map(pr => pr.number)).size
-  const substantive = eng.reviewedPRs.reduce((count, pr) =>
-    count + pr.reviews.filter(r => r.author === eng.login && r.body.length > 50).length, 0
-  )
-  const approvals = eng.reviewedPRs.reduce((count, pr) =>
-    count + (pr.reviews.some(r => r.author === eng.login && r.state === 'APPROVED') ? 1 : 0), 0
-  )
-  const turnarounds = eng.reviewedPRs.flatMap(pr =>
-    pr.reviews.filter(r => r.author === eng.login)
-      .map(r => (new Date(r.submittedAt).getTime() - new Date(pr.createdAt).getTime()) / 60000)
-  )
+  // Get this engineer's reviews (already bot-filtered at grouping stage)
+  let totalQuality = 0
+  let reviewCount = 0
+  const uniquePRs = new Set<number>()
+  const turnarounds: number[] = []
+
+  for (const pr of eng.reviewedPRs) {
+    const myReviews = pr.reviews.filter(r =>
+      r.author === eng.login && !isAutomatedReview(r.body)
+    )
+    for (const r of myReviews) {
+      totalQuality += reviewQualityScore(r)
+      reviewCount++
+      uniquePRs.add(pr.number)
+      const prCreated = new Date(pr.createdAt).getTime()
+      const reviewed = new Date(r.submittedAt).getTime()
+      turnarounds.push((reviewed - prCreated) / 60000)
+    }
+  }
+
   const avgTurnaround = turnarounds.length > 0
     ? turnarounds.reduce((a, b) => a + b, 0) / turnarounds.length : null
   const turnaroundScore = avgTurnaround !== null
     ? Math.max(0, 10 - Math.log2(avgTurnaround / 60 + 1) * 2) : 0
 
-  return uniqueReviewed * 1.5 + substantive * 2 + approvals * 1 + turnaroundScore
+  // Balanced blend: quality matters most, breadth second, speed third
+  return totalQuality * 2 + uniquePRs.size * 1 + turnaroundScore
 }
 
 // ============================================================
@@ -279,7 +340,9 @@ function generateExplanation(eng: EngineerImpact): string {
     strategic: `${m.useCasesAdvanced.length} PostHog use cases advanced — highly aligned with the north star`,
     impactMix: `${m.impactTypes.feature || 0} features, ${m.impactTypes.fix || 0} fixes — strong value-creation mix`,
     quality: `Consistently high-quality PRs with clear problem statements and testing plans`,
-    collaboration: `${m.reviewsGiven} reviews (${m.reviewsWithSubstance} substantive) — strong team multiplier`,
+    collaboration: m.reviewsWithSubstance > 0
+      ? `${m.reviewsGiven} reviews (${m.reviewsWithSubstance} substantive) — strong team multiplier`
+      : `${m.reviewsGiven} PRs reviewed — active reviewer`,
     velocity: `${m.avgCycleTime ? (m.avgCycleTime / 60).toFixed(1) + 'h' : '—'} avg cycle time, ${m.mergeFrequency.toFixed(1)} PRs/week`,
     scope: `Touches ${m.uniqueDirectories} areas of the codebase — broad architectural influence`,
   }
@@ -370,7 +433,9 @@ export function computeScores(
 
     const reviewsGiven = new Set(eng.reviewedPRs.map(pr => pr.number)).size
     const reviewsWithSubstance = eng.reviewedPRs.reduce((c, pr) =>
-      c + pr.reviews.filter(r => r.author === login && r.body.length > 50).length, 0
+      c + pr.reviews.filter(r =>
+        r.author === login && !isAutomatedReview(r.body) && reviewQualityScore(r) >= 2
+      ).length, 0
     )
     const turnarounds = eng.reviewedPRs.flatMap(pr =>
       pr.reviews.filter(r => r.author === login)
