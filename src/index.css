@@ -4,39 +4,26 @@
 
 @layer base {
   :root {
-    /* Summa-inspired deep blue/white palette */
-    --background: 230 35% 7%;
-    --foreground: 220 14% 96%;
-    --card: 230 30% 10%;
-    --card-foreground: 220 14% 96%;
-    --popover: 230 30% 10%;
-    --popover-foreground: 220 14% 96%;
-    --primary: 220 70% 55%;
+    /* Summa dark theme — deep indigo background, cool gray foreground */
+    --background: 250 30% 8%;
+    --foreground: 240 5% 96%;
+    --card: 250 25% 11%;
+    --card-foreground: 240 5% 96%;
+    --popover: 250 25% 11%;
+    --popover-foreground: 240 5% 96%;
+    --primary: 225 70% 60%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 225 25% 15%;
-    --secondary-foreground: 220 14% 96%;
-    --muted: 225 25% 15%;
-    --muted-foreground: 220 15% 50%;
-    --accent: 220 70% 55%;
+    --secondary: 245 20% 16%;
+    --secondary-foreground: 240 5% 90%;
+    --muted: 245 20% 16%;
+    --muted-foreground: 240 10% 50%;
+    --accent: 225 70% 60%;
     --accent-foreground: 0 0% 100%;
-    --destructive: 0 84% 60%;
-    --border: 225 20% 16%;
-    --input: 225 20% 16%;
-    --ring: 220 70% 55%;
-    --radius: 0.625rem;
-
-    /*
-     * 7 dimension colors — blue-anchored scale.
-     * All derived from hue 200-260 (blue range) at varying
-     * lightness/saturation. Minimal palette, max differentiation.
-     */
-    --dim-effort: 210 80% 60%;       /* bright blue */
-    --dim-strategic: 200 85% 50%;    /* teal-blue */
-    --dim-impact: 230 70% 65%;       /* periwinkle */
-    --dim-quality: 195 80% 45%;      /* deep teal */
-    --dim-collaboration: 240 60% 70%;/* lavender */
-    --dim-velocity: 215 90% 55%;     /* cerulean */
-    --dim-scope: 250 50% 65%;        /* soft violet */
+    --destructive: 0 72% 51%;
+    --border: 245 15% 18%;
+    --input: 245 15% 18%;
+    --ring: 225 70% 60%;
+    --radius: 0.5rem;
   }
 }
 

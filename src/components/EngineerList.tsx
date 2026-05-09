@@ -6,7 +6,8 @@ interface Props {
   allEngineers: EngineerImpact[]
   summary: DatasetSummary
   selectedLogin: string | null
-  onSelect: (login: string | null) => void
+  onSelect: (login: string) => void
+  onOverview: () => void
 }
 
 function fmt(n: number): string {
@@ -20,9 +21,19 @@ function dur(minutes: number | null): string {
   return h < 24 ? h.toFixed(1) + 'h' : (h / 24).toFixed(1) + 'd'
 }
 
-export function EngineerList({ engineers, allEngineers, summary, selectedLogin, onSelect }: Props) {
+export function EngineerList({ engineers, summary, selectedLogin, onSelect, onOverview }: Props) {
   return (
     <div className="flex flex-col h-full">
+      {/* Overview toggle */}
+      <button
+        onClick={onOverview}
+        className={`w-full px-4 py-2.5 text-left text-xs font-medium border-b border-border transition-colors ${
+          selectedLogin === null ? 'bg-primary/5 text-primary' : 'text-muted-foreground hover:text-foreground hover:bg-secondary/50'
+        }`}
+      >
+        Leaderboard Overview
+      </button>
+
       {/* Summary stats */}
       <div className="px-4 py-3 border-b border-border space-y-2">
         <div className="grid grid-cols-2 gap-2">
@@ -60,7 +71,7 @@ export function EngineerList({ engineers, allEngineers, summary, selectedLogin, 
           return (
             <button
               key={eng.login}
-              onClick={() => onSelect(isSelected ? null : eng.login)}
+              onClick={() => onSelect(eng.login)}
               className={`w-full text-left px-4 py-3 border-b border-border transition-colors ${
                 isSelected
                   ? 'bg-primary/5 border-l-2 border-l-primary'

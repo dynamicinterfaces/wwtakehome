@@ -4,29 +4,29 @@ interface Props {
   dimensions: DimensionScores
 }
 
-export const DIM_CONFIG: { key: keyof DimensionScores; label: string; cssVar: string }[] = [
-  { key: 'effort', label: 'Effort', cssVar: '--dim-effort' },
-  { key: 'strategic', label: 'Strategic', cssVar: '--dim-strategic' },
-  { key: 'impactMix', label: 'Impact', cssVar: '--dim-impact' },
-  { key: 'quality', label: 'Quality', cssVar: '--dim-quality' },
-  { key: 'collaboration', label: 'Collab', cssVar: '--dim-collaboration' },
-  { key: 'velocity', label: 'Velocity', cssVar: '--dim-velocity' },
-  { key: 'scope', label: 'Scope', cssVar: '--dim-scope' },
+export const DIM_CONFIG: { key: keyof DimensionScores; label: string; shortLabel: string }[] = [
+  { key: 'effort', label: 'Effort Output', shortLabel: 'Effort' },
+  { key: 'strategic', label: 'Strategic Alignment', shortLabel: 'Strategic' },
+  { key: 'impactMix', label: 'Impact Type Mix', shortLabel: 'Impact' },
+  { key: 'quality', label: 'PR Quality', shortLabel: 'Quality' },
+  { key: 'collaboration', label: 'Collaboration', shortLabel: 'Collab' },
+  { key: 'velocity', label: 'Velocity (DORA)', shortLabel: 'Velocity' },
+  { key: 'scope', label: 'Scope & Ownership', shortLabel: 'Scope' },
 ]
 
 export function DimensionBar({ dimensions }: Props) {
   return (
     <div className="flex gap-1.5">
-      {DIM_CONFIG.map(({ key, label, cssVar }) => (
+      {DIM_CONFIG.map(({ key, shortLabel }) => (
         <div key={key} className="flex-1 min-w-0">
           <div className="flex items-center justify-between mb-0.5">
-            <span className="text-[9px] uppercase tracking-wider text-muted-foreground truncate">{label}</span>
+            <span className="text-[9px] uppercase tracking-wider text-muted-foreground truncate">{shortLabel}</span>
             <span className="text-[9px] tabular-nums text-muted-foreground">{dimensions[key]}</span>
           </div>
           <div className="h-1.5 rounded-full bg-secondary overflow-hidden">
             <div
-              className="h-full rounded-full transition-all duration-500"
-              style={{ width: `${dimensions[key]}%`, backgroundColor: `hsl(var(${cssVar}))` }}
+              className="h-full rounded-full bg-primary transition-all duration-500"
+              style={{ width: `${dimensions[key]}%`, opacity: 0.5 + (dimensions[key] / 200) }}
             />
           </div>
         </div>
