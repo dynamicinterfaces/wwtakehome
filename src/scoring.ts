@@ -47,6 +47,7 @@ const KNOWN_BOTS = new Set([
   'greptile-apps', 'github-actions', 'copilot-pull-request-reviewer',
   'stamphog', 'graphite-app', 'chatgpt-codex-connector', 'dependabot',
   'renovate', 'codecov', 'sonarcloud', 'mergify',
+  'posthog', // shared service account, not a real engineer
 ])
 
 function isBot(login: string): boolean {

@@ -6,7 +6,7 @@
       "end": "2026-05-09T14:54:27Z"
     },
     "totalPRs": 897,
-    "totalEngineers": 122,
+    "totalEngineers": 120,
     "totalReviews": 3079,
     "totalCommits": 3375,
     "totalEffortHours": 4193.5,
@@ -67,20 +67,98 @@
   },
   "engineers": [
     {
+      "login": "webjunkie",
+      "impactScore": 86,
+      "dimensions": {
+        "effort": 98,
+        "strategic": 98,
+        "impactMix": 35,
+        "quality": 59,
+        "collaboration": 99,
+        "velocity": 85,
+        "scope": 100
+      },
+      "metrics": {
+        "prsAuthored": 41,
+        "prsReviewed": 16,
+        "totalEffortHours": 211,
+        "totalAdditions": 51947,
+        "totalDeletions": 47006,
+        "avgFilesPerPR": 12.829268292682928,
+        "uniqueDirectories": 69,
+        "impactTypes": {
+          "feature": 8,
+          "fix": 9,
+          "refactor": 5,
+          "performance": 5,
+          "chore": 10,
+          "docs": 4,
+          "test": 0
+        },
+        "productAreas": [
+          {
+            "area": "devex",
+            "count": 30
+          },
+          {
+            "area": "infrastructure",
+            "count": 9
+          },
+          {
+            "area": "mcp-server",
+            "count": 1
+          },
+          {
+            "area": "design-system",
+            "count": 1
+          }
+        ],
+        "useCasesAdvanced": [],
+        "reviewsGiven": 16,
+        "reviewsWithSubstance": 5,
+        "avgReviewTurnaround": 3162.335606060606,
+        "avgCycleTime": 1311.9268292682927,
+        "mergeFrequency": 28.92804270703427,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "Touches 69 areas of the codebase — broad architectural influence. 16 reviews (5 substantive) — strong team multiplier.",
+      "topPRs": [
+        {
+          "number": 57624,
+          "title": "feat(visual-review): split pixel/structural diff, cluster panel, history-view quarantine",
+          "strategicScore": 8,
+          "effortHours": 25
+        },
+        {
+          "number": 57206,
+          "title": "chore(devex): integrate test selection verdict into backend CI",
+          "strategicScore": 7,
+          "effortHours": 16
+        },
+        {
+          "number": 57871,
+          "title": "feat(devex): upgrade openapi spec to 3.1 and orval to 8.9.1",
+          "strategicScore": 8,
+          "effortHours": 12
+        }
+      ]
+    },
+    {
       "login": "pauldambra",
-      "impactScore": 89,
+      "impactScore": 86,
       "dimensions": {
         "effort": 99,
         "strategic": 99,
         "impactMix": 50,
-        "quality": 59,
-        "collaboration": 99,
-        "velocity": 92,
+        "quality": 60,
+        "collaboration": 78,
+        "velocity": 93,
         "scope": 99
       },
       "metrics": {
         "prsAuthored": 69,
-        "prsReviewed": 28,
+        "prsReviewed": 14,
         "totalEffortHours": 324.5,
         "totalAdditions": 10803,
         "totalDeletions": 4925,
@@ -149,9 +227,9 @@
           "ai-product",
           "user-feedback"
         ],
-        "reviewsGiven": 28,
+        "reviewsGiven": 14,
         "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": 1955.5918902683266,
+        "avgReviewTurnaround": 1084.992156862745,
         "avgCycleTime": 628.6086956521739,
         "mergeFrequency": 49.31588438694307,
         "aiAssistedPRs": 2,
@@ -180,94 +258,16 @@
       ]
     },
     {
-      "login": "webjunkie",
-      "impactScore": 86,
-      "dimensions": {
-        "effort": 98,
-        "strategic": 98,
-        "impactMix": 35,
-        "quality": 59,
-        "collaboration": 98,
-        "velocity": 84,
-        "scope": 100
-      },
-      "metrics": {
-        "prsAuthored": 41,
-        "prsReviewed": 16,
-        "totalEffortHours": 211,
-        "totalAdditions": 51947,
-        "totalDeletions": 47006,
-        "avgFilesPerPR": 12.829268292682928,
-        "uniqueDirectories": 69,
-        "impactTypes": {
-          "feature": 8,
-          "fix": 9,
-          "refactor": 5,
-          "performance": 5,
-          "chore": 10,
-          "docs": 4,
-          "test": 0
-        },
-        "productAreas": [
-          {
-            "area": "devex",
-            "count": 30
-          },
-          {
-            "area": "infrastructure",
-            "count": 9
-          },
-          {
-            "area": "mcp-server",
-            "count": 1
-          },
-          {
-            "area": "design-system",
-            "count": 1
-          }
-        ],
-        "useCasesAdvanced": [],
-        "reviewsGiven": 16,
-        "reviewsWithSubstance": 5,
-        "avgReviewTurnaround": 3162.335606060606,
-        "avgCycleTime": 1311.9268292682927,
-        "mergeFrequency": 28.92804270703427,
-        "aiAssistedPRs": 0,
-        "aiPercentage": 0
-      },
-      "explanation": "Touches 69 areas of the codebase — broad architectural influence. Shipped 211 expert-hours across 41 PRs.",
-      "topPRs": [
-        {
-          "number": 57624,
-          "title": "feat(visual-review): split pixel/structural diff, cluster panel, history-view quarantine",
-          "strategicScore": 8,
-          "effortHours": 25
-        },
-        {
-          "number": 57206,
-          "title": "chore(devex): integrate test selection verdict into backend CI",
-          "strategicScore": 7,
-          "effortHours": 16
-        },
-        {
-          "number": 57871,
-          "title": "feat(devex): upgrade openapi spec to 3.1 and orval to 8.9.1",
-          "strategicScore": 8,
-          "effortHours": 12
-        }
-      ]
-    },
-    {
       "login": "TueHaulund",
       "impactScore": 84,
       "dimensions": {
         "effort": 95,
         "strategic": 96,
         "impactMix": 73,
-        "quality": 81,
+        "quality": 80,
         "collaboration": 77,
         "velocity": 61,
-        "scope": 95
+        "scope": 96
       },
       "metrics": {
         "prsAuthored": 10,
@@ -309,7 +309,7 @@
         "aiAssistedPRs": 0,
         "aiPercentage": 0
       },
-      "explanation": "3 PostHog use cases advanced — highly aligned with the north star. Shipped 101 expert-hours across 10 PRs.",
+      "explanation": "3 PostHog use cases advanced — highly aligned with the north star. Touches 23 areas of the codebase — broad architectural influence.",
       "topPRs": [
         {
           "number": 57072,
@@ -340,8 +340,8 @@
         "impactMix": 52,
         "quality": 75,
         "collaboration": 62,
-        "velocity": 94,
-        "scope": 80
+        "velocity": 95,
+        "scope": 81
       },
       "metrics": {
         "prsAuthored": 76,
@@ -415,128 +415,15 @@
       ]
     },
     {
-      "login": "posthog",
+      "login": "cat-ph",
       "impactScore": 82,
       "dimensions": {
-        "effort": 96,
-        "strategic": 95,
-        "impactMix": 70,
-        "quality": 64,
-        "collaboration": 45,
-        "velocity": 95,
-        "scope": 97
-      },
-      "metrics": {
-        "prsAuthored": 42,
-        "prsReviewed": 1,
-        "totalEffortHours": 131,
-        "totalAdditions": 4248,
-        "totalDeletions": 1600,
-        "avgFilesPerPR": 4.119047619047619,
-        "uniqueDirectories": 23,
-        "impactTypes": {
-          "feature": 10,
-          "fix": 28,
-          "refactor": 0,
-          "performance": 1,
-          "chore": 2,
-          "docs": 0,
-          "test": 1
-        },
-        "productAreas": [
-          {
-            "area": "product-analytics",
-            "count": 10
-          },
-          {
-            "area": "llm-analytics",
-            "count": 7
-          },
-          {
-            "area": "session-replay",
-            "count": 5
-          },
-          {
-            "area": "infrastructure",
-            "count": 5
-          },
-          {
-            "area": "posthog-ai",
-            "count": 5
-          },
-          {
-            "area": "mcp-server",
-            "count": 3
-          },
-          {
-            "area": "feature-flags",
-            "count": 2
-          },
-          {
-            "area": "workflows",
-            "count": 2
-          },
-          {
-            "area": "batch-exports",
-            "count": 1
-          },
-          {
-            "area": "posthog-code",
-            "count": 1
-          },
-          {
-            "area": "devex",
-            "count": 1
-          }
-        ],
-        "useCasesAdvanced": [
-          "ai-product",
-          "debug-issues",
-          "business-outcomes",
-          "user-navigation",
-          "feature-rollouts",
-          "feature-adoption"
-        ],
-        "reviewsGiven": 1,
-        "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": 22.6,
-        "avgCycleTime": 774.9761904761905,
-        "mergeFrequency": 28.538205644142003,
-        "aiAssistedPRs": 0,
-        "aiPercentage": 0
-      },
-      "explanation": "Touches 23 areas of the codebase — broad architectural influence. Shipped 131 expert-hours across 42 PRs.",
-      "topPRs": [
-        {
-          "number": 57560,
-          "title": "fix(feature-flags): hide non-`in` cohort recents from picker",
-          "strategicScore": 7,
-          "effortHours": 12
-        },
-        {
-          "number": 57106,
-          "title": "feat(dashboards): server-side fuzzy full-text search via API",
-          "strategicScore": 7,
-          "effortHours": 12
-        },
-        {
-          "number": 57261,
-          "title": "feat(mcp): add feedback-submit tool for agent feedback",
-          "strategicScore": 9,
-          "effortHours": 8
-        }
-      ]
-    },
-    {
-      "login": "cat-ph",
-      "impactScore": 81,
-      "dimensions": {
-        "effort": 79,
-        "strategic": 86,
+        "effort": 80,
+        "strategic": 87,
         "impactMix": 63,
         "quality": 89,
-        "collaboration": 79,
-        "velocity": 77,
+        "collaboration": 80,
+        "velocity": 78,
         "scope": 91
       },
       "metrics": {
@@ -606,14 +493,14 @@
     },
     {
       "login": "nickbest-ph",
-      "impactScore": 80,
+      "impactScore": 81,
       "dimensions": {
-        "effort": 95,
-        "strategic": 93,
+        "effort": 96,
+        "strategic": 94,
         "impactMix": 37,
         "quality": 48,
-        "collaboration": 86,
-        "velocity": 74,
+        "collaboration": 89,
+        "velocity": 75,
         "scope": 98
       },
       "metrics": {
@@ -689,19 +576,19 @@
     },
     {
       "login": "skoob13",
-      "impactScore": 80,
+      "impactScore": 81,
       "dimensions": {
-        "effort": 84,
-        "strategic": 89,
+        "effort": 85,
+        "strategic": 90,
         "impactMix": 32,
         "quality": 87,
-        "collaboration": 95,
-        "velocity": 69,
-        "scope": 88
+        "collaboration": 94,
+        "velocity": 70,
+        "scope": 89
       },
       "metrics": {
         "prsAuthored": 15,
-        "prsReviewed": 21,
+        "prsReviewed": 17,
         "totalEffortHours": 58,
         "totalAdditions": 3127,
         "totalDeletions": 716,
@@ -733,15 +620,15 @@
         "useCasesAdvanced": [
           "ai-product"
         ],
-        "reviewsGiven": 21,
-        "reviewsWithSubstance": 3,
-        "avgReviewTurnaround": 1525.397222222222,
+        "reviewsGiven": 17,
+        "reviewsWithSubstance": 2,
+        "avgReviewTurnaround": 1747.0705128205127,
         "avgCycleTime": 777,
         "mergeFrequency": 11.654286984247701,
         "aiAssistedPRs": 2,
         "aiPercentage": 13.333333333333334
       },
-      "explanation": "21 reviews (3 substantive) — strong team multiplier. 1 PostHog use cases advanced — highly aligned with the north star. 13% AI-assisted.",
+      "explanation": "17 reviews (2 substantive) — strong team multiplier. 1 PostHog use cases advanced — highly aligned with the north star. 13% AI-assisted.",
       "topPRs": [
         {
           "number": 57472,
@@ -765,15 +652,15 @@
     },
     {
       "login": "carlos-marchal-ph",
-      "impactScore": 80,
+      "impactScore": 81,
       "dimensions": {
         "effort": 91,
         "strategic": 91,
-        "impactMix": 73,
+        "impactMix": 72,
         "quality": 95,
-        "collaboration": 83,
+        "collaboration": 85,
         "velocity": 37,
-        "scope": 92
+        "scope": 93
       },
       "metrics": {
         "prsAuthored": 7,
@@ -837,15 +724,15 @@
     },
     {
       "login": "rnegron",
-      "impactScore": 80,
+      "impactScore": 81,
       "dimensions": {
-        "effort": 88,
+        "effort": 89,
         "strategic": 86,
         "impactMix": 27,
-        "quality": 66,
-        "collaboration": 95,
+        "quality": 65,
+        "collaboration": 96,
         "velocity": 80,
-        "scope": 96
+        "scope": 97
       },
       "metrics": {
         "prsAuthored": 23,
@@ -915,15 +802,15 @@
     },
     {
       "login": "haacked",
-      "impactScore": 79,
+      "impactScore": 80,
       "dimensions": {
-        "effort": 91,
+        "effort": 92,
         "strategic": 81,
         "impactMix": 44,
         "quality": 73,
-        "collaboration": 90,
-        "velocity": 68,
-        "scope": 94
+        "collaboration": 91,
+        "velocity": 69,
+        "scope": 95
       },
       "metrics": {
         "prsAuthored": 16,
@@ -993,17 +880,17 @@
       "login": "richardsolomou",
       "impactScore": 79,
       "dimensions": {
-        "effort": 92,
-        "strategic": 91,
+        "effort": 93,
+        "strategic": 92,
         "impactMix": 65,
         "quality": 63,
-        "collaboration": 94,
+        "collaboration": 93,
         "velocity": 63,
-        "scope": 71
+        "scope": 72
       },
       "metrics": {
         "prsAuthored": 14,
-        "prsReviewed": 11,
+        "prsReviewed": 9,
         "totalEffortHours": 77,
         "totalAdditions": 8367,
         "totalDeletions": 4995,
@@ -1036,15 +923,15 @@
           "ai-product",
           "user-navigation"
         ],
-        "reviewsGiven": 11,
+        "reviewsGiven": 9,
         "reviewsWithSubstance": 4,
-        "avgReviewTurnaround": 521.595,
+        "avgReviewTurnaround": 691.9999999999999,
         "avgCycleTime": 4178.214285714285,
         "mergeFrequency": 14.263550221099178,
         "aiAssistedPRs": 0,
         "aiPercentage": 0
       },
-      "explanation": "11 reviews (4 substantive) — strong team multiplier. Shipped 77 expert-hours across 14 PRs.",
+      "explanation": "Shipped 77 expert-hours across 14 PRs. 9 reviews (4 substantive) — strong team multiplier.",
       "topPRs": [
         {
           "number": 56878,
@@ -1068,13 +955,13 @@
     },
     {
       "login": "jonmcwest",
-      "impactScore": 78,
+      "impactScore": 79,
       "dimensions": {
         "effort": 97,
         "strategic": 97,
-        "impactMix": 76,
+        "impactMix": 75,
         "quality": 90,
-        "collaboration": 27,
+        "collaboration": 30,
         "velocity": 91,
         "scope": 67
       },
@@ -1136,14 +1023,96 @@
       ]
     },
     {
+      "login": "vdekrijger",
+      "impactScore": 78,
+      "dimensions": {
+        "effort": 70,
+        "strategic": 78,
+        "impactMix": 85,
+        "quality": 80,
+        "collaboration": 92,
+        "velocity": 55,
+        "scope": 87
+      },
+      "metrics": {
+        "prsAuthored": 6,
+        "prsReviewed": 17,
+        "totalEffortHours": 40,
+        "totalAdditions": 1659,
+        "totalDeletions": 457,
+        "avgFilesPerPR": 11.5,
+        "uniqueDirectories": 12,
+        "impactTypes": {
+          "feature": 4,
+          "fix": 1,
+          "refactor": 0,
+          "performance": 0,
+          "chore": 1,
+          "docs": 0,
+          "test": 0
+        },
+        "productAreas": [
+          {
+            "area": "mcp-server",
+            "count": 3
+          },
+          {
+            "area": "workflows",
+            "count": 1
+          },
+          {
+            "area": "infrastructure",
+            "count": 1
+          },
+          {
+            "area": "product-analytics",
+            "count": 1
+          }
+        ],
+        "useCasesAdvanced": [
+          "ai-product",
+          "user-navigation",
+          "business-outcomes"
+        ],
+        "reviewsGiven": 17,
+        "reviewsWithSubstance": 0,
+        "avgReviewTurnaround": 1232.6065217391304,
+        "avgCycleTime": 1469.5,
+        "mergeFrequency": 5.275775890018217,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "17 PRs reviewed — active reviewer. Touches 12 areas of the codebase — broad architectural influence.",
+      "topPRs": [
+        {
+          "number": 57257,
+          "title": "feat(insights): expose overrides on insight-get and insight-query",
+          "strategicScore": 9,
+          "effortHours": 16
+        },
+        {
+          "number": 57445,
+          "title": "feat(mcp): accept object form for *_override params on all insight/dashboard tools",
+          "strategicScore": 9,
+          "effortHours": 8
+        },
+        {
+          "number": 57073,
+          "title": "feat(dashboards): add variables_override and filters_override to dashboard MCP tools",
+          "strategicScore": 9,
+          "effortHours": 5
+        }
+      ]
+    },
+    {
       "login": "yasen-posthog",
       "impactScore": 78,
       "dimensions": {
-        "effort": 84,
-        "strategic": 78,
+        "effort": 85,
+        "strategic": 79,
         "impactMix": 93,
         "quality": 68,
-        "collaboration": 71,
+        "collaboration": 73,
         "velocity": 72,
         "scope": 79
       },
@@ -1209,96 +1178,14 @@
       ]
     },
     {
-      "login": "vdekrijger",
-      "impactScore": 77,
-      "dimensions": {
-        "effort": 70,
-        "strategic": 77,
-        "impactMix": 86,
-        "quality": 80,
-        "collaboration": 91,
-        "velocity": 55,
-        "scope": 86
-      },
-      "metrics": {
-        "prsAuthored": 6,
-        "prsReviewed": 17,
-        "totalEffortHours": 40,
-        "totalAdditions": 1659,
-        "totalDeletions": 457,
-        "avgFilesPerPR": 11.5,
-        "uniqueDirectories": 12,
-        "impactTypes": {
-          "feature": 4,
-          "fix": 1,
-          "refactor": 0,
-          "performance": 0,
-          "chore": 1,
-          "docs": 0,
-          "test": 0
-        },
-        "productAreas": [
-          {
-            "area": "mcp-server",
-            "count": 3
-          },
-          {
-            "area": "workflows",
-            "count": 1
-          },
-          {
-            "area": "infrastructure",
-            "count": 1
-          },
-          {
-            "area": "product-analytics",
-            "count": 1
-          }
-        ],
-        "useCasesAdvanced": [
-          "ai-product",
-          "user-navigation",
-          "business-outcomes"
-        ],
-        "reviewsGiven": 17,
-        "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": 1232.6065217391304,
-        "avgCycleTime": 1469.5,
-        "mergeFrequency": 5.275775890018217,
-        "aiAssistedPRs": 0,
-        "aiPercentage": 0
-      },
-      "explanation": "17 PRs reviewed — active reviewer. 4 features, 1 fixes — strong value-creation mix.",
-      "topPRs": [
-        {
-          "number": 57257,
-          "title": "feat(insights): expose overrides on insight-get and insight-query",
-          "strategicScore": 9,
-          "effortHours": 16
-        },
-        {
-          "number": 57445,
-          "title": "feat(mcp): accept object form for *_override params on all insight/dashboard tools",
-          "strategicScore": 9,
-          "effortHours": 8
-        },
-        {
-          "number": 57073,
-          "title": "feat(dashboards): add variables_override and filters_override to dashboard MCP tools",
-          "strategicScore": 9,
-          "effortHours": 5
-        }
-      ]
-    },
-    {
       "login": "MarconLP",
       "impactScore": 76,
       "dimensions": {
-        "effort": 93,
+        "effort": 94,
         "strategic": 95,
         "impactMix": 79,
-        "quality": 70,
-        "collaboration": 64,
+        "quality": 69,
+        "collaboration": 65,
         "velocity": 42,
         "scope": 82
       },
@@ -1369,15 +1256,15 @@
     },
     {
       "login": "benjackwhite",
-      "impactScore": 74,
+      "impactScore": 75,
       "dimensions": {
-        "effort": 94,
-        "strategic": 94,
+        "effort": 95,
+        "strategic": 95,
         "impactMix": 29,
         "quality": 79,
-        "collaboration": 84,
+        "collaboration": 87,
         "velocity": 33,
-        "scope": 84
+        "scope": 85
       },
       "metrics": {
         "prsAuthored": 9,
@@ -1450,15 +1337,15 @@
     },
     {
       "login": "lucasheriques",
-      "impactScore": 74,
+      "impactScore": 75,
       "dimensions": {
         "effort": 86,
-        "strategic": 82,
+        "strategic": 83,
         "impactMix": 93,
         "quality": 54,
-        "collaboration": 73,
+        "collaboration": 75,
         "velocity": 60,
-        "scope": 69
+        "scope": 70
       },
       "metrics": {
         "prsAuthored": 10,
@@ -1530,13 +1417,13 @@
       "login": "ablaszkiewicz",
       "impactScore": 73,
       "dimensions": {
-        "effort": 84,
-        "strategic": 79,
+        "effort": 85,
+        "strategic": 80,
         "impactMix": 95,
         "quality": 42,
         "collaboration": 38,
         "velocity": 76,
-        "scope": 89
+        "scope": 90
       },
       "metrics": {
         "prsAuthored": 6,
@@ -1607,7 +1494,7 @@
         "strategic": 84,
         "impactMix": 88,
         "quality": 49,
-        "collaboration": 68,
+        "collaboration": 70,
         "velocity": 66,
         "scope": 60
       },
@@ -1683,7 +1570,7 @@
         "strategic": 76,
         "impactMix": 87,
         "quality": 77,
-        "collaboration": 64,
+        "collaboration": 65,
         "velocity": 43,
         "scope": 91
       },
@@ -1763,7 +1650,7 @@
         "impactMix": 98,
         "quality": 37,
         "collaboration": 59,
-        "velocity": 93,
+        "velocity": 94,
         "scope": 33
       },
       "metrics": {
@@ -1821,78 +1708,78 @@
       ]
     },
     {
-      "login": "andrewm4894",
+      "login": "tatoalo",
       "impactScore": 71,
       "dimensions": {
-        "effort": 74,
-        "strategic": 85,
-        "impactMix": 67,
-        "quality": 64,
-        "collaboration": 74,
-        "velocity": 50,
-        "scope": 73
+        "effort": 75,
+        "strategic": 75,
+        "impactMix": 40,
+        "quality": 43,
+        "collaboration": 97,
+        "velocity": 70,
+        "scope": 76
       },
       "metrics": {
-        "prsAuthored": 9,
-        "prsReviewed": 6,
+        "prsAuthored": 10,
+        "prsReviewed": 27,
         "totalEffortHours": 47.5,
-        "totalAdditions": 3326,
-        "totalDeletions": 322,
-        "avgFilesPerPR": 5.888888888888889,
-        "uniqueDirectories": 11,
+        "totalAdditions": 2714,
+        "totalDeletions": 578,
+        "avgFilesPerPR": 7.4,
+        "uniqueDirectories": 12,
         "impactTypes": {
-          "feature": 4,
-          "fix": 3,
+          "feature": 1,
+          "fix": 7,
           "refactor": 0,
           "performance": 0,
-          "chore": 1,
-          "docs": 1,
+          "chore": 2,
+          "docs": 0,
           "test": 0
         },
         "productAreas": [
           {
-            "area": "llm-analytics",
-            "count": 5
+            "area": "infrastructure",
+            "count": 6
           },
           {
-            "area": "posthog-ai",
-            "count": 2
+            "area": "posthog-code",
+            "count": 3
           },
           {
-            "area": "mcp-server",
-            "count": 2
+            "area": "workflows",
+            "count": 1
           }
         ],
         "useCasesAdvanced": [
           "ai-product"
         ],
-        "reviewsGiven": 6,
-        "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": 35.72222222222222,
-        "avgCycleTime": 743.7777777777778,
-        "mergeFrequency": 7.731137314611498,
-        "aiAssistedPRs": 2,
-        "aiPercentage": 22.22222222222222
+        "reviewsGiven": 27,
+        "reviewsWithSubstance": 1,
+        "avgReviewTurnaround": 407.3116666666667,
+        "avgCycleTime": 591.2,
+        "mergeFrequency": 8.823735381311423,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
       },
-      "explanation": "1 PostHog use cases advanced — highly aligned with the north star. Shipped 48 expert-hours across 9 PRs. 22% AI-assisted.",
+      "explanation": "27 reviews (1 substantive) — strong team multiplier. Touches 12 areas of the codebase — broad architectural influence.",
       "topPRs": [
         {
-          "number": 57568,
-          "title": "feat(insights): expose trending endpoint via MCP",
-          "strategicScore": 9,
-          "effortHours": 12
-        },
-        {
-          "number": 56938,
-          "title": "feat(signals): expose signal reports and source configs via MCP",
-          "strategicScore": 9,
-          "effortHours": 12
-        },
-        {
-          "number": 57910,
-          "title": "feat(llma): render mermaid diagrams in markdown views",
+          "number": 57131,
+          "title": "feat(tasks): use user github integrations for cloud runs",
           "strategicScore": 8,
-          "effortHours": 8
+          "effortHours": 16
+        },
+        {
+          "number": 57836,
+          "title": "fix(tasks): queue cloud task follow-up messages",
+          "strategicScore": 6,
+          "effortHours": 6
+        },
+        {
+          "number": 56902,
+          "title": "chore(cloud-runs): add failure attribution metrics",
+          "strategicScore": 4,
+          "effortHours": 6
         }
       ]
     },
@@ -1900,8 +1787,8 @@
       "login": "mp-hog",
       "impactScore": 71,
       "dimensions": {
-        "effort": 86,
-        "strategic": 92,
+        "effort": 87,
+        "strategic": 93,
         "impactMix": 75,
         "quality": 94,
         "collaboration": 7,
@@ -1970,177 +1857,16 @@
       ]
     },
     {
-      "login": "veryayskiy",
+      "login": "orian",
       "impactScore": 71,
       "dimensions": {
-        "effort": 87,
-        "strategic": 80,
-        "impactMix": 66,
-        "quality": 23,
-        "collaboration": 49,
-        "velocity": 81,
-        "scope": 91
-      },
-      "metrics": {
-        "prsAuthored": 16,
-        "prsReviewed": 9,
-        "totalEffortHours": 63.5,
-        "totalAdditions": 4213,
-        "totalDeletions": 808,
-        "avgFilesPerPR": 7.4375,
-        "uniqueDirectories": 14,
-        "impactTypes": {
-          "feature": 7,
-          "fix": 5,
-          "refactor": 1,
-          "performance": 0,
-          "chore": 3,
-          "docs": 0,
-          "test": 0
-        },
-        "productAreas": [
-          {
-            "area": "conversations",
-            "count": 10
-          },
-          {
-            "area": "posthog-ai",
-            "count": 2
-          },
-          {
-            "area": "infrastructure",
-            "count": 2
-          },
-          {
-            "area": "workflows",
-            "count": 1
-          },
-          {
-            "area": "surveys",
-            "count": 1
-          }
-        ],
-        "useCasesAdvanced": [
-          "ai-product",
-          "user-feedback"
-        ],
-        "reviewsGiven": 9,
-        "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": 1195.1472222222224,
-        "avgCycleTime": 458.75,
-        "mergeFrequency": 12.590622609202521,
-        "aiAssistedPRs": 0,
-        "aiPercentage": 0
-      },
-      "explanation": "Touches 14 areas of the codebase — broad architectural influence. Shipped 64 expert-hours across 16 PRs.",
-      "topPRs": [
-        {
-          "number": 57158,
-          "title": "feat: github issues as channel",
-          "strategicScore": 7,
-          "effortHours": 20
-        },
-        {
-          "number": 57919,
-          "title": "feat(business knowledge): init",
-          "strategicScore": 8,
-          "effortHours": 8
-        },
-        {
-          "number": 57984,
-          "title": "feat(business knowledge): initial migrations and models",
-          "strategicScore": 7,
-          "effortHours": 6
-        }
-      ]
-    },
-    {
-      "login": "tatoalo",
-      "impactScore": 70,
-      "dimensions": {
-        "effort": 74,
-        "strategic": 74,
-        "impactMix": 41,
-        "quality": 43,
-        "collaboration": 96,
-        "velocity": 70,
-        "scope": 75
-      },
-      "metrics": {
-        "prsAuthored": 10,
-        "prsReviewed": 28,
-        "totalEffortHours": 47.5,
-        "totalAdditions": 2714,
-        "totalDeletions": 578,
-        "avgFilesPerPR": 7.4,
-        "uniqueDirectories": 12,
-        "impactTypes": {
-          "feature": 1,
-          "fix": 7,
-          "refactor": 0,
-          "performance": 0,
-          "chore": 2,
-          "docs": 0,
-          "test": 0
-        },
-        "productAreas": [
-          {
-            "area": "infrastructure",
-            "count": 6
-          },
-          {
-            "area": "posthog-code",
-            "count": 3
-          },
-          {
-            "area": "workflows",
-            "count": 1
-          }
-        ],
-        "useCasesAdvanced": [
-          "ai-product"
-        ],
-        "reviewsGiven": 28,
-        "reviewsWithSubstance": 1,
-        "avgReviewTurnaround": 396.38548387096785,
-        "avgCycleTime": 591.2,
-        "mergeFrequency": 8.823735381311423,
-        "aiAssistedPRs": 0,
-        "aiPercentage": 0
-      },
-      "explanation": "28 reviews (1 substantive) — strong team multiplier. Touches 12 areas of the codebase — broad architectural influence.",
-      "topPRs": [
-        {
-          "number": 57131,
-          "title": "feat(tasks): use user github integrations for cloud runs",
-          "strategicScore": 8,
-          "effortHours": 16
-        },
-        {
-          "number": 57836,
-          "title": "fix(tasks): queue cloud task follow-up messages",
-          "strategicScore": 6,
-          "effortHours": 6
-        },
-        {
-          "number": 56902,
-          "title": "chore(cloud-runs): add failure attribution metrics",
-          "strategicScore": 4,
-          "effortHours": 6
-        }
-      ]
-    },
-    {
-      "login": "orian",
-      "impactScore": 70,
-      "dimensions": {
         "effort": 76,
-        "strategic": 68,
+        "strategic": 69,
         "impactMix": 78,
-        "quality": 91,
-        "collaboration": 67,
+        "quality": 90,
+        "collaboration": 68,
         "velocity": 50,
-        "scope": 73
+        "scope": 74
       },
       "metrics": {
         "prsAuthored": 8,
@@ -2201,85 +1927,92 @@
       ]
     },
     {
-      "login": "fasyy612",
-      "impactScore": 69,
+      "login": "andrewm4894",
+      "impactScore": 70,
       "dimensions": {
-        "effort": 63,
-        "strategic": 71,
-        "impactMix": 86,
-        "quality": 33,
-        "collaboration": 97,
-        "velocity": 40,
-        "scope": 83
+        "effort": 75,
+        "strategic": 85,
+        "impactMix": 68,
+        "quality": 64,
+        "collaboration": 69,
+        "velocity": 50,
+        "scope": 74
       },
       "metrics": {
-        "prsAuthored": 7,
-        "prsReviewed": 11,
-        "totalEffortHours": 33,
-        "totalAdditions": 733,
-        "totalDeletions": 98,
-        "avgFilesPerPR": 4.571428571428571,
-        "uniqueDirectories": 15,
+        "prsAuthored": 9,
+        "prsReviewed": 5,
+        "totalEffortHours": 47.5,
+        "totalAdditions": 3326,
+        "totalDeletions": 322,
+        "avgFilesPerPR": 5.888888888888889,
+        "uniqueDirectories": 11,
         "impactTypes": {
-          "feature": 3,
-          "fix": 4,
+          "feature": 4,
+          "fix": 3,
           "refactor": 0,
           "performance": 0,
-          "chore": 0,
-          "docs": 0,
+          "chore": 1,
+          "docs": 1,
           "test": 0
         },
         "productAreas": [
           {
-            "area": "session-replay",
-            "count": 7
+            "area": "llm-analytics",
+            "count": 5
+          },
+          {
+            "area": "posthog-ai",
+            "count": 2
+          },
+          {
+            "area": "mcp-server",
+            "count": 2
           }
         ],
         "useCasesAdvanced": [
-          "debug-issues",
           "ai-product"
         ],
-        "reviewsGiven": 11,
-        "reviewsWithSubstance": 2,
-        "avgReviewTurnaround": 1800.8453900709214,
-        "avgCycleTime": 2722.5714285714284,
-        "mergeFrequency": 5.603891591382905,
-        "aiAssistedPRs": 0,
-        "aiPercentage": 0
+        "reviewsGiven": 5,
+        "reviewsWithSubstance": 0,
+        "avgReviewTurnaround": 38.575,
+        "avgCycleTime": 743.7777777777778,
+        "mergeFrequency": 7.731137314611498,
+        "aiAssistedPRs": 2,
+        "aiPercentage": 22.22222222222222
       },
-      "explanation": "11 reviews (2 substantive) — strong team multiplier. 3 features, 4 fixes — strong value-creation mix.",
+      "explanation": "1 PostHog use cases advanced — highly aligned with the north star. Shipped 48 expert-hours across 9 PRs. 22% AI-assisted.",
       "topPRs": [
         {
-          "number": 57164,
-          "title": "feat(replay): enable adding custom tags for replay summaries",
-          "strategicScore": 8,
-          "effortHours": 20
+          "number": 57568,
+          "title": "feat(insights): expose trending endpoint via MCP",
+          "strategicScore": 9,
+          "effortHours": 12
         },
         {
-          "number": 56968,
-          "title": "feat(replay): add remaining replay summary context for analytics",
-          "strategicScore": 7,
-          "effortHours": 5
+          "number": 56938,
+          "title": "feat(signals): expose signal reports and source configs via MCP",
+          "strategicScore": 9,
+          "effortHours": 12
         },
         {
-          "number": 57685,
-          "title": "feat(replay): add button for copying summaries",
+          "number": 57910,
+          "title": "feat(llma): render mermaid diagrams in markdown views",
           "strategicScore": 8,
-          "effortHours": 3
+          "effortHours": 8
         }
       ]
     },
     {
       "login": "gesh",
-      "impactScore": 69,
+      "impactScore": 70,
       "dimensions": {
         "effort": 80,
-        "strategic": 87,
+        "strategic": 88,
         "impactMix": 92,
         "quality": 61,
         "collaboration": 22,
         "velocity": 68,
-        "scope": 75
+        "scope": 76
       },
       "metrics": {
         "prsAuthored": 9,
@@ -2348,16 +2081,311 @@
       ]
     },
     {
+      "login": "veryayskiy",
+      "impactScore": 70,
+      "dimensions": {
+        "effort": 88,
+        "strategic": 80,
+        "impactMix": 66,
+        "quality": 22,
+        "collaboration": 40,
+        "velocity": 81,
+        "scope": 91
+      },
+      "metrics": {
+        "prsAuthored": 16,
+        "prsReviewed": 8,
+        "totalEffortHours": 63.5,
+        "totalAdditions": 4213,
+        "totalDeletions": 808,
+        "avgFilesPerPR": 7.4375,
+        "uniqueDirectories": 14,
+        "impactTypes": {
+          "feature": 7,
+          "fix": 5,
+          "refactor": 1,
+          "performance": 0,
+          "chore": 3,
+          "docs": 0,
+          "test": 0
+        },
+        "productAreas": [
+          {
+            "area": "conversations",
+            "count": 10
+          },
+          {
+            "area": "posthog-ai",
+            "count": 2
+          },
+          {
+            "area": "infrastructure",
+            "count": 2
+          },
+          {
+            "area": "workflows",
+            "count": 1
+          },
+          {
+            "area": "surveys",
+            "count": 1
+          }
+        ],
+        "useCasesAdvanced": [
+          "ai-product",
+          "user-feedback"
+        ],
+        "reviewsGiven": 8,
+        "reviewsWithSubstance": 0,
+        "avgReviewTurnaround": 1189.010606060606,
+        "avgCycleTime": 458.75,
+        "mergeFrequency": 12.590622609202521,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "Touches 14 areas of the codebase — broad architectural influence. Shipped 64 expert-hours across 16 PRs.",
+      "topPRs": [
+        {
+          "number": 57158,
+          "title": "feat: github issues as channel",
+          "strategicScore": 7,
+          "effortHours": 20
+        },
+        {
+          "number": 57919,
+          "title": "feat(business knowledge): init",
+          "strategicScore": 8,
+          "effortHours": 8
+        },
+        {
+          "number": 57984,
+          "title": "feat(business knowledge): initial migrations and models",
+          "strategicScore": 7,
+          "effortHours": 6
+        }
+      ]
+    },
+    {
+      "login": "DanielVisca",
+      "impactScore": 70,
+      "dimensions": {
+        "effort": 83,
+        "strategic": 77,
+        "impactMix": 74,
+        "quality": 40,
+        "collaboration": 35,
+        "velocity": 80,
+        "scope": 87
+      },
+      "metrics": {
+        "prsAuthored": 8,
+        "prsReviewed": 2,
+        "totalEffortHours": 56,
+        "totalAdditions": 5700,
+        "totalDeletions": 515,
+        "avgFilesPerPR": 13.25,
+        "uniqueDirectories": 14,
+        "impactTypes": {
+          "feature": 5,
+          "fix": 1,
+          "refactor": 0,
+          "performance": 0,
+          "chore": 2,
+          "docs": 0,
+          "test": 0
+        },
+        "productAreas": [
+          {
+            "area": "logs",
+            "count": 8
+          }
+        ],
+        "useCasesAdvanced": [
+          "debug-issues",
+          "business-outcomes"
+        ],
+        "reviewsGiven": 2,
+        "reviewsWithSubstance": 0,
+        "avgReviewTurnaround": 139.18333333333334,
+        "avgCycleTime": 352.875,
+        "mergeFrequency": 12.991225338044657,
+        "aiAssistedPRs": 3,
+        "aiPercentage": 37.5
+      },
+      "explanation": "Touches 14 areas of the codebase — broad architectural influence. Shipped 56 expert-hours across 8 PRs. 38% AI-assisted.",
+      "topPRs": [
+        {
+          "number": 56988,
+          "title": "feat(logs): service rate limiting and sampling",
+          "strategicScore": 7,
+          "effortHours": 20
+        },
+        {
+          "number": 57238,
+          "title": "feat(logs): Drop Rules UI improvements",
+          "strategicScore": 5,
+          "effortHours": 12
+        },
+        {
+          "number": 57576,
+          "title": "feat(logs): rate limit by service",
+          "strategicScore": 5,
+          "effortHours": 8
+        }
+      ]
+    },
+    {
+      "login": "fasyy612",
+      "impactScore": 69,
+      "dimensions": {
+        "effort": 63,
+        "strategic": 71,
+        "impactMix": 86,
+        "quality": 33,
+        "collaboration": 98,
+        "velocity": 40,
+        "scope": 83
+      },
+      "metrics": {
+        "prsAuthored": 7,
+        "prsReviewed": 10,
+        "totalEffortHours": 33,
+        "totalAdditions": 733,
+        "totalDeletions": 98,
+        "avgFilesPerPR": 4.571428571428571,
+        "uniqueDirectories": 15,
+        "impactTypes": {
+          "feature": 3,
+          "fix": 4,
+          "refactor": 0,
+          "performance": 0,
+          "chore": 0,
+          "docs": 0,
+          "test": 0
+        },
+        "productAreas": [
+          {
+            "area": "session-replay",
+            "count": 7
+          }
+        ],
+        "useCasesAdvanced": [
+          "debug-issues",
+          "ai-product"
+        ],
+        "reviewsGiven": 10,
+        "reviewsWithSubstance": 2,
+        "avgReviewTurnaround": 1821.3775362318834,
+        "avgCycleTime": 2722.5714285714284,
+        "mergeFrequency": 5.603891591382905,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "10 reviews (2 substantive) — strong team multiplier. 3 features, 4 fixes — strong value-creation mix.",
+      "topPRs": [
+        {
+          "number": 57164,
+          "title": "feat(replay): enable adding custom tags for replay summaries",
+          "strategicScore": 8,
+          "effortHours": 20
+        },
+        {
+          "number": 56968,
+          "title": "feat(replay): add remaining replay summary context for analytics",
+          "strategicScore": 7,
+          "effortHours": 5
+        },
+        {
+          "number": 57685,
+          "title": "feat(replay): add button for copying summaries",
+          "strategicScore": 8,
+          "effortHours": 3
+        }
+      ]
+    },
+    {
+      "login": "dmarchuk",
+      "impactScore": 69,
+      "dimensions": {
+        "effort": 65,
+        "strategic": 60,
+        "impactMix": 71,
+        "quality": 70,
+        "collaboration": 88,
+        "velocity": 67,
+        "scope": 63
+      },
+      "metrics": {
+        "prsAuthored": 9,
+        "prsReviewed": 7,
+        "totalEffortHours": 34,
+        "totalAdditions": 984,
+        "totalDeletions": 125,
+        "avgFilesPerPR": 3.5555555555555554,
+        "uniqueDirectories": 10,
+        "impactTypes": {
+          "feature": 3,
+          "fix": 4,
+          "refactor": 0,
+          "performance": 1,
+          "chore": 1,
+          "docs": 0,
+          "test": 0
+        },
+        "productAreas": [
+          {
+            "area": "workflows",
+            "count": 6
+          },
+          {
+            "area": "infrastructure",
+            "count": 3
+          }
+        ],
+        "useCasesAdvanced": [
+          "feature-rollouts"
+        ],
+        "reviewsGiven": 7,
+        "reviewsWithSubstance": 1,
+        "avgReviewTurnaround": 64.29833333333335,
+        "avgCycleTime": 1125.4444444444443,
+        "mergeFrequency": 8.761845280157878,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "7 reviews (1 substantive) — strong team multiplier. 3 features, 4 fixes — strong value-creation mix.",
+      "topPRs": [
+        {
+          "number": 57720,
+          "title": "feat(workflows): Add distinct_id, person_id and action_id columns to cyclotron",
+          "strategicScore": 6,
+          "effortHours": 12
+        },
+        {
+          "number": 57517,
+          "title": "fix(cdp): Route hog watcher reads to redis reader endpoint",
+          "strategicScore": 6,
+          "effortHours": 8
+        },
+        {
+          "number": 57904,
+          "title": "fix(cdp): coerce non-UUID personId to null in cyclotron-v2 schema",
+          "strategicScore": 5,
+          "effortHours": 3
+        }
+      ]
+    },
+    {
       "login": "VojtechBartos",
       "impactScore": 69,
       "dimensions": {
-        "effort": 74,
+        "effort": 75,
         "strategic": 82,
         "impactMix": 46,
         "quality": 91,
         "collaboration": 56,
         "velocity": 35,
-        "scope": 93
+        "scope": 94
       },
       "metrics": {
         "prsAuthored": 7,
@@ -2433,157 +2461,16 @@
       ]
     },
     {
-      "login": "DanielVisca",
-      "impactScore": 69,
-      "dimensions": {
-        "effort": 82,
-        "strategic": 77,
-        "impactMix": 74,
-        "quality": 40,
-        "collaboration": 35,
-        "velocity": 79,
-        "scope": 86
-      },
-      "metrics": {
-        "prsAuthored": 8,
-        "prsReviewed": 2,
-        "totalEffortHours": 56,
-        "totalAdditions": 5700,
-        "totalDeletions": 515,
-        "avgFilesPerPR": 13.25,
-        "uniqueDirectories": 14,
-        "impactTypes": {
-          "feature": 5,
-          "fix": 1,
-          "refactor": 0,
-          "performance": 0,
-          "chore": 2,
-          "docs": 0,
-          "test": 0
-        },
-        "productAreas": [
-          {
-            "area": "logs",
-            "count": 8
-          }
-        ],
-        "useCasesAdvanced": [
-          "debug-issues",
-          "business-outcomes"
-        ],
-        "reviewsGiven": 2,
-        "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": 139.18333333333334,
-        "avgCycleTime": 352.875,
-        "mergeFrequency": 12.991225338044657,
-        "aiAssistedPRs": 3,
-        "aiPercentage": 37.5
-      },
-      "explanation": "Touches 14 areas of the codebase — broad architectural influence. Shipped 56 expert-hours across 8 PRs. 38% AI-assisted.",
-      "topPRs": [
-        {
-          "number": 56988,
-          "title": "feat(logs): service rate limiting and sampling",
-          "strategicScore": 7,
-          "effortHours": 20
-        },
-        {
-          "number": 57238,
-          "title": "feat(logs): Drop Rules UI improvements",
-          "strategicScore": 5,
-          "effortHours": 12
-        },
-        {
-          "number": 57576,
-          "title": "feat(logs): rate limit by service",
-          "strategicScore": 5,
-          "effortHours": 8
-        }
-      ]
-    },
-    {
-      "login": "dmarchuk",
+      "login": "robbie-c",
       "impactScore": 68,
       "dimensions": {
-        "effort": 64,
-        "strategic": 59,
-        "impactMix": 72,
-        "quality": 71,
-        "collaboration": 85,
-        "velocity": 67,
-        "scope": 63
-      },
-      "metrics": {
-        "prsAuthored": 9,
-        "prsReviewed": 7,
-        "totalEffortHours": 34,
-        "totalAdditions": 984,
-        "totalDeletions": 125,
-        "avgFilesPerPR": 3.5555555555555554,
-        "uniqueDirectories": 10,
-        "impactTypes": {
-          "feature": 3,
-          "fix": 4,
-          "refactor": 0,
-          "performance": 1,
-          "chore": 1,
-          "docs": 0,
-          "test": 0
-        },
-        "productAreas": [
-          {
-            "area": "workflows",
-            "count": 6
-          },
-          {
-            "area": "infrastructure",
-            "count": 3
-          }
-        ],
-        "useCasesAdvanced": [
-          "feature-rollouts"
-        ],
-        "reviewsGiven": 7,
-        "reviewsWithSubstance": 1,
-        "avgReviewTurnaround": 64.29833333333335,
-        "avgCycleTime": 1125.4444444444443,
-        "mergeFrequency": 8.761845280157878,
-        "aiAssistedPRs": 0,
-        "aiPercentage": 0
-      },
-      "explanation": "7 reviews (1 substantive) — strong team multiplier. 3 features, 4 fixes — strong value-creation mix.",
-      "topPRs": [
-        {
-          "number": 57720,
-          "title": "feat(workflows): Add distinct_id, person_id and action_id columns to cyclotron",
-          "strategicScore": 6,
-          "effortHours": 12
-        },
-        {
-          "number": 57517,
-          "title": "fix(cdp): Route hog watcher reads to redis reader endpoint",
-          "strategicScore": 6,
-          "effortHours": 8
-        },
-        {
-          "number": 57904,
-          "title": "fix(cdp): coerce non-UUID personId to null in cyclotron-v2 schema",
-          "strategicScore": 5,
-          "effortHours": 3
-        }
-      ]
-    },
-    {
-      "login": "robbie-c",
-      "impactScore": 67,
-      "dimensions": {
-        "effort": 89,
+        "effort": 90,
         "strategic": 90,
         "impactMix": 51,
-        "quality": 77,
-        "collaboration": 27,
-        "velocity": 59,
-        "scope": 69
+        "quality": 76,
+        "collaboration": 29,
+        "velocity": 60,
+        "scope": 70
       },
       "metrics": {
         "prsAuthored": 11,
@@ -2633,7 +2520,7 @@
         "aiAssistedPRs": 3,
         "aiPercentage": 27.27272727272727
       },
-      "explanation": "3 PostHog use cases advanced — highly aligned with the north star. Shipped 69 expert-hours across 11 PRs. 27% AI-assisted.",
+      "explanation": "Shipped 69 expert-hours across 11 PRs. 3 PostHog use cases advanced — highly aligned with the north star. 27% AI-assisted.",
       "topPRs": [
         {
           "number": 57304,
@@ -2656,83 +2543,15 @@
       ]
     },
     {
-      "login": "danielcarletti",
-      "impactScore": 66,
-      "dimensions": {
-        "effort": 70,
-        "strategic": 72,
-        "impactMix": 77,
-        "quality": 88,
-        "collaboration": 82,
-        "velocity": 32,
-        "scope": 48
-      },
-      "metrics": {
-        "prsAuthored": 6,
-        "prsReviewed": 9,
-        "totalEffortHours": 40,
-        "totalAdditions": 1510,
-        "totalDeletions": 209,
-        "avgFilesPerPR": 4.166666666666667,
-        "uniqueDirectories": 9,
-        "impactTypes": {
-          "feature": 1,
-          "fix": 4,
-          "refactor": 0,
-          "performance": 1,
-          "chore": 0,
-          "docs": 0,
-          "test": 0
-        },
-        "productAreas": [
-          {
-            "area": "data-warehouse",
-            "count": 6
-          }
-        ],
-        "useCasesAdvanced": [
-          "business-outcomes"
-        ],
-        "reviewsGiven": 9,
-        "reviewsWithSubstance": 2,
-        "avgReviewTurnaround": 2576.2680555555553,
-        "avgCycleTime": 4615.333333333333,
-        "mergeFrequency": 4.770600229537808,
-        "aiAssistedPRs": 6,
-        "aiPercentage": 100
-      },
-      "explanation": "Consistently high-quality PRs with clear problem statements and testing plans. 9 reviews (2 substantive) — strong team multiplier. 100% AI-assisted.",
-      "topPRs": [
-        {
-          "number": 56814,
-          "title": "chore(admin): repartition + non-billable resync from data warehouse schema admin",
-          "strategicScore": 7,
-          "effortHours": 12
-        },
-        {
-          "number": 56813,
-          "title": "fix(warehouse): per-partition reads for partitioned postgres sources",
-          "strategicScore": 7,
-          "effortHours": 8
-        },
-        {
-          "number": 56795,
-          "title": "fix(data-warehouse): surface real Stripe credential errors",
-          "strategicScore": 7,
-          "effortHours": 8
-        }
-      ]
-    },
-    {
       "login": "slshults",
-      "impactScore": 66,
+      "impactScore": 67,
       "dimensions": {
         "effort": 48,
         "strategic": 48,
         "impactMix": 82,
         "quality": 92,
-        "collaboration": 69,
-        "velocity": 89,
+        "collaboration": 71,
+        "velocity": 90,
         "scope": 57
       },
       "metrics": {
@@ -2798,15 +2617,15 @@
     },
     {
       "login": "ksvat",
-      "impactScore": 66,
+      "impactScore": 67,
       "dimensions": {
         "effort": 82,
-        "strategic": 88,
+        "strategic": 89,
         "impactMix": 82,
         "quality": 50,
-        "collaboration": 23,
+        "collaboration": 24,
         "velocity": 55,
-        "scope": 77
+        "scope": 78
       },
       "metrics": {
         "prsAuthored": 12,
@@ -2870,6 +2689,74 @@
       ]
     },
     {
+      "login": "danielcarletti",
+      "impactScore": 66,
+      "dimensions": {
+        "effort": 70,
+        "strategic": 72,
+        "impactMix": 76,
+        "quality": 88,
+        "collaboration": 83,
+        "velocity": 32,
+        "scope": 48
+      },
+      "metrics": {
+        "prsAuthored": 6,
+        "prsReviewed": 9,
+        "totalEffortHours": 40,
+        "totalAdditions": 1510,
+        "totalDeletions": 209,
+        "avgFilesPerPR": 4.166666666666667,
+        "uniqueDirectories": 9,
+        "impactTypes": {
+          "feature": 1,
+          "fix": 4,
+          "refactor": 0,
+          "performance": 1,
+          "chore": 0,
+          "docs": 0,
+          "test": 0
+        },
+        "productAreas": [
+          {
+            "area": "data-warehouse",
+            "count": 6
+          }
+        ],
+        "useCasesAdvanced": [
+          "business-outcomes"
+        ],
+        "reviewsGiven": 9,
+        "reviewsWithSubstance": 2,
+        "avgReviewTurnaround": 2576.2680555555553,
+        "avgCycleTime": 4615.333333333333,
+        "mergeFrequency": 4.770600229537808,
+        "aiAssistedPRs": 6,
+        "aiPercentage": 100
+      },
+      "explanation": "Consistently high-quality PRs with clear problem statements and testing plans. 9 reviews (2 substantive) — strong team multiplier. 100% AI-assisted.",
+      "topPRs": [
+        {
+          "number": 56814,
+          "title": "chore(admin): repartition + non-billable resync from data warehouse schema admin",
+          "strategicScore": 7,
+          "effortHours": 12
+        },
+        {
+          "number": 56813,
+          "title": "fix(warehouse): per-partition reads for partitioned postgres sources",
+          "strategicScore": 7,
+          "effortHours": 8
+        },
+        {
+          "number": 56795,
+          "title": "fix(data-warehouse): surface real Stripe credential errors",
+          "strategicScore": 7,
+          "effortHours": 8
+        }
+      ]
+    },
+    {
       "login": "estefaniarabadan",
       "impactScore": 66,
       "dimensions": {
@@ -2877,8 +2764,8 @@
         "strategic": 42,
         "impactMix": 77,
         "quality": 93,
-        "collaboration": 93,
-        "velocity": 91,
+        "collaboration": 95,
+        "velocity": 92,
         "scope": 43
       },
       "metrics": {
@@ -2915,7 +2802,7 @@
         "aiAssistedPRs": 0,
         "aiPercentage": 0
       },
-      "explanation": "Consistently high-quality PRs with clear problem statements and testing plans. 8 PRs reviewed — active reviewer.",
+      "explanation": "8 PRs reviewed — active reviewer. Consistently high-quality PRs with clear problem statements and testing plans.",
       "topPRs": [
         {
           "number": 57143,
@@ -2938,238 +2825,16 @@
       ]
     },
     {
-      "login": "a-lider",
+      "login": "mariusandra",
       "impactScore": 65,
-      "dimensions": {
-        "effort": 63,
-        "strategic": 55,
-        "impactMix": 91,
-        "quality": 54,
-        "collaboration": 91,
-        "velocity": 46,
-        "scope": 60
-      },
-      "metrics": {
-        "prsAuthored": 8,
-        "prsReviewed": 12,
-        "totalEffortHours": 33,
-        "totalAdditions": 421,
-        "totalDeletions": 96,
-        "avgFilesPerPR": 3.875,
-        "uniqueDirectories": 8,
-        "impactTypes": {
-          "feature": 4,
-          "fix": 4,
-          "refactor": 0,
-          "performance": 0,
-          "chore": 0,
-          "docs": 0,
-          "test": 0
-        },
-        "productAreas": [
-          {
-            "area": "infrastructure",
-            "count": 3
-          },
-          {
-            "area": "product-analytics",
-            "count": 3
-          },
-          {
-            "area": "data-warehouse",
-            "count": 1
-          },
-          {
-            "area": "posthog-code",
-            "count": 1
-          }
-        ],
-        "useCasesAdvanced": [
-          "user-navigation",
-          "business-outcomes",
-          "user-feedback"
-        ],
-        "reviewsGiven": 12,
-        "reviewsWithSubstance": 2,
-        "avgReviewTurnaround": 413.50507246376804,
-        "avgCycleTime": 2077.5,
-        "mergeFrequency": 7.177900185292604,
-        "aiAssistedPRs": 0,
-        "aiPercentage": 0
-      },
-      "explanation": "4 features, 4 fixes — strong value-creation mix. 12 reviews (2 substantive) — strong team multiplier.",
-      "topPRs": [
-        {
-          "number": 57339,
-          "title": "feat(notebooks): show comment previews in side-panel",
-          "strategicScore": 4,
-          "effortHours": 8
-        },
-        {
-          "number": 57298,
-          "title": "feat(notebooks): sync comment selection between editor and side panel",
-          "strategicScore": 5,
-          "effortHours": 6
-        },
-        {
-          "number": 57555,
-          "title": "fix(notebooks): make SQL chart adapt to notebook node height ",
-          "strategicScore": 5,
-          "effortHours": 4
-        }
-      ]
-    },
-    {
-      "login": "jurajmajerik",
-      "impactScore": 65,
-      "dimensions": {
-        "effort": 71,
-        "strategic": 70,
-        "impactMix": 69,
-        "quality": 55,
-        "collaboration": 34,
-        "velocity": 87,
-        "scope": 63
-      },
-      "metrics": {
-        "prsAuthored": 24,
-        "prsReviewed": 6,
-        "totalEffortHours": 40.5,
-        "totalAdditions": 893,
-        "totalDeletions": 452,
-        "avgFilesPerPR": 2.25,
-        "uniqueDirectories": 10,
-        "impactTypes": {
-          "feature": 9,
-          "fix": 10,
-          "refactor": 2,
-          "performance": 0,
-          "chore": 3,
-          "docs": 0,
-          "test": 0
-        },
-        "productAreas": [
-          {
-            "area": "experiments",
-            "count": 23
-          },
-          {
-            "area": "infrastructure",
-            "count": 1
-          }
-        ],
-        "useCasesAdvanced": [
-          "hypothesis-validation"
-        ],
-        "reviewsGiven": 6,
-        "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": 822.3944444444445,
-        "avgCycleTime": 405.0833333333333,
-        "mergeFrequency": 21.804514666582545,
-        "aiAssistedPRs": 0,
-        "aiPercentage": 0
-      },
-      "explanation": "6.8h avg cycle time, 21.8 PRs/week. Shipped 41 expert-hours across 24 PRs.",
-      "topPRs": [
-        {
-          "number": 57297,
-          "title": "feat(experiments): Add demo experiment that triggers multi-variant bias warning",
-          "strategicScore": 7,
-          "effortHours": 4
-        },
-        {
-          "number": 57428,
-          "title": "fix(experiments): Render exposures chart inside its own component",
-          "strategicScore": 8,
-          "effortHours": 3
-        },
-        {
-          "number": 57771,
-          "title": "feat(experiments): Always compute timeseries for running experiments",
-          "strategicScore": 7,
-          "effortHours": 3
-        }
-      ]
-    },
-    {
-      "login": "mcoll-posthog",
-      "impactScore": 64,
       "dimensions": {
         "effort": 78,
-        "strategic": 73,
-        "impactMix": 92,
-        "quality": 34,
-        "collaboration": 7,
-        "velocity": 95,
-        "scope": 65
-      },
-      "metrics": {
-        "prsAuthored": 6,
-        "prsReviewed": 0,
-        "totalEffortHours": 50,
-        "totalAdditions": 4056,
-        "totalDeletions": 650,
-        "avgFilesPerPR": 8.5,
-        "uniqueDirectories": 12,
-        "impactTypes": {
-          "feature": 2,
-          "fix": 0,
-          "refactor": 0,
-          "performance": 4,
-          "chore": 0,
-          "docs": 0,
-          "test": 0
-        },
-        "productAreas": [
-          {
-            "area": "infrastructure",
-            "count": 6
-          }
-        ],
-        "useCasesAdvanced": [
-          "business-outcomes"
-        ],
-        "reviewsGiven": 0,
-        "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": null,
-        "avgCycleTime": 671.6666666666666,
-        "mergeFrequency": 21.392064044142355,
-        "aiAssistedPRs": 0,
-        "aiPercentage": 0
-      },
-      "explanation": "11.2h avg cycle time, 21.4 PRs/week. 2 features, 0 fixes — strong value-creation mix.",
-      "topPRs": [
-        {
-          "number": 57664,
-          "title": "feat(billing): Usage Reports Temporal Workflow",
-          "strategicScore": 7,
-          "effortHours": 20
-        },
-        {
-          "number": 57912,
-          "title": "feat(usage-reports): add events_daily_agg ClickHouse materialized view",
-          "strategicScore": 6,
-          "effortHours": 12
-        },
-        {
-          "number": 57980,
-          "title": "chore(usage-reports): Optimizations for usage reports aggregator",
-          "strategicScore": 3,
-          "effortHours": 8
-        }
-      ]
-    },
-    {
-      "login": "mariusandra",
-      "impactScore": 64,
-      "dimensions": {
-        "effort": 77,
         "strategic": 75,
-        "impactMix": 64,
+        "impactMix": 65,
         "quality": 47,
         "collaboration": 39,
         "velocity": 52,
-        "scope": 86
+        "scope": 87
       },
       "metrics": {
         "prsAuthored": 11,
@@ -3246,15 +2911,155 @@
       ]
     },
     {
+      "login": "jurajmajerik",
+      "impactScore": 65,
+      "dimensions": {
+        "effort": 71,
+        "strategic": 70,
+        "impactMix": 70,
+        "quality": 55,
+        "collaboration": 34,
+        "velocity": 88,
+        "scope": 63
+      },
+      "metrics": {
+        "prsAuthored": 24,
+        "prsReviewed": 6,
+        "totalEffortHours": 40.5,
+        "totalAdditions": 893,
+        "totalDeletions": 452,
+        "avgFilesPerPR": 2.25,
+        "uniqueDirectories": 10,
+        "impactTypes": {
+          "feature": 9,
+          "fix": 10,
+          "refactor": 2,
+          "performance": 0,
+          "chore": 3,
+          "docs": 0,
+          "test": 0
+        },
+        "productAreas": [
+          {
+            "area": "experiments",
+            "count": 23
+          },
+          {
+            "area": "infrastructure",
+            "count": 1
+          }
+        ],
+        "useCasesAdvanced": [
+          "hypothesis-validation"
+        ],
+        "reviewsGiven": 6,
+        "reviewsWithSubstance": 0,
+        "avgReviewTurnaround": 822.3944444444445,
+        "avgCycleTime": 405.0833333333333,
+        "mergeFrequency": 21.804514666582545,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "6.8h avg cycle time, 21.8 PRs/week. Shipped 41 expert-hours across 24 PRs.",
+      "topPRs": [
+        {
+          "number": 57297,
+          "title": "feat(experiments): Add demo experiment that triggers multi-variant bias warning",
+          "strategicScore": 7,
+          "effortHours": 4
+        },
+        {
+          "number": 57428,
+          "title": "fix(experiments): Render exposures chart inside its own component",
+          "strategicScore": 8,
+          "effortHours": 3
+        },
+        {
+          "number": 57771,
+          "title": "feat(experiments): Always compute timeseries for running experiments",
+          "strategicScore": 7,
+          "effortHours": 3
+        }
+      ]
+    },
+    {
+      "login": "mcoll-posthog",
+      "impactScore": 64,
+      "dimensions": {
+        "effort": 79,
+        "strategic": 73,
+        "impactMix": 92,
+        "quality": 34,
+        "collaboration": 7,
+        "velocity": 95,
+        "scope": 65
+      },
+      "metrics": {
+        "prsAuthored": 6,
+        "prsReviewed": 0,
+        "totalEffortHours": 50,
+        "totalAdditions": 4056,
+        "totalDeletions": 650,
+        "avgFilesPerPR": 8.5,
+        "uniqueDirectories": 12,
+        "impactTypes": {
+          "feature": 2,
+          "fix": 0,
+          "refactor": 0,
+          "performance": 4,
+          "chore": 0,
+          "docs": 0,
+          "test": 0
+        },
+        "productAreas": [
+          {
+            "area": "infrastructure",
+            "count": 6
+          }
+        ],
+        "useCasesAdvanced": [
+          "business-outcomes"
+        ],
+        "reviewsGiven": 0,
+        "reviewsWithSubstance": 0,
+        "avgReviewTurnaround": null,
+        "avgCycleTime": 671.6666666666666,
+        "mergeFrequency": 21.392064044142355,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "11.2h avg cycle time, 21.4 PRs/week. 2 features, 0 fixes — strong value-creation mix.",
+      "topPRs": [
+        {
+          "number": 57664,
+          "title": "feat(billing): Usage Reports Temporal Workflow",
+          "strategicScore": 7,
+          "effortHours": 20
+        },
+        {
+          "number": 57912,
+          "title": "feat(usage-reports): add events_daily_agg ClickHouse materialized view",
+          "strategicScore": 6,
+          "effortHours": 12
+        },
+        {
+          "number": 57980,
+          "title": "chore(usage-reports): Optimizations for usage reports aggregator",
+          "strategicScore": 3,
+          "effortHours": 8
+        }
+      ]
+    },
+    {
       "login": "fercgomes",
       "impactScore": 64,
       "dimensions": {
         "effort": 62,
         "strategic": 66,
-        "impactMix": 68,
-        "quality": 36,
-        "collaboration": 80,
-        "velocity": 41,
+        "impactMix": 69,
+        "quality": 35,
+        "collaboration": 81,
+        "velocity": 40,
         "scope": 83
       },
       "metrics": {
@@ -3334,13 +3139,13 @@
         "strategic": 33,
         "impactMix": 89,
         "quality": 98,
-        "collaboration": 89,
+        "collaboration": 85,
         "velocity": 96,
         "scope": 41
       },
       "metrics": {
         "prsAuthored": 2,
-        "prsReviewed": 6,
+        "prsReviewed": 5,
         "totalEffortHours": 5,
         "totalAdditions": 77,
         "totalDeletions": 6,
@@ -3366,9 +3171,9 @@
           }
         ],
         "useCasesAdvanced": [],
-        "reviewsGiven": 6,
+        "reviewsGiven": 5,
         "reviewsWithSubstance": 1,
-        "avgReviewTurnaround": 463.79266666666655,
+        "avgReviewTurnaround": 542.0436507936507,
         "avgCycleTime": 504.5,
         "mergeFrequency": 15.673063218316338,
         "aiAssistedPRs": 0,
@@ -3394,11 +3199,11 @@
       "login": "eli-r-ph",
       "impactScore": 63,
       "dimensions": {
-        "effort": 77,
+        "effort": 78,
         "strategic": 65,
         "impactMix": 45,
         "quality": 54,
-        "collaboration": 88,
+        "collaboration": 90,
         "velocity": 51,
         "scope": 50
       },
@@ -3466,20 +3271,88 @@
       ]
     },
     {
+      "login": "Gilbert09",
+      "impactScore": 63,
+      "dimensions": {
+        "effort": 68,
+        "strategic": 67,
+        "impactMix": 48,
+        "quality": 45,
+        "collaboration": 48,
+        "velocity": 90,
+        "scope": 61
+      },
+      "metrics": {
+        "prsAuthored": 9,
+        "prsReviewed": 4,
+        "totalEffortHours": 39.5,
+        "totalAdditions": 2499,
+        "totalDeletions": 274,
+        "avgFilesPerPR": 5.222222222222222,
+        "uniqueDirectories": 8,
+        "impactTypes": {
+          "feature": 2,
+          "fix": 5,
+          "refactor": 0,
+          "performance": 0,
+          "chore": 1,
+          "docs": 1,
+          "test": 0
+        },
+        "productAreas": [
+          {
+            "area": "data-warehouse",
+            "count": 9
+          }
+        ],
+        "useCasesAdvanced": [
+          "business-outcomes"
+        ],
+        "reviewsGiven": 4,
+        "reviewsWithSubstance": 0,
+        "avgReviewTurnaround": 840.7291666666667,
+        "avgCycleTime": 720.5555555555555,
+        "mergeFrequency": 48.52893976677009,
+        "aiAssistedPRs": 1,
+        "aiPercentage": 11.11111111111111
+      },
+      "explanation": "12.0h avg cycle time, 48.5 PRs/week. Shipped 40 expert-hours across 9 PRs. 11% AI-assisted.",
+      "topPRs": [
+        {
+          "number": 56935,
+          "title": "feat(data-warehouse): expand Customer.io source with App API tables and auto-webhook setup",
+          "strategicScore": 6,
+          "effortHours": 16
+        },
+        {
+          "number": 57287,
+          "title": "feat(data-warehouse): auto-enable Customer.io webhook on signing secret",
+          "strategicScore": 6,
+          "effortHours": 8
+        },
+        {
+          "number": 57168,
+          "title": "fix(data-warehouse): restore google sheets auth broken by tracked session",
+          "strategicScore": 6,
+          "effortHours": 4
+        }
+      ]
+    },
+    {
       "login": "joshsny",
       "impactScore": 62,
       "dimensions": {
         "effort": 65,
         "strategic": 55,
-        "impactMix": 31,
+        "impactMix": 30,
         "quality": 39,
-        "collaboration": 87,
+        "collaboration": 86,
         "velocity": 58,
-        "scope": 84
+        "scope": 85
       },
       "metrics": {
         "prsAuthored": 15,
-        "prsReviewed": 18,
+        "prsReviewed": 16,
         "totalEffortHours": 35,
         "totalAdditions": 1370,
         "totalDeletions": 336,
@@ -3523,15 +3396,15 @@
         "useCasesAdvanced": [
           "ai-product"
         ],
-        "reviewsGiven": 18,
+        "reviewsGiven": 16,
         "reviewsWithSubstance": 1,
-        "avgReviewTurnaround": 489.6972222222222,
+        "avgReviewTurnaround": 540.890625,
         "avgCycleTime": 1053.1333333333334,
         "mergeFrequency": 11.760145912921512,
         "aiAssistedPRs": 0,
         "aiPercentage": 0
       },
-      "explanation": "18 reviews (1 substantive) — strong team multiplier. Touches 13 areas of the codebase — broad architectural influence.",
+      "explanation": "16 reviews (1 substantive) — strong team multiplier. Touches 13 areas of the codebase — broad architectural influence.",
       "topPRs": [
         {
           "number": 56897,
@@ -3560,10 +3433,10 @@
         "effort": 68,
         "strategic": 68,
         "impactMix": 80,
-        "quality": 82,
+        "quality": 81,
         "collaboration": 30,
         "velocity": 45,
-        "scope": 73
+        "scope": 74
       },
       "metrics": {
         "prsAuthored": 13,
@@ -3699,28 +3572,28 @@
       ]
     },
     {
-      "login": "Gilbert09",
+      "login": "dmarticus",
       "impactScore": 62,
       "dimensions": {
-        "effort": 68,
-        "strategic": 67,
-        "impactMix": 48,
-        "quality": 45,
-        "collaboration": 46,
-        "velocity": 90,
-        "scope": 61
+        "effort": 57,
+        "strategic": 58,
+        "impactMix": 57,
+        "quality": 52,
+        "collaboration": 95,
+        "velocity": 56,
+        "scope": 53
       },
       "metrics": {
         "prsAuthored": 9,
-        "prsReviewed": 4,
-        "totalEffortHours": 39.5,
-        "totalAdditions": 2499,
-        "totalDeletions": 274,
-        "avgFilesPerPR": 5.222222222222222,
+        "prsReviewed": 7,
+        "totalEffortHours": 27,
+        "totalAdditions": 763,
+        "totalDeletions": 362,
+        "avgFilesPerPR": 2.7777777777777777,
         "uniqueDirectories": 8,
         "impactTypes": {
-          "feature": 2,
-          "fix": 5,
+          "feature": 3,
+          "fix": 4,
           "refactor": 0,
           "performance": 0,
           "chore": 1,
@@ -3729,39 +3602,48 @@
         },
         "productAreas": [
           {
-            "area": "data-warehouse",
-            "count": 9
+            "area": "feature-flags",
+            "count": 6
+          },
+          {
+            "area": "mcp-server",
+            "count": 2
+          },
+          {
+            "area": "error-tracking",
+            "count": 1
           }
         ],
         "useCasesAdvanced": [
-          "business-outcomes"
+          "feature-rollouts",
+          "debug-issues"
         ],
-        "reviewsGiven": 4,
-        "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": 840.7291666666667,
-        "avgCycleTime": 720.5555555555555,
-        "mergeFrequency": 48.52893976677009,
-        "aiAssistedPRs": 1,
-        "aiPercentage": 11.11111111111111
+        "reviewsGiven": 7,
+        "reviewsWithSubstance": 4,
+        "avgReviewTurnaround": 2303.338461538461,
+        "avgCycleTime": 2010.7777777777778,
+        "mergeFrequency": 9.29543118081622,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
       },
-      "explanation": "12.0h avg cycle time, 48.5 PRs/week. Shipped 40 expert-hours across 9 PRs. 11% AI-assisted.",
+      "explanation": "7 reviews (4 substantive) — strong team multiplier. 2 PostHog use cases advanced — highly aligned with the north star.",
       "topPRs": [
         {
-          "number": 56935,
-          "title": "feat(data-warehouse): expand Customer.io source with App API tables and auto-webhook setup",
+          "number": 57007,
+          "title": "feat(flags): add general property targeting to flags UI",
           "strategicScore": 6,
-          "effortHours": 16
+          "effortHours": 10
         },
         {
-          "number": 57287,
-          "title": "feat(data-warehouse): auto-enable Customer.io webhook on signing secret",
-          "strategicScore": 6,
-          "effortHours": 8
+          "number": 57235,
+          "title": "fix(feature-flags): make copy_flags MCP tool work end-to-end",
+          "strategicScore": 8,
+          "effortHours": 4
         },
         {
-          "number": 57168,
-          "title": "fix(data-warehouse): restore google sheets auth broken by tracked session",
-          "strategicScore": 6,
+          "number": 56822,
+          "title": "fix(error-boundary): tell users what's already attached to bug reports",
+          "strategicScore": 5,
           "effortHours": 4
         }
       ]
@@ -3771,12 +3653,12 @@
       "impactScore": 61,
       "dimensions": {
         "effort": 67,
-        "strategic": 69,
+        "strategic": 70,
         "impactMix": 47,
         "quality": 56,
         "collaboration": 38,
         "velocity": 59,
-        "scope": 80
+        "scope": 81
       },
       "metrics": {
         "prsAuthored": 8,
@@ -3850,164 +3732,15 @@
       ]
     },
     {
-      "login": "dmarticus",
-      "impactScore": 61,
-      "dimensions": {
-        "effort": 57,
-        "strategic": 58,
-        "impactMix": 57,
-        "quality": 52,
-        "collaboration": 92,
-        "velocity": 56,
-        "scope": 53
-      },
-      "metrics": {
-        "prsAuthored": 9,
-        "prsReviewed": 7,
-        "totalEffortHours": 27,
-        "totalAdditions": 763,
-        "totalDeletions": 362,
-        "avgFilesPerPR": 2.7777777777777777,
-        "uniqueDirectories": 8,
-        "impactTypes": {
-          "feature": 3,
-          "fix": 4,
-          "refactor": 0,
-          "performance": 0,
-          "chore": 1,
-          "docs": 1,
-          "test": 0
-        },
-        "productAreas": [
-          {
-            "area": "feature-flags",
-            "count": 6
-          },
-          {
-            "area": "mcp-server",
-            "count": 2
-          },
-          {
-            "area": "error-tracking",
-            "count": 1
-          }
-        ],
-        "useCasesAdvanced": [
-          "feature-rollouts",
-          "debug-issues"
-        ],
-        "reviewsGiven": 7,
-        "reviewsWithSubstance": 4,
-        "avgReviewTurnaround": 2303.338461538461,
-        "avgCycleTime": 2010.7777777777778,
-        "mergeFrequency": 9.29543118081622,
-        "aiAssistedPRs": 0,
-        "aiPercentage": 0
-      },
-      "explanation": "7 reviews (4 substantive) — strong team multiplier. 2 PostHog use cases advanced — highly aligned with the north star.",
-      "topPRs": [
-        {
-          "number": 57007,
-          "title": "feat(flags): add general property targeting to flags UI",
-          "strategicScore": 6,
-          "effortHours": 10
-        },
-        {
-          "number": 57235,
-          "title": "fix(feature-flags): make copy_flags MCP tool work end-to-end",
-          "strategicScore": 8,
-          "effortHours": 4
-        },
-        {
-          "number": 56822,
-          "title": "fix(error-boundary): tell users what's already attached to bug reports",
-          "strategicScore": 5,
-          "effortHours": 4
-        }
-      ]
-    },
-    {
-      "login": "rafaeelaudibert",
-      "impactScore": 60,
-      "dimensions": {
-        "effort": 61,
-        "strategic": 53,
-        "impactMix": 39,
-        "quality": 36,
-        "collaboration": 55,
-        "velocity": 85,
-        "scope": 79
-      },
-      "metrics": {
-        "prsAuthored": 5,
-        "prsReviewed": 3,
-        "totalEffortHours": 29,
-        "totalAdditions": 980,
-        "totalDeletions": 296,
-        "avgFilesPerPR": 7,
-        "uniqueDirectories": 12,
-        "impactTypes": {
-          "feature": 2,
-          "fix": 1,
-          "refactor": 0,
-          "performance": 0,
-          "chore": 2,
-          "docs": 0,
-          "test": 0
-        },
-        "productAreas": [
-          {
-            "area": "infrastructure",
-            "count": 4
-          },
-          {
-            "area": "devex",
-            "count": 1
-          }
-        ],
-        "useCasesAdvanced": [
-          "business-outcomes"
-        ],
-        "reviewsGiven": 3,
-        "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": 60.13484848484848,
-        "avgCycleTime": 401.4,
-        "mergeFrequency": 11.247865918296752,
-        "aiAssistedPRs": 4,
-        "aiPercentage": 80
-      },
-      "explanation": "6.7h avg cycle time, 11.2 PRs/week. Touches 12 areas of the codebase — broad architectural influence. 80% AI-assisted.",
-      "topPRs": [
-        {
-          "number": 57907,
-          "title": "feat(legal-documents): add MSA document type with staff admin upload flow",
-          "strategicScore": 4,
-          "effortHours": 20
-        },
-        {
-          "number": 57877,
-          "title": "feat(oauth): show \"Redirecting…\" screen after authorize",
-          "strategicScore": 6,
-          "effortHours": 3
-        },
-        {
-          "number": 57860,
-          "title": "chore(hogli): detect namespace imports in codegen adoption scoring",
-          "strategicScore": 5,
-          "effortHours": 3
-        }
-      ]
-    },
-    {
       "login": "meikelmosby",
       "impactScore": 60,
       "dimensions": {
         "effort": 54,
         "strategic": 50,
         "impactMix": 50,
-        "quality": 68,
+        "quality": 67,
         "collaboration": 58,
-        "velocity": 78,
+        "velocity": 79,
         "scope": 67
       },
       "metrics": {
@@ -4078,8 +3811,8 @@
         "effort": 44,
         "strategic": 44,
         "impactMix": 82,
-        "quality": 67,
-        "collaboration": 81,
+        "quality": 66,
+        "collaboration": 82,
         "velocity": 57,
         "scope": 57
       },
@@ -4156,7 +3889,7 @@
         "impactMix": 89,
         "quality": 97,
         "collaboration": 7,
-        "velocity": 88,
+        "velocity": 89,
         "scope": 65
       },
       "metrics": {
@@ -4213,14 +3946,238 @@
       ]
     },
     {
+      "login": "rafaeelaudibert",
+      "impactScore": 59,
+      "dimensions": {
+        "effort": 61,
+        "strategic": 53,
+        "impactMix": 39,
+        "quality": 36,
+        "collaboration": 45,
+        "velocity": 85,
+        "scope": 79
+      },
+      "metrics": {
+        "prsAuthored": 5,
+        "prsReviewed": 2,
+        "totalEffortHours": 29,
+        "totalAdditions": 980,
+        "totalDeletions": 296,
+        "avgFilesPerPR": 7,
+        "uniqueDirectories": 12,
+        "impactTypes": {
+          "feature": 2,
+          "fix": 1,
+          "refactor": 0,
+          "performance": 0,
+          "chore": 2,
+          "docs": 0,
+          "test": 0
+        },
+        "productAreas": [
+          {
+            "area": "infrastructure",
+            "count": 4
+          },
+          {
+            "area": "devex",
+            "count": 1
+          }
+        ],
+        "useCasesAdvanced": [
+          "business-outcomes"
+        ],
+        "reviewsGiven": 2,
+        "reviewsWithSubstance": 0,
+        "avgReviewTurnaround": 65.90666666666667,
+        "avgCycleTime": 401.4,
+        "mergeFrequency": 11.247865918296752,
+        "aiAssistedPRs": 4,
+        "aiPercentage": 80
+      },
+      "explanation": "6.7h avg cycle time, 11.2 PRs/week. Touches 12 areas of the codebase — broad architectural influence. 80% AI-assisted.",
+      "topPRs": [
+        {
+          "number": 57907,
+          "title": "feat(legal-documents): add MSA document type with staff admin upload flow",
+          "strategicScore": 4,
+          "effortHours": 20
+        },
+        {
+          "number": 57877,
+          "title": "feat(oauth): show \"Redirecting…\" screen after authorize",
+          "strategicScore": 6,
+          "effortHours": 3
+        },
+        {
+          "number": 57860,
+          "title": "chore(hogli): detect namespace imports in codegen adoption scoring",
+          "strategicScore": 5,
+          "effortHours": 3
+        }
+      ]
+    },
+    {
+      "login": "a-lider",
+      "impactScore": 59,
+      "dimensions": {
+        "effort": 63,
+        "strategic": 55,
+        "impactMix": 90,
+        "quality": 54,
+        "collaboration": 55,
+        "velocity": 46,
+        "scope": 60
+      },
+      "metrics": {
+        "prsAuthored": 8,
+        "prsReviewed": 9,
+        "totalEffortHours": 33,
+        "totalAdditions": 421,
+        "totalDeletions": 96,
+        "avgFilesPerPR": 3.875,
+        "uniqueDirectories": 8,
+        "impactTypes": {
+          "feature": 4,
+          "fix": 4,
+          "refactor": 0,
+          "performance": 0,
+          "chore": 0,
+          "docs": 0,
+          "test": 0
+        },
+        "productAreas": [
+          {
+            "area": "infrastructure",
+            "count": 3
+          },
+          {
+            "area": "product-analytics",
+            "count": 3
+          },
+          {
+            "area": "data-warehouse",
+            "count": 1
+          },
+          {
+            "area": "posthog-code",
+            "count": 1
+          }
+        ],
+        "useCasesAdvanced": [
+          "user-navigation",
+          "business-outcomes",
+          "user-feedback"
+        ],
+        "reviewsGiven": 9,
+        "reviewsWithSubstance": 0,
+        "avgReviewTurnaround": 767.4370370370372,
+        "avgCycleTime": 2077.5,
+        "mergeFrequency": 7.177900185292604,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "4 features, 4 fixes — strong value-creation mix. Shipped 33 expert-hours across 8 PRs.",
+      "topPRs": [
+        {
+          "number": 57339,
+          "title": "feat(notebooks): show comment previews in side-panel",
+          "strategicScore": 4,
+          "effortHours": 8
+        },
+        {
+          "number": 57298,
+          "title": "feat(notebooks): sync comment selection between editor and side panel",
+          "strategicScore": 5,
+          "effortHours": 6
+        },
+        {
+          "number": 57555,
+          "title": "fix(notebooks): make SQL chart adapt to notebook node height ",
+          "strategicScore": 5,
+          "effortHours": 4
+        }
+      ]
+    },
+    {
+      "login": "k11kirky",
+      "impactScore": 59,
+      "dimensions": {
+        "effort": 49,
+        "strategic": 45,
+        "impactMix": 70,
+        "quality": 84,
+        "collaboration": 64,
+        "velocity": 65,
+        "scope": 53
+      },
+      "metrics": {
+        "prsAuthored": 4,
+        "prsReviewed": 3,
+        "totalEffortHours": 17,
+        "totalAdditions": 1074,
+        "totalDeletions": 49,
+        "avgFilesPerPR": 3.75,
+        "uniqueDirectories": 7,
+        "impactTypes": {
+          "feature": 1,
+          "fix": 2,
+          "refactor": 1,
+          "performance": 0,
+          "chore": 0,
+          "docs": 0,
+          "test": 0
+        },
+        "productAreas": [
+          {
+            "area": "infrastructure",
+            "count": 3
+          },
+          {
+            "area": "posthog-code",
+            "count": 1
+          }
+        ],
+        "useCasesAdvanced": [],
+        "reviewsGiven": 3,
+        "reviewsWithSubstance": 0,
+        "avgReviewTurnaround": 8.316666666666666,
+        "avgCycleTime": 605.5,
+        "mergeFrequency": 5.093342147869458,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "Consistently high-quality PRs with clear problem statements and testing plans. 1 features, 2 fixes — strong value-creation mix.",
+      "topPRs": [
+        {
+          "number": 57029,
+          "title": "feat: allow user to use exising integration id for other org",
+          "strategicScore": 4,
+          "effortHours": 12
+        },
+        {
+          "number": 57456,
+          "title": "fix(billing): align code plan key naming convention between Twig and PostHog",
+          "strategicScore": 6,
+          "effortHours": 2
+        },
+        {
+          "number": 57286,
+          "title": "fix: type for integration",
+          "strategicScore": 4,
+          "effortHours": 2
+        }
+      ]
+    },
+    {
       "login": "andehen",
       "impactScore": 59,
       "dimensions": {
-        "effort": 41,
+        "effort": 40,
         "strategic": 46,
-        "impactMix": 67,
+        "impactMix": 68,
         "quality": 84,
-        "collaboration": 78,
+        "collaboration": 80,
         "velocity": 73,
         "scope": 41
       },
@@ -4286,168 +4243,16 @@
       ]
     },
     {
-      "login": "Twixes",
-      "impactScore": 58,
-      "dimensions": {
-        "effort": 59,
-        "strategic": 63,
-        "impactMix": 43,
-        "quality": 45,
-        "collaboration": 76,
-        "velocity": 38,
-        "scope": 69
-      },
-      "metrics": {
-        "prsAuthored": 7,
-        "prsReviewed": 7,
-        "totalEffortHours": 28,
-        "totalAdditions": 1193,
-        "totalDeletions": 295,
-        "avgFilesPerPR": 3.4285714285714284,
-        "uniqueDirectories": 11,
-        "impactTypes": {
-          "feature": 0,
-          "fix": 6,
-          "refactor": 0,
-          "performance": 0,
-          "chore": 0,
-          "docs": 1,
-          "test": 0
-        },
-        "productAreas": [
-          {
-            "area": "signals",
-            "count": 4
-          },
-          {
-            "area": "infrastructure",
-            "count": 1
-          },
-          {
-            "area": "session-replay",
-            "count": 1
-          },
-          {
-            "area": "posthog-code",
-            "count": 1
-          }
-        ],
-        "useCasesAdvanced": [
-          "business-outcomes",
-          "debug-issues",
-          "ai-product"
-        ],
-        "reviewsGiven": 7,
-        "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": 969.0983333333334,
-        "avgCycleTime": 1273.4285714285713,
-        "mergeFrequency": 6.2183106452731085,
-        "aiAssistedPRs": 1,
-        "aiPercentage": 14.285714285714285
-      },
-      "explanation": "7 PRs reviewed — active reviewer. Touches 11 areas of the codebase — broad architectural influence. 14% AI-assisted.",
-      "topPRs": [
-        {
-          "number": 57521,
-          "title": "fix(signals): List API fixes",
-          "strategicScore": 8,
-          "effortHours": 8
-        },
-        {
-          "number": 57040,
-          "title": "fix(integrations): Let users pick any GitHub org",
-          "strategicScore": 6,
-          "effortHours": 6
-        },
-        {
-          "number": 57541,
-          "title": "chore(exports): Allow asset retrieve across teammates",
-          "strategicScore": 7,
-          "effortHours": 5
-        }
-      ]
-    },
-    {
-      "login": "k11kirky",
-      "impactScore": 58,
-      "dimensions": {
-        "effort": 49,
-        "strategic": 45,
-        "impactMix": 71,
-        "quality": 84,
-        "collaboration": 59,
-        "velocity": 64,
-        "scope": 53
-      },
-      "metrics": {
-        "prsAuthored": 4,
-        "prsReviewed": 4,
-        "totalEffortHours": 17,
-        "totalAdditions": 1074,
-        "totalDeletions": 49,
-        "avgFilesPerPR": 3.75,
-        "uniqueDirectories": 7,
-        "impactTypes": {
-          "feature": 1,
-          "fix": 2,
-          "refactor": 1,
-          "performance": 0,
-          "chore": 0,
-          "docs": 0,
-          "test": 0
-        },
-        "productAreas": [
-          {
-            "area": "infrastructure",
-            "count": 3
-          },
-          {
-            "area": "posthog-code",
-            "count": 1
-          }
-        ],
-        "useCasesAdvanced": [],
-        "reviewsGiven": 4,
-        "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": 59.83333333333333,
-        "avgCycleTime": 605.5,
-        "mergeFrequency": 5.093342147869458,
-        "aiAssistedPRs": 0,
-        "aiPercentage": 0
-      },
-      "explanation": "Consistently high-quality PRs with clear problem statements and testing plans. 1 features, 2 fixes — strong value-creation mix.",
-      "topPRs": [
-        {
-          "number": 57029,
-          "title": "feat: allow user to use exising integration id for other org",
-          "strategicScore": 4,
-          "effortHours": 12
-        },
-        {
-          "number": 57456,
-          "title": "fix(billing): align code plan key naming convention between Twig and PostHog",
-          "strategicScore": 6,
-          "effortHours": 2
-        },
-        {
-          "number": 57286,
-          "title": "fix: type for integration",
-          "strategicScore": 4,
-          "effortHours": 2
-        }
-      ]
-    },
-    {
       "login": "rodrigoi",
       "impactScore": 58,
       "dimensions": {
         "effort": 61,
-        "strategic": 64,
+        "strategic": 65,
         "impactMix": 39,
         "quality": 43,
-        "collaboration": 75,
+        "collaboration": 76,
         "velocity": 86,
-        "scope": 25
+        "scope": 24
       },
       "metrics": {
         "prsAuthored": 5,
@@ -4519,7 +4324,7 @@
       },
       "metrics": {
         "prsAuthored": 7,
-        "prsReviewed": 21,
+        "prsReviewed": 18,
         "totalEffortHours": 15.5,
         "totalAdditions": 1714,
         "totalDeletions": 484,
@@ -4551,15 +4356,15 @@
         "useCasesAdvanced": [
           "ai-product"
         ],
-        "reviewsGiven": 21,
+        "reviewsGiven": 18,
         "reviewsWithSubstance": 14,
-        "avgReviewTurnaround": 1212.5793269230778,
+        "avgReviewTurnaround": 1286.1103741496609,
         "avgCycleTime": 353.85714285714283,
         "mergeFrequency": 6.569230936335749,
         "aiAssistedPRs": 1,
         "aiPercentage": 14.285714285714285
       },
-      "explanation": "21 reviews (14 substantive) — strong team multiplier. Consistently high-quality PRs with clear problem statements and testing plans. 14% AI-assisted.",
+      "explanation": "18 reviews (14 substantive) — strong team multiplier. Consistently high-quality PRs with clear problem statements and testing plans. 14% AI-assisted.",
       "topPRs": [
         {
           "number": 58070,
@@ -4582,6 +4387,88 @@
       ]
     },
     {
+      "login": "Twixes",
+      "impactScore": 57,
+      "dimensions": {
+        "effort": 59,
+        "strategic": 63,
+        "impactMix": 43,
+        "quality": 45,
+        "collaboration": 70,
+        "velocity": 38,
+        "scope": 70
+      },
+      "metrics": {
+        "prsAuthored": 7,
+        "prsReviewed": 6,
+        "totalEffortHours": 28,
+        "totalAdditions": 1193,
+        "totalDeletions": 295,
+        "avgFilesPerPR": 3.4285714285714284,
+        "uniqueDirectories": 11,
+        "impactTypes": {
+          "feature": 0,
+          "fix": 6,
+          "refactor": 0,
+          "performance": 0,
+          "chore": 0,
+          "docs": 1,
+          "test": 0
+        },
+        "productAreas": [
+          {
+            "area": "signals",
+            "count": 4
+          },
+          {
+            "area": "infrastructure",
+            "count": 1
+          },
+          {
+            "area": "session-replay",
+            "count": 1
+          },
+          {
+            "area": "posthog-code",
+            "count": 1
+          }
+        ],
+        "useCasesAdvanced": [
+          "business-outcomes",
+          "debug-issues",
+          "ai-product"
+        ],
+        "reviewsGiven": 6,
+        "reviewsWithSubstance": 0,
+        "avgReviewTurnaround": 975.7111111111112,
+        "avgCycleTime": 1273.4285714285713,
+        "mergeFrequency": 6.2183106452731085,
+        "aiAssistedPRs": 1,
+        "aiPercentage": 14.285714285714285
+      },
+      "explanation": "6 PRs reviewed — active reviewer. Touches 11 areas of the codebase — broad architectural influence. 14% AI-assisted.",
+      "topPRs": [
+        {
+          "number": 57521,
+          "title": "fix(signals): List API fixes",
+          "strategicScore": 8,
+          "effortHours": 8
+        },
+        {
+          "number": 57040,
+          "title": "fix(integrations): Let users pick any GitHub org",
+          "strategicScore": 6,
+          "effortHours": 6
+        },
+        {
+          "number": 57541,
+          "title": "chore(exports): Allow asset retrieve across teammates",
+          "strategicScore": 7,
+          "effortHours": 5
+        }
+      ]
+    },
+    {
       "login": "gustavohstrassburger",
       "impactScore": 56,
       "dimensions": {
@@ -4589,8 +4476,8 @@
         "strategic": 73,
         "impactMix": 82,
         "quality": 74,
-        "collaboration": 25,
-        "velocity": 31,
+        "collaboration": 27,
+        "velocity": 30,
         "scope": 46
       },
       "metrics": {
@@ -4662,10 +4549,10 @@
         "effort": 59,
         "strategic": 62,
         "impactMix": 49,
-        "quality": 76,
-        "collaboration": 25,
+        "quality": 75,
+        "collaboration": 27,
         "velocity": 44,
-        "scope": 77
+        "scope": 78
       },
       "metrics": {
         "prsAuthored": 7,
@@ -4817,7 +4704,7 @@
         "strategic": 49,
         "impactMix": 98,
         "quality": 99,
-        "collaboration": 19,
+        "collaboration": 20,
         "velocity": 65,
         "scope": 38
       },
@@ -4872,82 +4759,6 @@
       ]
     },
     {
-      "login": "cvolzer3",
-      "impactScore": 53,
-      "dimensions": {
-        "effort": 55,
-        "strategic": 61,
-        "impactMix": 28,
-        "quality": 70,
-        "collaboration": 54,
-        "velocity": 45,
-        "scope": 51
-      },
-      "metrics": {
-        "prsAuthored": 7,
-        "prsReviewed": 10,
-        "totalEffortHours": 23,
-        "totalAdditions": 944,
-        "totalDeletions": 87,
-        "avgFilesPerPR": 1.8571428571428572,
-        "uniqueDirectories": 7,
-        "impactTypes": {
-          "feature": 1,
-          "fix": 3,
-          "refactor": 0,
-          "performance": 0,
-          "chore": 3,
-          "docs": 0,
-          "test": 0
-        },
-        "productAreas": [
-          {
-            "area": "mcp-server",
-            "count": 4
-          },
-          {
-            "area": "posthog-ai",
-            "count": 2
-          },
-          {
-            "area": "llm-analytics",
-            "count": 1
-          }
-        ],
-        "useCasesAdvanced": [
-          "ai-product"
-        ],
-        "reviewsGiven": 10,
-        "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": 1306.355,
-        "avgCycleTime": 1796,
-        "mergeFrequency": 5.005551082372387,
-        "aiAssistedPRs": 0,
-        "aiPercentage": 0
-      },
-      "explanation": "Consistently high-quality PRs with clear problem statements and testing plans. 1 PostHog use cases advanced — highly aligned with the north star.",
-      "topPRs": [
-        {
-          "number": 57293,
-          "title": "feat(phai): add sandboxed SQL evals",
-          "strategicScore": 9,
-          "effortHours": 15
-        },
-        {
-          "number": 56836,
-          "title": "fix(mcp): skip group types fetch when token lacks group:read scope",
-          "strategicScore": 7,
-          "effortHours": 2
-        },
-        {
-          "number": 57858,
-          "title": "chore(mcp): create in-process temporal server for sandboxed eval's temporal worker",
-          "strategicScore": 4,
-          "effortHours": 3
-        }
-      ]
-    },
-    {
       "login": "sortafreel",
       "impactScore": 52,
       "dimensions": {
@@ -4955,9 +4766,9 @@
         "strategic": 57,
         "impactMix": 42,
         "quality": 50,
-        "collaboration": 18,
+        "collaboration": 19,
         "velocity": 62,
-        "scope": 71
+        "scope": 72
       },
       "metrics": {
         "prsAuthored": 6,
@@ -5030,8 +4841,8 @@
         "effort": 52,
         "strategic": 59,
         "impactMix": 38,
-        "quality": 41,
-        "collaboration": 61,
+        "quality": 40,
+        "collaboration": 60,
         "velocity": 53,
         "scope": 50
       },
@@ -5112,9 +4923,9 @@
         "strategic": 41,
         "impactMix": 10,
         "quality": 96,
-        "collaboration": 65,
-        "velocity": 86,
-        "scope": 25
+        "collaboration": 66,
+        "velocity": 87,
+        "scope": 24
       },
       "metrics": {
         "prsAuthored": 2,
@@ -5167,77 +4978,76 @@
       ]
     },
     {
-      "login": "andyzzhao",
+      "login": "cvolzer3",
       "impactScore": 51,
       "dimensions": {
-        "effort": 50,
-        "strategic": 54,
-        "impactMix": 42,
-        "quality": 57,
-        "collaboration": 29,
-        "velocity": 64,
-        "scope": 57
+        "effort": 55,
+        "strategic": 61,
+        "impactMix": 28,
+        "quality": 69,
+        "collaboration": 43,
+        "velocity": 45,
+        "scope": 51
       },
       "metrics": {
-        "prsAuthored": 6,
-        "prsReviewed": 3,
-        "totalEffortHours": 19,
-        "totalAdditions": 1281,
-        "totalDeletions": 51,
-        "avgFilesPerPR": 3.1666666666666665,
-        "uniqueDirectories": 9,
+        "prsAuthored": 7,
+        "prsReviewed": 9,
+        "totalEffortHours": 23,
+        "totalAdditions": 944,
+        "totalDeletions": 87,
+        "avgFilesPerPR": 1.8571428571428572,
+        "uniqueDirectories": 7,
         "impactTypes": {
-          "feature": 2,
-          "fix": 2,
+          "feature": 1,
+          "fix": 3,
           "refactor": 0,
           "performance": 0,
-          "chore": 2,
+          "chore": 3,
           "docs": 0,
           "test": 0
         },
         "productAreas": [
           {
-            "area": "devex",
-            "count": 3
+            "area": "mcp-server",
+            "count": 4
           },
           {
-            "area": "product-analytics",
+            "area": "posthog-ai",
             "count": 2
           },
           {
-            "area": "infrastructure",
+            "area": "llm-analytics",
             "count": 1
           }
         ],
         "useCasesAdvanced": [
-          "user-navigation",
-          "business-outcomes"
+          "ai-product"
         ],
-        "reviewsGiven": 3,
+        "reviewsGiven": 9,
         "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": 4950.016666666667,
-        "avgCycleTime": 314.5,
-        "mergeFrequency": 5.606948116261354,
-        "aiAssistedPRs": 1,
-        "aiPercentage": 16.666666666666664
+        "avgReviewTurnaround": 1419.6314814814814,
+        "avgCycleTime": 1796,
+        "mergeFrequency": 5.005551082372387,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
       },
-      "explanation": "5.2h avg cycle time, 5.6 PRs/week. Consistently high-quality PRs with clear problem statements and testing plans. 17% AI-assisted.",
+      "explanation": "Consistently high-quality PRs with clear problem statements and testing plans. 1 PostHog use cases advanced — highly aligned with the north star.",
       "topPRs": [
         {
-          "number": 56800,
-          "title": "feat: add metabase:login, :cookie, :databases, :query commands",
-          "strategicScore": 8,
-          "effortHours": 8
+          "number": 57293,
+          "title": "feat(phai): add sandboxed SQL evals",
+          "strategicScore": 9,
+          "effortHours": 15
         },
         {
-          "number": 57843,
-          "title": "feat(property-values): rebuild text index with lowercase preprocessor",
-          "strategicScore": 6,
-          "effortHours": 6
+          "number": 56836,
+          "title": "fix(mcp): skip group types fetch when token lacks group:read scope",
+          "strategicScore": 7,
+          "effortHours": 2
         },
         {
-          "number": 57704,
-          "title": "fix: correct kafka named collection and add dev tables",
+          "number": 57858,
+          "title": "chore(mcp): create in-process temporal server for sandboxed eval's temporal worker",
           "strategicScore": 4,
           "effortHours": 3
         }
@@ -5249,9 +5059,9 @@
       "dimensions": {
         "effort": 45,
         "strategic": 38,
-        "impactMix": 34,
-        "quality": 22,
-        "collaboration": 73,
+        "impactMix": 33,
+        "quality": 21,
+        "collaboration": 75,
         "velocity": 71,
         "scope": 57
       },
@@ -5455,6 +5265,82 @@
       ]
     },
     {
+      "login": "jonathanlab",
+      "impactScore": 50,
+      "dimensions": {
+        "effort": 39,
+        "strategic": 40,
+        "impactMix": 95,
+        "quality": 42,
+        "collaboration": 45,
+        "velocity": 41,
+        "scope": 62
+      },
+      "metrics": {
+        "prsAuthored": 3,
+        "prsReviewed": 3,
+        "totalEffortHours": 9,
+        "totalAdditions": 412,
+        "totalDeletions": 52,
+        "avgFilesPerPR": 4.666666666666667,
+        "uniqueDirectories": 8,
+        "impactTypes": {
+          "feature": 2,
+          "fix": 1,
+          "refactor": 0,
+          "performance": 0,
+          "chore": 0,
+          "docs": 0,
+          "test": 0
+        },
+        "productAreas": [
+          {
+            "area": "infrastructure",
+            "count": 1
+          },
+          {
+            "area": "llm-analytics",
+            "count": 1
+          },
+          {
+            "area": "posthog-code",
+            "count": 1
+          }
+        ],
+        "useCasesAdvanced": [
+          "ai-product"
+        ],
+        "reviewsGiven": 3,
+        "reviewsWithSubstance": 0,
+        "avgReviewTurnaround": 281.2111111111111,
+        "avgCycleTime": 3286.6666666666665,
+        "mergeFrequency": 2.679275485160913,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "2 features, 1 fixes — strong value-creation mix. Touches 8 areas of the codebase — broad architectural influence.",
+      "topPRs": [
+        {
+          "number": 56959,
+          "title": "feat(tasks): summarize endpoint",
+          "strategicScore": 7,
+          "effortHours": 6
+        },
+        {
+          "number": 57129,
+          "title": "feat(llm-gateway): add gpt-5.5 model to product config",
+          "strategicScore": 5,
+          "effortHours": 1
+        },
+        {
+          "number": 57957,
+          "title": "feat: add back feature flag check for tasks access checks",
+          "strategicScore": 2,
+          "effortHours": 2
+        }
+      ]
+    },
+    {
       "login": "nicowaltz",
       "impactScore": 50,
       "dimensions": {
@@ -5463,7 +5349,7 @@
         "impactMix": 98,
         "quality": 61,
         "collaboration": 7,
-        "velocity": 32,
+        "velocity": 31,
         "scope": 45
       },
       "metrics": {
@@ -5519,6 +5405,83 @@
           "title": "feat(replay): Make session_replay_features queryable in HogQL",
           "strategicScore": 7,
           "effortHours": 6
+        }
+      ]
+    },
+    {
+      "login": "andyzzhao",
+      "impactScore": 50,
+      "dimensions": {
+        "effort": 50,
+        "strategic": 54,
+        "impactMix": 42,
+        "quality": 57,
+        "collaboration": 27,
+        "velocity": 64,
+        "scope": 57
+      },
+      "metrics": {
+        "prsAuthored": 6,
+        "prsReviewed": 2,
+        "totalEffortHours": 19,
+        "totalAdditions": 1281,
+        "totalDeletions": 51,
+        "avgFilesPerPR": 3.1666666666666665,
+        "uniqueDirectories": 9,
+        "impactTypes": {
+          "feature": 2,
+          "fix": 2,
+          "refactor": 0,
+          "performance": 0,
+          "chore": 2,
+          "docs": 0,
+          "test": 0
+        },
+        "productAreas": [
+          {
+            "area": "devex",
+            "count": 3
+          },
+          {
+            "area": "product-analytics",
+            "count": 2
+          },
+          {
+            "area": "infrastructure",
+            "count": 1
+          }
+        ],
+        "useCasesAdvanced": [
+          "user-navigation",
+          "business-outcomes"
+        ],
+        "reviewsGiven": 2,
+        "reviewsWithSubstance": 0,
+        "avgReviewTurnaround": 5939.85,
+        "avgCycleTime": 314.5,
+        "mergeFrequency": 5.606948116261354,
+        "aiAssistedPRs": 1,
+        "aiPercentage": 16.666666666666664
+      },
+      "explanation": "5.2h avg cycle time, 5.6 PRs/week. Consistently high-quality PRs with clear problem statements and testing plans. 17% AI-assisted.",
+      "topPRs": [
+        {
+          "number": 56800,
+          "title": "feat: add metabase:login, :cookie, :databases, :query commands",
+          "strategicScore": 8,
+          "effortHours": 8
+        },
+        {
+          "number": 57843,
+          "title": "feat(property-values): rebuild text index with lowercase preprocessor",
+          "strategicScore": 6,
+          "effortHours": 6
+        },
+        {
+          "number": 57704,
+          "title": "fix: correct kafka named collection and add dev tables",
+          "strategicScore": 4,
+          "effortHours": 3
         }
       ]
     },
@@ -5591,91 +5554,15 @@
       ]
     },
     {
-      "login": "jonathanlab",
-      "impactScore": 49,
-      "dimensions": {
-        "effort": 39,
-        "strategic": 40,
-        "impactMix": 95,
-        "quality": 42,
-        "collaboration": 43,
-        "velocity": 41,
-        "scope": 62
-      },
-      "metrics": {
-        "prsAuthored": 3,
-        "prsReviewed": 3,
-        "totalEffortHours": 9,
-        "totalAdditions": 412,
-        "totalDeletions": 52,
-        "avgFilesPerPR": 4.666666666666667,
-        "uniqueDirectories": 8,
-        "impactTypes": {
-          "feature": 2,
-          "fix": 1,
-          "refactor": 0,
-          "performance": 0,
-          "chore": 0,
-          "docs": 0,
-          "test": 0
-        },
-        "productAreas": [
-          {
-            "area": "infrastructure",
-            "count": 1
-          },
-          {
-            "area": "llm-analytics",
-            "count": 1
-          },
-          {
-            "area": "posthog-code",
-            "count": 1
-          }
-        ],
-        "useCasesAdvanced": [
-          "ai-product"
-        ],
-        "reviewsGiven": 3,
-        "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": 281.2111111111111,
-        "avgCycleTime": 3286.6666666666665,
-        "mergeFrequency": 2.679275485160913,
-        "aiAssistedPRs": 0,
-        "aiPercentage": 0
-      },
-      "explanation": "2 features, 1 fixes — strong value-creation mix. Touches 8 areas of the codebase — broad architectural influence.",
-      "topPRs": [
-        {
-          "number": 56959,
-          "title": "feat(tasks): summarize endpoint",
-          "strategicScore": 7,
-          "effortHours": 6
-        },
-        {
-          "number": 57129,
-          "title": "feat(llm-gateway): add gpt-5.5 model to product config",
-          "strategicScore": 5,
-          "effortHours": 1
-        },
-        {
-          "number": 57957,
-          "title": "feat: add back feature flag check for tasks access checks",
-          "strategicScore": 2,
-          "effortHours": 2
-        }
-      ]
-    },
-    {
       "login": "matheus-vb",
       "impactScore": 48,
       "dimensions": {
         "effort": 66,
         "strategic": 60,
-        "impactMix": 34,
+        "impactMix": 33,
         "quality": 38,
         "collaboration": 41,
-        "velocity": 36,
+        "velocity": 35,
         "scope": 50
       },
       "metrics": {
@@ -5746,7 +5633,7 @@
         "strategic": 49,
         "impactMix": 64,
         "quality": 65,
-        "collaboration": 47,
+        "collaboration": 49,
         "velocity": 34,
         "scope": 33
       },
@@ -5812,7 +5699,7 @@
         "strategic": 29,
         "impactMix": 36,
         "quality": 27,
-        "collaboration": 50,
+        "collaboration": 51,
         "velocity": 100,
         "scope": 38
       },
@@ -5867,73 +5754,11 @@
       ]
     },
     {
-      "login": "tomasfarias",
-      "impactScore": 43,
-      "dimensions": {
-        "effort": 28,
-        "strategic": 27,
-        "impactMix": 57,
-        "quality": 50,
-        "collaboration": 29,
-        "velocity": 82,
-        "scope": 38
-      },
-      "metrics": {
-        "prsAuthored": 2,
-        "prsReviewed": 7,
-        "totalEffortHours": 3,
-        "totalAdditions": 87,
-        "totalDeletions": 1,
-        "avgFilesPerPR": 1.5,
-        "uniqueDirectories": 5,
-        "impactTypes": {
-          "feature": 0,
-          "fix": 2,
-          "refactor": 0,
-          "performance": 0,
-          "chore": 0,
-          "docs": 0,
-          "test": 0
-        },
-        "productAreas": [
-          {
-            "area": "batch-exports",
-            "count": 2
-          }
-        ],
-        "useCasesAdvanced": [
-          "business-outcomes"
-        ],
-        "reviewsGiven": 7,
-        "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": 4281.682993197276,
-        "avgCycleTime": 38,
-        "mergeFrequency": 2.3311793308266475,
-        "aiAssistedPRs": 0,
-        "aiPercentage": 0
-      },
-      "explanation": "0.6h avg cycle time, 2.3 PRs/week. 0 features, 2 fixes — strong value-creation mix.",
-      "topPRs": [
-        {
-          "number": 57101,
-          "title": "fix: Reset configuration when switching destination types",
-          "strategicScore": 3,
-          "effortHours": 2
-        },
-        {
-          "number": 57778,
-          "title": "fix: Make permission denied error non-retryable",
-          "strategicScore": 3,
-          "effortHours": 1
-        }
-      ]
-    },
-    {
       "login": "christiaan-ph",
       "impactScore": 43,
       "dimensions": {
         "effort": 36,
-        "strategic": 41,
+        "strategic": 40,
         "impactMix": 82,
         "quality": 61,
         "collaboration": 7,
@@ -6014,7 +5839,7 @@
         "impactMix": 11,
         "quality": 34,
         "collaboration": 22,
-        "velocity": 73,
+        "velocity": 74,
         "scope": 67
       },
       "metrics": {
@@ -6083,16 +5908,78 @@
       ]
     },
     {
+      "login": "tomasfarias",
+      "impactScore": 42,
+      "dimensions": {
+        "effort": 28,
+        "strategic": 27,
+        "impactMix": 57,
+        "quality": 50,
+        "collaboration": 27,
+        "velocity": 82,
+        "scope": 38
+      },
+      "metrics": {
+        "prsAuthored": 2,
+        "prsReviewed": 6,
+        "totalEffortHours": 3,
+        "totalAdditions": 87,
+        "totalDeletions": 1,
+        "avgFilesPerPR": 1.5,
+        "uniqueDirectories": 5,
+        "impactTypes": {
+          "feature": 0,
+          "fix": 2,
+          "refactor": 0,
+          "performance": 0,
+          "chore": 0,
+          "docs": 0,
+          "test": 0
+        },
+        "productAreas": [
+          {
+            "area": "batch-exports",
+            "count": 2
+          }
+        ],
+        "useCasesAdvanced": [
+          "business-outcomes"
+        ],
+        "reviewsGiven": 6,
+        "reviewsWithSubstance": 0,
+        "avgReviewTurnaround": 4370.863541666664,
+        "avgCycleTime": 38,
+        "mergeFrequency": 2.3311793308266475,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "0.6h avg cycle time, 2.3 PRs/week. 0 features, 2 fixes — strong value-creation mix.",
+      "topPRs": [
+        {
+          "number": 57101,
+          "title": "fix: Reset configuration when switching destination types",
+          "strategicScore": 3,
+          "effortHours": 2
+        },
+        {
+          "number": 57778,
+          "title": "fix: Make permission denied error non-retryable",
+          "strategicScore": 3,
+          "effortHours": 1
+        }
+      ]
+    },
+    {
       "login": "georgemunyoro",
       "impactScore": 42,
       "dimensions": {
-        "effort": 32,
+        "effort": 31,
         "strategic": 33,
         "impactMix": 57,
         "quality": 84,
-        "collaboration": 72,
+        "collaboration": 74,
         "velocity": 15,
-        "scope": 25
+        "scope": 24
       },
       "metrics": {
         "prsAuthored": 1,
@@ -6142,7 +6029,7 @@
       "dimensions": {
         "effort": 37,
         "strategic": 35,
-        "impactMix": 32,
+        "impactMix": 31,
         "quality": 46,
         "collaboration": 57,
         "velocity": 36,
@@ -6212,11 +6099,11 @@
       "login": "havenbarnes",
       "impactScore": 41,
       "dimensions": {
-        "effort": 32,
-        "strategic": 31,
+        "effort": 31,
+        "strategic": 30,
         "impactMix": 57,
         "quality": 84,
-        "collaboration": 53,
+        "collaboration": 54,
         "velocity": 15,
         "scope": 38
       },
@@ -6268,13 +6155,13 @@
       "login": "hpouillot",
       "impactScore": 41,
       "dimensions": {
-        "effort": 32,
+        "effort": 31,
         "strategic": 33,
         "impactMix": 57,
         "quality": 99,
-        "collaboration": 52,
+        "collaboration": 53,
         "velocity": 15,
-        "scope": 25
+        "scope": 24
       },
       "metrics": {
         "prsAuthored": 1,
@@ -6398,12 +6285,12 @@
       "impactScore": 33,
       "dimensions": {
         "effort": 38,
-        "strategic": 36,
+        "strategic": 35,
         "impactMix": 6,
         "quality": 20,
         "collaboration": 7,
-        "velocity": 83,
-        "scope": 25
+        "velocity": 84,
+        "scope": 24
       },
       "metrics": {
         "prsAuthored": 15,
@@ -6463,15 +6350,15 @@
     },
     {
       "login": "patricio-posthog",
-      "impactScore": 33,
+      "impactScore": 32,
       "dimensions": {
-        "effort": 26,
+        "effort": 25,
         "strategic": 28,
         "impactMix": 85,
         "quality": 27,
         "collaboration": 40,
         "velocity": 15,
-        "scope": 25
+        "scope": 24
       },
       "metrics": {
         "prsAuthored": 1,
@@ -6519,15 +6406,15 @@
     },
     {
       "login": "clr182",
-      "impactScore": 33,
+      "impactScore": 32,
       "dimensions": {
-        "effort": 21,
-        "strategic": 22,
+        "effort": 20,
+        "strategic": 21,
         "impactMix": 98,
         "quality": 84,
         "collaboration": 7,
         "velocity": 15,
-        "scope": 25
+        "scope": 24
       },
       "metrics": {
         "prsAuthored": 1,
@@ -6573,15 +6460,15 @@
     },
     {
       "login": "fivestarspicy",
-      "impactScore": 31,
+      "impactScore": 30,
       "dimensions": {
-        "effort": 32,
-        "strategic": 31,
+        "effort": 31,
+        "strategic": 30,
         "impactMix": 98,
         "quality": 27,
         "collaboration": 7,
         "velocity": 15,
-        "scope": 25
+        "scope": 24
       },
       "metrics": {
         "prsAuthored": 1,
@@ -6630,13 +6517,13 @@
     },
     {
       "login": "gantoine",
-      "impactScore": 30,
+      "impactScore": 29,
       "dimensions": {
-        "effort": 32,
-        "strategic": 31,
+        "effort": 31,
+        "strategic": 30,
         "impactMix": 3,
         "quality": 27,
-        "collaboration": 51,
+        "collaboration": 52,
         "velocity": 15,
         "scope": 38
       },
@@ -6689,7 +6576,7 @@
         "effort": 24,
         "strategic": 25,
         "impactMix": 8,
-        "quality": 21,
+        "quality": 20,
         "collaboration": 7,
         "velocity": 77,
         "scope": 35
@@ -6750,11 +6637,11 @@
       "login": "turnipdabeets",
       "impactScore": 28,
       "dimensions": {
-        "effort": 21,
+        "effort": 20,
         "strategic": 20,
         "impactMix": 8,
         "quality": 27,
-        "collaboration": 70,
+        "collaboration": 72,
         "velocity": 15,
         "scope": 33
       },
@@ -6807,12 +6694,12 @@
       "impactScore": 27,
       "dimensions": {
         "effort": 29,
-        "strategic": 23,
+        "strategic": 22,
         "impactMix": 0,
         "quality": 19,
         "collaboration": 7,
-        "velocity": 82,
-        "scope": 17
+        "velocity": 83,
+        "scope": 16
       },
       "metrics": {
         "prsAuthored": 7,
@@ -6872,13 +6759,13 @@
       "login": "ioannisj",
       "impactScore": 26,
       "dimensions": {
-        "effort": 17,
+        "effort": 16,
         "strategic": 16,
         "impactMix": 3,
         "quality": 9,
-        "collaboration": 86,
+        "collaboration": 90,
         "velocity": 15,
-        "scope": 25
+        "scope": 24
       },
       "metrics": {
         "prsAuthored": 1,
@@ -6926,15 +6813,15 @@
     },
     {
       "login": "alex-kozh",
-      "impactScore": 25,
+      "impactScore": 24,
       "dimensions": {
-        "effort": 21,
+        "effort": 20,
         "strategic": 25,
         "impactMix": 57,
         "quality": 27,
         "collaboration": 7,
         "velocity": 15,
-        "scope": 31
+        "scope": 30
       },
       "metrics": {
         "prsAuthored": 1,
@@ -6984,7 +6871,7 @@
       "login": "feliperalmeida",
       "impactScore": 23,
       "dimensions": {
-        "effort": 21,
+        "effort": 20,
         "strategic": 20,
         "impactMix": 3,
         "quality": 27,
@@ -7038,13 +6925,13 @@
       "login": "aspicer",
       "impactScore": 23,
       "dimensions": {
-        "effort": 21,
-        "strategic": 24,
+        "effort": 20,
+        "strategic": 23,
         "impactMix": 57,
         "quality": 27,
         "collaboration": 7,
         "velocity": 15,
-        "scope": 25
+        "scope": 24
       },
       "metrics": {
         "prsAuthored": 1,
@@ -7089,16 +6976,112 @@
       ]
     },
     {
-      "login": "oliverb123",
+      "login": "abhischekt",
       "impactScore": 22,
       "dimensions": {
-        "effort": 26,
-        "strategic": 27,
+        "effort": 8,
+        "strategic": 8,
+        "impactMix": 19,
+        "quality": 9,
+        "collaboration": 84,
+        "velocity": 15,
+        "scope": 8
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 4,
+        "totalEffortHours": 0,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "uniqueDirectories": 0,
+        "impactTypes": {
+          "feature": 0,
+          "fix": 0,
+          "refactor": 0,
+          "performance": 0,
+          "chore": 0,
+          "docs": 0,
+          "test": 0
+        },
+        "productAreas": [],
+        "useCasesAdvanced": [],
+        "reviewsGiven": 4,
+        "reviewsWithSubstance": 0,
+        "avgReviewTurnaround": 1162.5631410256408,
+        "avgCycleTime": null,
+        "mergeFrequency": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "4 PRs reviewed — active reviewer. 0 features, 0 fixes — strong value-creation mix.",
+      "topPRs": []
+    },
+    {
+      "login": "HaynesPostHog",
+      "impactScore": 22,
+      "dimensions": {
+        "effort": 20,
+        "strategic": 18,
+        "impactMix": 57,
+        "quality": 27,
+        "collaboration": 7,
+        "velocity": 15,
+        "scope": 24
+      },
+      "metrics": {
+        "prsAuthored": 1,
+        "prsReviewed": 0,
+        "totalEffortHours": 1,
+        "totalAdditions": 6,
+        "totalDeletions": 0,
+        "avgFilesPerPR": 1,
+        "uniqueDirectories": 2,
+        "impactTypes": {
+          "feature": 0,
+          "fix": 1,
+          "refactor": 0,
+          "performance": 0,
+          "chore": 0,
+          "docs": 0,
+          "test": 0
+        },
+        "productAreas": [
+          {
+            "area": "data-warehouse",
+            "count": 1
+          }
+        ],
+        "useCasesAdvanced": [],
+        "reviewsGiven": 0,
+        "reviewsWithSubstance": 0,
+        "avgReviewTurnaround": null,
+        "avgCycleTime": 63,
+        "mergeFrequency": 1,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "0 features, 1 fixes — strong value-creation mix. Consistently high-quality PRs with clear problem statements and testing plans.",
+      "topPRs": [
+        {
+          "number": 57314,
+          "title": "fix(endpoints): clear stale versions when switching endpoints",
+          "strategicScore": 2,
+          "effortHours": 1
+        }
+      ]
+    },
+    {
+      "login": "oliverb123",
+      "impactScore": 21,
+      "dimensions": {
+        "effort": 25,
+        "strategic": 26,
         "impactMix": 3,
         "quality": 9,
         "collaboration": 36,
         "velocity": 15,
-        "scope": 25
+        "scope": 24
       },
       "metrics": {
         "prsAuthored": 1,
@@ -7145,74 +7128,20 @@
       ]
     },
     {
-      "login": "HaynesPostHog",
-      "impactScore": 22,
-      "dimensions": {
-        "effort": 21,
-        "strategic": 18,
-        "impactMix": 57,
-        "quality": 27,
-        "collaboration": 7,
-        "velocity": 15,
-        "scope": 25
-      },
-      "metrics": {
-        "prsAuthored": 1,
-        "prsReviewed": 0,
-        "totalEffortHours": 1,
-        "totalAdditions": 6,
-        "totalDeletions": 0,
-        "avgFilesPerPR": 1,
-        "uniqueDirectories": 2,
-        "impactTypes": {
-          "feature": 0,
-          "fix": 1,
-          "refactor": 0,
-          "performance": 0,
-          "chore": 0,
-          "docs": 0,
-          "test": 0
-        },
-        "productAreas": [
-          {
-            "area": "data-warehouse",
-            "count": 1
-          }
-        ],
-        "useCasesAdvanced": [],
-        "reviewsGiven": 0,
-        "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": null,
-        "avgCycleTime": 63,
-        "mergeFrequency": 1,
-        "aiAssistedPRs": 0,
-        "aiPercentage": 0
-      },
-      "explanation": "0 features, 1 fixes — strong value-creation mix. Consistently high-quality PRs with clear problem statements and testing plans.",
-      "topPRs": [
-        {
-          "number": 57314,
-          "title": "fix(endpoints): clear stale versions when switching endpoints",
-          "strategicScore": 2,
-          "effortHours": 1
-        }
-      ]
-    },
-    {
-      "login": "abhischekt",
+      "login": "andrewjmcgehee",
       "impactScore": 21,
       "dimensions": {
         "effort": 8,
         "strategic": 8,
         "impactMix": 19,
         "quality": 9,
-        "collaboration": 82,
+        "collaboration": 79,
         "velocity": 15,
         "scope": 8
       },
       "metrics": {
         "prsAuthored": 0,
-        "prsReviewed": 4,
+        "prsReviewed": 3,
         "totalEffortHours": 0,
         "totalAdditions": 0,
         "totalDeletions": 0,
@@ -7229,28 +7158,28 @@
         },
         "productAreas": [],
         "useCasesAdvanced": [],
-        "reviewsGiven": 4,
+        "reviewsGiven": 3,
         "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": 1162.5631410256408,
+        "avgReviewTurnaround": 136.14090909090908,
         "avgCycleTime": null,
         "mergeFrequency": 0,
         "aiAssistedPRs": 0,
         "aiPercentage": 0
       },
-      "explanation": "4 PRs reviewed — active reviewer. 0 features, 0 fixes — strong value-creation mix.",
+      "explanation": "3 PRs reviewed — active reviewer. 0 features, 0 fixes — strong value-creation mix.",
       "topPRs": []
     },
     {
       "login": "gewenyu99",
-      "impactScore": 21,
+      "impactScore": 20,
       "dimensions": {
-        "effort": 26,
-        "strategic": 24,
+        "effort": 25,
+        "strategic": 23,
         "impactMix": 8,
         "quality": 27,
         "collaboration": 16,
         "velocity": 15,
-        "scope": 25
+        "scope": 24
       },
       "metrics": {
         "prsAuthored": 1,
@@ -7295,90 +7224,6 @@
       ]
     },
     {
-      "login": "andrewjmcgehee",
-      "impactScore": 21,
-      "dimensions": {
-        "effort": 8,
-        "strategic": 8,
-        "impactMix": 19,
-        "quality": 9,
-        "collaboration": 77,
-        "velocity": 15,
-        "scope": 8
-      },
-      "metrics": {
-        "prsAuthored": 0,
-        "prsReviewed": 3,
-        "totalEffortHours": 0,
-        "totalAdditions": 0,
-        "totalDeletions": 0,
-        "avgFilesPerPR": null,
-        "uniqueDirectories": 0,
-        "impactTypes": {
-          "feature": 0,
-          "fix": 0,
-          "refactor": 0,
-          "performance": 0,
-          "chore": 0,
-          "docs": 0,
-          "test": 0
-        },
-        "productAreas": [],
-        "useCasesAdvanced": [],
-        "reviewsGiven": 3,
-        "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": 136.14090909090908,
-        "avgCycleTime": null,
-        "mergeFrequency": 0,
-        "aiAssistedPRs": 0,
-        "aiPercentage": 0
-      },
-      "explanation": "3 PRs reviewed — active reviewer. 0 features, 0 fixes — strong value-creation mix.",
-      "topPRs": []
-    },
-    {
-      "login": "rorylshanks",
-      "impactScore": 19,
-      "dimensions": {
-        "effort": 8,
-        "strategic": 8,
-        "impactMix": 19,
-        "quality": 9,
-        "collaboration": 68,
-        "velocity": 15,
-        "scope": 8
-      },
-      "metrics": {
-        "prsAuthored": 0,
-        "prsReviewed": 9,
-        "totalEffortHours": 0,
-        "totalAdditions": 0,
-        "totalDeletions": 0,
-        "avgFilesPerPR": null,
-        "uniqueDirectories": 0,
-        "impactTypes": {
-          "feature": 0,
-          "fix": 0,
-          "refactor": 0,
-          "performance": 0,
-          "chore": 0,
-          "docs": 0,
-          "test": 0
-        },
-        "productAreas": [],
-        "useCasesAdvanced": [],
-        "reviewsGiven": 9,
-        "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": 346.8074074074074,
-        "avgCycleTime": null,
-        "mergeFrequency": 0,
-        "aiAssistedPRs": 0,
-        "aiPercentage": 0
-      },
-      "explanation": "9 PRs reviewed — active reviewer. 0 features, 0 fixes — strong value-creation mix.",
-      "topPRs": []
-    },
-    {
       "login": "marandaneto",
       "impactScore": 19,
       "dimensions": {
@@ -7386,7 +7231,7 @@
         "strategic": 8,
         "impactMix": 19,
         "quality": 9,
-        "collaboration": 66,
+        "collaboration": 67,
         "velocity": 15,
         "scope": 8
       },
@@ -7418,6 +7263,48 @@
         "aiPercentage": 0
       },
       "explanation": "4 PRs reviewed — active reviewer. 0 features, 0 fixes — strong value-creation mix.",
+      "topPRs": []
+    },
+    {
+      "login": "rorylshanks",
+      "impactScore": 18,
+      "dimensions": {
+        "effort": 8,
+        "strategic": 8,
+        "impactMix": 19,
+        "quality": 9,
+        "collaboration": 61,
+        "velocity": 15,
+        "scope": 8
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 8,
+        "totalEffortHours": 0,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "uniqueDirectories": 0,
+        "impactTypes": {
+          "feature": 0,
+          "fix": 0,
+          "refactor": 0,
+          "performance": 0,
+          "chore": 0,
+          "docs": 0,
+          "test": 0
+        },
+        "productAreas": [],
+        "useCasesAdvanced": [],
+        "reviewsGiven": 8,
+        "reviewsWithSubstance": 0,
+        "avgReviewTurnaround": 389.94166666666666,
+        "avgCycleTime": null,
+        "mergeFrequency": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "8 PRs reviewed — active reviewer. 0 features, 0 fixes — strong value-creation mix.",
       "topPRs": []
     },
     {
@@ -7463,16 +7350,226 @@
       "topPRs": []
     },
     {
-      "login": "jamesefhawkins",
+      "login": "adboio",
+      "impactScore": 17,
+      "dimensions": {
+        "effort": 8,
+        "strategic": 8,
+        "impactMix": 19,
+        "quality": 9,
+        "collaboration": 50,
+        "velocity": 15,
+        "scope": 8
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 1,
+        "totalEffortHours": 0,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "uniqueDirectories": 0,
+        "impactTypes": {
+          "feature": 0,
+          "fix": 0,
+          "refactor": 0,
+          "performance": 0,
+          "chore": 0,
+          "docs": 0,
+          "test": 0
+        },
+        "productAreas": [],
+        "useCasesAdvanced": [],
+        "reviewsGiven": 1,
+        "reviewsWithSubstance": 0,
+        "avgReviewTurnaround": 18.616666666666667,
+        "avgCycleTime": null,
+        "mergeFrequency": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "1 PRs reviewed — active reviewer. 0 features, 0 fixes — strong value-creation mix.",
+      "topPRs": []
+    },
+    {
+      "login": "benben",
       "impactScore": 16,
       "dimensions": {
-        "effort": 17,
-        "strategic": 18,
+        "effort": 8,
+        "strategic": 8,
+        "impactMix": 19,
+        "quality": 9,
+        "collaboration": 47,
+        "velocity": 15,
+        "scope": 8
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 1,
+        "totalEffortHours": 0,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "uniqueDirectories": 0,
+        "impactTypes": {
+          "feature": 0,
+          "fix": 0,
+          "refactor": 0,
+          "performance": 0,
+          "chore": 0,
+          "docs": 0,
+          "test": 0
+        },
+        "productAreas": [],
+        "useCasesAdvanced": [],
+        "reviewsGiven": 1,
+        "reviewsWithSubstance": 0,
+        "avgReviewTurnaround": 20.433333333333334,
+        "avgCycleTime": null,
+        "mergeFrequency": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "1 PRs reviewed — active reviewer. 0 features, 0 fixes — strong value-creation mix.",
+      "topPRs": []
+    },
+    {
+      "login": "MattPua",
+      "impactScore": 16,
+      "dimensions": {
+        "effort": 8,
+        "strategic": 8,
+        "impactMix": 19,
+        "quality": 9,
+        "collaboration": 46,
+        "velocity": 15,
+        "scope": 8
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 1,
+        "totalEffortHours": 0,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "uniqueDirectories": 0,
+        "impactTypes": {
+          "feature": 0,
+          "fix": 0,
+          "refactor": 0,
+          "performance": 0,
+          "chore": 0,
+          "docs": 0,
+          "test": 0
+        },
+        "productAreas": [],
+        "useCasesAdvanced": [],
+        "reviewsGiven": 1,
+        "reviewsWithSubstance": 0,
+        "avgReviewTurnaround": 23.766666666666666,
+        "avgCycleTime": null,
+        "mergeFrequency": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "1 PRs reviewed — active reviewer. 0 features, 0 fixes — strong value-creation mix.",
+      "topPRs": []
+    },
+    {
+      "login": "harsh21234i",
+      "impactScore": 16,
+      "dimensions": {
+        "effort": 8,
+        "strategic": 8,
+        "impactMix": 19,
+        "quality": 9,
+        "collaboration": 44,
+        "velocity": 15,
+        "scope": 8
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 1,
+        "totalEffortHours": 0,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "uniqueDirectories": 0,
+        "impactTypes": {
+          "feature": 0,
+          "fix": 0,
+          "refactor": 0,
+          "performance": 0,
+          "chore": 0,
+          "docs": 0,
+          "test": 0
+        },
+        "productAreas": [],
+        "useCasesAdvanced": [],
+        "reviewsGiven": 1,
+        "reviewsWithSubstance": 0,
+        "avgReviewTurnaround": 30.60833333333333,
+        "avgCycleTime": null,
+        "mergeFrequency": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "1 PRs reviewed — active reviewer. 0 features, 0 fixes — strong value-creation mix.",
+      "topPRs": []
+    },
+    {
+      "login": "eleftheriatrivyzaki",
+      "impactScore": 15,
+      "dimensions": {
+        "effort": 8,
+        "strategic": 8,
+        "impactMix": 19,
+        "quality": 9,
+        "collaboration": 42,
+        "velocity": 15,
+        "scope": 8
+      },
+      "metrics": {
+        "prsAuthored": 0,
+        "prsReviewed": 1,
+        "totalEffortHours": 0,
+        "totalAdditions": 0,
+        "totalDeletions": 0,
+        "avgFilesPerPR": null,
+        "uniqueDirectories": 0,
+        "impactTypes": {
+          "feature": 0,
+          "fix": 0,
+          "refactor": 0,
+          "performance": 0,
+          "chore": 0,
+          "docs": 0,
+          "test": 0
+        },
+        "productAreas": [],
+        "useCasesAdvanced": [],
+        "reviewsGiven": 1,
+        "reviewsWithSubstance": 0,
+        "avgReviewTurnaround": 37.583333333333336,
+        "avgCycleTime": null,
+        "mergeFrequency": 0,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "1 PRs reviewed — active reviewer. 0 features, 0 fixes — strong value-creation mix.",
+      "topPRs": []
+    },
+    {
+      "login": "jamesefhawkins",
+      "impactScore": 15,
+      "dimensions": {
+        "effort": 16,
+        "strategic": 17,
         "impactMix": 8,
         "quality": 27,
         "collaboration": 7,
         "velocity": 15,
-        "scope": 17
+        "scope": 16
       },
       "metrics": {
         "prsAuthored": 1,
@@ -7517,184 +7614,16 @@
       ]
     },
     {
-      "login": "benben",
-      "impactScore": 16,
-      "dimensions": {
-        "effort": 8,
-        "strategic": 8,
-        "impactMix": 19,
-        "quality": 9,
-        "collaboration": 45,
-        "velocity": 15,
-        "scope": 8
-      },
-      "metrics": {
-        "prsAuthored": 0,
-        "prsReviewed": 1,
-        "totalEffortHours": 0,
-        "totalAdditions": 0,
-        "totalDeletions": 0,
-        "avgFilesPerPR": null,
-        "uniqueDirectories": 0,
-        "impactTypes": {
-          "feature": 0,
-          "fix": 0,
-          "refactor": 0,
-          "performance": 0,
-          "chore": 0,
-          "docs": 0,
-          "test": 0
-        },
-        "productAreas": [],
-        "useCasesAdvanced": [],
-        "reviewsGiven": 1,
-        "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": 20.433333333333334,
-        "avgCycleTime": null,
-        "mergeFrequency": 0,
-        "aiAssistedPRs": 0,
-        "aiPercentage": 0
-      },
-      "explanation": "1 PRs reviewed — active reviewer. 0 features, 0 fixes — strong value-creation mix.",
-      "topPRs": []
-    },
-    {
-      "login": "MattPua",
-      "impactScore": 16,
-      "dimensions": {
-        "effort": 8,
-        "strategic": 8,
-        "impactMix": 19,
-        "quality": 9,
-        "collaboration": 44,
-        "velocity": 15,
-        "scope": 8
-      },
-      "metrics": {
-        "prsAuthored": 0,
-        "prsReviewed": 1,
-        "totalEffortHours": 0,
-        "totalAdditions": 0,
-        "totalDeletions": 0,
-        "avgFilesPerPR": null,
-        "uniqueDirectories": 0,
-        "impactTypes": {
-          "feature": 0,
-          "fix": 0,
-          "refactor": 0,
-          "performance": 0,
-          "chore": 0,
-          "docs": 0,
-          "test": 0
-        },
-        "productAreas": [],
-        "useCasesAdvanced": [],
-        "reviewsGiven": 1,
-        "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": 23.766666666666666,
-        "avgCycleTime": null,
-        "mergeFrequency": 0,
-        "aiAssistedPRs": 0,
-        "aiPercentage": 0
-      },
-      "explanation": "1 PRs reviewed — active reviewer. 0 features, 0 fixes — strong value-creation mix.",
-      "topPRs": []
-    },
-    {
-      "login": "adboio",
-      "impactScore": 16,
-      "dimensions": {
-        "effort": 8,
-        "strategic": 8,
-        "impactMix": 19,
-        "quality": 9,
-        "collaboration": 48,
-        "velocity": 15,
-        "scope": 8
-      },
-      "metrics": {
-        "prsAuthored": 0,
-        "prsReviewed": 1,
-        "totalEffortHours": 0,
-        "totalAdditions": 0,
-        "totalDeletions": 0,
-        "avgFilesPerPR": null,
-        "uniqueDirectories": 0,
-        "impactTypes": {
-          "feature": 0,
-          "fix": 0,
-          "refactor": 0,
-          "performance": 0,
-          "chore": 0,
-          "docs": 0,
-          "test": 0
-        },
-        "productAreas": [],
-        "useCasesAdvanced": [],
-        "reviewsGiven": 1,
-        "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": 18.616666666666667,
-        "avgCycleTime": null,
-        "mergeFrequency": 0,
-        "aiAssistedPRs": 0,
-        "aiPercentage": 0
-      },
-      "explanation": "1 PRs reviewed — active reviewer. 0 features, 0 fixes — strong value-creation mix.",
-      "topPRs": []
-    },
-    {
-      "login": "eleftheriatrivyzaki",
-      "impactScore": 15,
-      "dimensions": {
-        "effort": 8,
-        "strategic": 8,
-        "impactMix": 19,
-        "quality": 9,
-        "collaboration": 41,
-        "velocity": 15,
-        "scope": 8
-      },
-      "metrics": {
-        "prsAuthored": 0,
-        "prsReviewed": 1,
-        "totalEffortHours": 0,
-        "totalAdditions": 0,
-        "totalDeletions": 0,
-        "avgFilesPerPR": null,
-        "uniqueDirectories": 0,
-        "impactTypes": {
-          "feature": 0,
-          "fix": 0,
-          "refactor": 0,
-          "performance": 0,
-          "chore": 0,
-          "docs": 0,
-          "test": 0
-        },
-        "productAreas": [],
-        "useCasesAdvanced": [],
-        "reviewsGiven": 1,
-        "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": 37.583333333333336,
-        "avgCycleTime": null,
-        "mergeFrequency": 0,
-        "aiAssistedPRs": 0,
-        "aiPercentage": 0
-      },
-      "explanation": "1 PRs reviewed — active reviewer. 0 features, 0 fixes — strong value-creation mix.",
-      "topPRs": []
-    },
-    {
       "login": "abigailbramble",
       "impactScore": 15,
       "dimensions": {
-        "effort": 21,
+        "effort": 20,
         "strategic": 20,
         "impactMix": 3,
         "quality": 9,
         "collaboration": 7,
         "velocity": 15,
-        "scope": 25
+        "scope": 24
       },
       "metrics": {
         "prsAuthored": 1,
@@ -7737,48 +7666,6 @@
           "effortHours": 1
         }
       ]
-    },
-    {
-      "login": "harsh21234i",
-      "impactScore": 15,
-      "dimensions": {
-        "effort": 8,
-        "strategic": 8,
-        "impactMix": 19,
-        "quality": 9,
-        "collaboration": 42,
-        "velocity": 15,
-        "scope": 8
-      },
-      "metrics": {
-        "prsAuthored": 0,
-        "prsReviewed": 1,
-        "totalEffortHours": 0,
-        "totalAdditions": 0,
-        "totalDeletions": 0,
-        "avgFilesPerPR": null,
-        "uniqueDirectories": 0,
-        "impactTypes": {
-          "feature": 0,
-          "fix": 0,
-          "refactor": 0,
-          "performance": 0,
-          "chore": 0,
-          "docs": 0,
-          "test": 0
-        },
-        "productAreas": [],
-        "useCasesAdvanced": [],
-        "reviewsGiven": 1,
-        "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": 30.60833333333333,
-        "avgCycleTime": null,
-        "mergeFrequency": 0,
-        "aiAssistedPRs": 0,
-        "aiPercentage": 0
-      },
-      "explanation": "1 PRs reviewed — active reviewer. 0 features, 0 fixes — strong value-creation mix.",
-      "topPRs": []
     },
     {
       "login": "tpgilmore",
@@ -7830,7 +7717,7 @@
         "strategic": 8,
         "impactMix": 19,
         "quality": 9,
-        "collaboration": 36,
+        "collaboration": 35,
         "velocity": 15,
         "scope": 8
       },
@@ -7949,48 +7836,6 @@
       "topPRs": []
     },
     {
-      "login": "raquelmsmith",
-      "impactScore": 14,
-      "dimensions": {
-        "effort": 8,
-        "strategic": 8,
-        "impactMix": 19,
-        "quality": 9,
-        "collaboration": 32,
-        "velocity": 15,
-        "scope": 8
-      },
-      "metrics": {
-        "prsAuthored": 0,
-        "prsReviewed": 1,
-        "totalEffortHours": 0,
-        "totalAdditions": 0,
-        "totalDeletions": 0,
-        "avgFilesPerPR": null,
-        "uniqueDirectories": 0,
-        "impactTypes": {
-          "feature": 0,
-          "fix": 0,
-          "refactor": 0,
-          "performance": 0,
-          "chore": 0,
-          "docs": 0,
-          "test": 0
-        },
-        "productAreas": [],
-        "useCasesAdvanced": [],
-        "reviewsGiven": 1,
-        "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": 123.625,
-        "avgCycleTime": null,
-        "mergeFrequency": 0,
-        "aiAssistedPRs": 0,
-        "aiPercentage": 0
-      },
-      "explanation": "1 PRs reviewed — active reviewer. 0 features, 0 fixes — strong value-creation mix.",
-      "topPRs": []
-    },
-    {
       "login": "charlesvien",
       "impactScore": 13,
       "dimensions": {
@@ -7998,7 +7843,7 @@
         "strategic": 8,
         "impactMix": 19,
         "quality": 9,
-        "collaboration": 24,
+        "collaboration": 25,
         "velocity": 15,
         "scope": 8
       },
@@ -8036,13 +7881,13 @@
       "login": "tests-posthog",
       "impactScore": 13,
       "dimensions": {
-        "effort": 17,
+        "effort": 16,
         "strategic": 16,
         "impactMix": 3,
         "quality": 9,
         "collaboration": 7,
         "velocity": 15,
-        "scope": 17
+        "scope": 16
       },
       "metrics": {
         "prsAuthored": 1,
@@ -8076,7 +7921,7 @@
         "aiAssistedPRs": 0,
         "aiPercentage": 0
       },
-      "explanation": "Shipped 1 expert-hours across 1 PRs. Touches 0 areas of the codebase — broad architectural influence.",
+      "explanation": "Shipped 1 expert-hours across 1 PRs. 0 PostHog use cases advanced — highly aligned with the north star.",
       "topPRs": [
         {
           "number": 57385,
@@ -8178,7 +8023,7 @@
         "strategic": 8,
         "impactMix": 19,
         "quality": 9,
-        "collaboration": 14,
+        "collaboration": 15,
         "velocity": 15,
         "scope": 8
       },
@@ -8209,26 +8054,104 @@
         "aiAssistedPRs": 0,
         "aiPercentage": 0
       },
-      "explanation": "0 features, 0 fixes — strong value-creation mix. — avg cycle time, 0.0 PRs/week.",
+      "explanation": "0 features, 0 fixes — strong value-creation mix. 2 PRs reviewed — active reviewer.",
       "topPRs": []
     }
   ],
   "topFive": [
     {
+      "login": "webjunkie",
+      "impactScore": 86,
+      "dimensions": {
+        "effort": 98,
+        "strategic": 98,
+        "impactMix": 35,
+        "quality": 59,
+        "collaboration": 99,
+        "velocity": 85,
+        "scope": 100
+      },
+      "metrics": {
+        "prsAuthored": 41,
+        "prsReviewed": 16,
+        "totalEffortHours": 211,
+        "totalAdditions": 51947,
+        "totalDeletions": 47006,
+        "avgFilesPerPR": 12.829268292682928,
+        "uniqueDirectories": 69,
+        "impactTypes": {
+          "feature": 8,
+          "fix": 9,
+          "refactor": 5,
+          "performance": 5,
+          "chore": 10,
+          "docs": 4,
+          "test": 0
+        },
+        "productAreas": [
+          {
+            "area": "devex",
+            "count": 30
+          },
+          {
+            "area": "infrastructure",
+            "count": 9
+          },
+          {
+            "area": "mcp-server",
+            "count": 1
+          },
+          {
+            "area": "design-system",
+            "count": 1
+          }
+        ],
+        "useCasesAdvanced": [],
+        "reviewsGiven": 16,
+        "reviewsWithSubstance": 5,
+        "avgReviewTurnaround": 3162.335606060606,
+        "avgCycleTime": 1311.9268292682927,
+        "mergeFrequency": 28.92804270703427,
+        "aiAssistedPRs": 0,
+        "aiPercentage": 0
+      },
+      "explanation": "Touches 69 areas of the codebase — broad architectural influence. 16 reviews (5 substantive) — strong team multiplier.",
+      "topPRs": [
+        {
+          "number": 57624,
+          "title": "feat(visual-review): split pixel/structural diff, cluster panel, history-view quarantine",
+          "strategicScore": 8,
+          "effortHours": 25
+        },
+        {
+          "number": 57206,
+          "title": "chore(devex): integrate test selection verdict into backend CI",
+          "strategicScore": 7,
+          "effortHours": 16
+        },
+        {
+          "number": 57871,
+          "title": "feat(devex): upgrade openapi spec to 3.1 and orval to 8.9.1",
+          "strategicScore": 8,
+          "effortHours": 12
+        }
+      ]
+    },
+    {
       "login": "pauldambra",
-      "impactScore": 89,
+      "impactScore": 86,
       "dimensions": {
         "effort": 99,
         "strategic": 99,
         "impactMix": 50,
-        "quality": 59,
-        "collaboration": 99,
-        "velocity": 92,
+        "quality": 60,
+        "collaboration": 78,
+        "velocity": 93,
         "scope": 99
       },
       "metrics": {
         "prsAuthored": 69,
-        "prsReviewed": 28,
+        "prsReviewed": 14,
         "totalEffortHours": 324.5,
         "totalAdditions": 10803,
         "totalDeletions": 4925,
@@ -8297,9 +8220,9 @@
           "ai-product",
           "user-feedback"
         ],
-        "reviewsGiven": 28,
+        "reviewsGiven": 14,
         "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": 1955.5918902683266,
+        "avgReviewTurnaround": 1084.992156862745,
         "avgCycleTime": 628.6086956521739,
         "mergeFrequency": 49.31588438694307,
         "aiAssistedPRs": 2,
@@ -8328,94 +8251,16 @@
       ]
     },
     {
-      "login": "webjunkie",
-      "impactScore": 86,
-      "dimensions": {
-        "effort": 98,
-        "strategic": 98,
-        "impactMix": 35,
-        "quality": 59,
-        "collaboration": 98,
-        "velocity": 84,
-        "scope": 100
-      },
-      "metrics": {
-        "prsAuthored": 41,
-        "prsReviewed": 16,
-        "totalEffortHours": 211,
-        "totalAdditions": 51947,
-        "totalDeletions": 47006,
-        "avgFilesPerPR": 12.829268292682928,
-        "uniqueDirectories": 69,
-        "impactTypes": {
-          "feature": 8,
-          "fix": 9,
-          "refactor": 5,
-          "performance": 5,
-          "chore": 10,
-          "docs": 4,
-          "test": 0
-        },
-        "productAreas": [
-          {
-            "area": "devex",
-            "count": 30
-          },
-          {
-            "area": "infrastructure",
-            "count": 9
-          },
-          {
-            "area": "mcp-server",
-            "count": 1
-          },
-          {
-            "area": "design-system",
-            "count": 1
-          }
-        ],
-        "useCasesAdvanced": [],
-        "reviewsGiven": 16,
-        "reviewsWithSubstance": 5,
-        "avgReviewTurnaround": 3162.335606060606,
-        "avgCycleTime": 1311.9268292682927,
-        "mergeFrequency": 28.92804270703427,
-        "aiAssistedPRs": 0,
-        "aiPercentage": 0
-      },
-      "explanation": "Touches 69 areas of the codebase — broad architectural influence. Shipped 211 expert-hours across 41 PRs.",
-      "topPRs": [
-        {
-          "number": 57624,
-          "title": "feat(visual-review): split pixel/structural diff, cluster panel, history-view quarantine",
-          "strategicScore": 8,
-          "effortHours": 25
-        },
-        {
-          "number": 57206,
-          "title": "chore(devex): integrate test selection verdict into backend CI",
-          "strategicScore": 7,
-          "effortHours": 16
-        },
-        {
-          "number": 57871,
-          "title": "feat(devex): upgrade openapi spec to 3.1 and orval to 8.9.1",
-          "strategicScore": 8,
-          "effortHours": 12
-        }
-      ]
-    },
-    {
       "login": "TueHaulund",
       "impactScore": 84,
       "dimensions": {
         "effort": 95,
         "strategic": 96,
         "impactMix": 73,
-        "quality": 81,
+        "quality": 80,
         "collaboration": 77,
         "velocity": 61,
-        "scope": 95
+        "scope": 96
       },
       "metrics": {
         "prsAuthored": 10,
@@ -8457,7 +8302,7 @@
         "aiAssistedPRs": 0,
         "aiPercentage": 0
       },
-      "explanation": "3 PostHog use cases advanced — highly aligned with the north star. Shipped 101 expert-hours across 10 PRs.",
+      "explanation": "3 PostHog use cases advanced — highly aligned with the north star. Touches 23 areas of the codebase — broad architectural influence.",
       "topPRs": [
         {
           "number": 57072,
@@ -8488,8 +8333,8 @@
         "impactMix": 52,
         "quality": 75,
         "collaboration": 62,
-        "velocity": 94,
-        "scope": 80
+        "velocity": 95,
+        "scope": 81
       },
       "metrics": {
         "prsAuthored": 76,
@@ -8563,74 +8408,42 @@
       ]
     },
     {
-      "login": "posthog",
+      "login": "cat-ph",
       "impactScore": 82,
       "dimensions": {
-        "effort": 96,
-        "strategic": 95,
-        "impactMix": 70,
-        "quality": 64,
-        "collaboration": 45,
-        "velocity": 95,
-        "scope": 97
+        "effort": 80,
+        "strategic": 87,
+        "impactMix": 63,
+        "quality": 89,
+        "collaboration": 80,
+        "velocity": 78,
+        "scope": 91
       },
       "metrics": {
-        "prsAuthored": 42,
-        "prsReviewed": 1,
-        "totalEffortHours": 131,
-        "totalAdditions": 4248,
-        "totalDeletions": 1600,
-        "avgFilesPerPR": 4.119047619047619,
-        "uniqueDirectories": 23,
+        "prsAuthored": 6,
+        "prsReviewed": 11,
+        "totalEffortHours": 51.5,
+        "totalAdditions": 6544,
+        "totalDeletions": 1719,
+        "avgFilesPerPR": 16,
+        "uniqueDirectories": 17,
         "impactTypes": {
-          "feature": 10,
-          "fix": 28,
+          "feature": 2,
+          "fix": 3,
           "refactor": 0,
-          "performance": 1,
-          "chore": 2,
+          "performance": 0,
+          "chore": 1,
           "docs": 0,
-          "test": 1
+          "test": 0
         },
         "productAreas": [
           {
-            "area": "product-analytics",
-            "count": 10
-          },
-          {
-            "area": "llm-analytics",
-            "count": 7
-          },
-          {
-            "area": "session-replay",
-            "count": 5
-          },
-          {
-            "area": "infrastructure",
-            "count": 5
-          },
-          {
-            "area": "posthog-ai",
-            "count": 5
-          },
-          {
-            "area": "mcp-server",
+            "area": "error-tracking",
             "count": 3
           },
           {
-            "area": "feature-flags",
+            "area": "mcp-server",
             "count": 2
-          },
-          {
-            "area": "workflows",
-            "count": 2
-          },
-          {
-            "area": "batch-exports",
-            "count": 1
-          },
-          {
-            "area": "posthog-code",
-            "count": 1
           },
           {
             "area": "devex",
@@ -8638,39 +8451,35 @@
           }
         ],
         "useCasesAdvanced": [
-          "ai-product",
           "debug-issues",
-          "business-outcomes",
-          "user-navigation",
-          "feature-rollouts",
-          "feature-adoption"
+          "ai-product"
         ],
-        "reviewsGiven": 1,
+        "reviewsGiven": 11,
         "reviewsWithSubstance": 0,
-        "avgReviewTurnaround": 22.6,
-        "avgCycleTime": 774.9761904761905,
-        "mergeFrequency": 28.538205644142003,
+        "avgReviewTurnaround": 209.78787878787878,
+        "avgCycleTime": 4943,
+        "mergeFrequency": 12.814826324636618,
         "aiAssistedPRs": 0,
         "aiPercentage": 0
       },
-      "explanation": "Touches 23 areas of the codebase — broad architectural influence. Shipped 131 expert-hours across 42 PRs.",
+      "explanation": "Touches 17 areas of the codebase — broad architectural influence. Consistently high-quality PRs with clear problem statements and testing plans.",
       "topPRs": [
         {
-          "number": 57560,
-          "title": "fix(feature-flags): hide non-`in` cohort recents from picker",
-          "strategicScore": 7,
-          "effortHours": 12
-        },
-        {
-          "number": 57106,
-          "title": "feat(dashboards): server-side fuzzy full-text search via API",
-          "strategicScore": 7,
-          "effortHours": 12
-        },
-        {
-          "number": 57261,
-          "title": "feat(mcp): add feedback-submit tool for agent feedback",
+          "number": 57379,
+          "title": "feat(error-tracking): expose symbol set MCP tools",
           "strategicScore": 9,
+          "effortHours": 20
+        },
+        {
+          "number": 57052,
+          "title": "feat(mcp): add issue list/detail/events error tracking tools",
+          "strategicScore": 9,
+          "effortHours": 20
+        },
+        {
+          "number": 57057,
+          "title": "fix(error-tracking): respect OR/AND operator in issues list filters",
+          "strategicScore": 6,
           "effortHours": 8
         }
       ]
