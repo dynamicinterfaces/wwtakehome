@@ -40,9 +40,6 @@ export function EngineerView({ engineer, weights, focusedDimension, onDimensionC
             {metrics.productAreas.slice(0, 3).map(pa => (
               <Badge key={pa.area} variant="secondary">{pa.area}</Badge>
             ))}
-            {metrics.aiPercentage > 0 && (
-              <Badge variant="outline">{metrics.aiPercentage.toFixed(0)}% AI</Badge>
-            )}
           </div>
           <p className="text-xs text-muted-foreground">{engineer.explanation}</p>
         </div>
@@ -89,7 +86,6 @@ export function EngineerView({ engineer, weights, focusedDimension, onDimensionC
                 ['Merge Freq', metrics.mergeFrequency.toFixed(1) + '/wk'],
                 ['Quality Reviews', metrics.reviewsWithSubstance],
                 ['Unique Dirs', metrics.uniqueDirectories],
-                ['AI-Assisted', metrics.aiAssistedPRs > 0 ? `${metrics.aiAssistedPRs} (${metrics.aiPercentage.toFixed(0)}%)` : '—'],
               ] as [string, string | number][]).map(([label, value]) => (
                 <div key={label} className="flex justify-between text-[11px]">
                   <span className="text-muted-foreground">{label}</span>

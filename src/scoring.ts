@@ -347,7 +347,6 @@ function generateExplanation(eng: EngineerImpact): string {
   }
 
   const parts = [desc[entries[0][0]], desc[entries[1][0]]]
-  if (m.aiPercentage > 0) parts.push(`${m.aiPercentage.toFixed(0)}% AI-assisted`)
   return parts.join('. ') + '.'
 }
 

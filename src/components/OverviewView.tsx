@@ -1,7 +1,6 @@
 import { Card } from './ui/card'
-import { Badge } from './ui/badge'
 import { DIM_CONFIG } from './DimensionBar'
-import type { ScoredDataset, DimensionScores } from '../types'
+import type { ScoredDataset } from '../types'
 
 interface Props {
   dataset: ScoredDataset
@@ -84,9 +83,6 @@ export function OverviewView({ dataset, onSelectEngineer }: Props) {
             <span className="w-6 text-[11px] text-muted-foreground tabular-nums">{i + 1}</span>
             <div className="flex-1 min-w-0 flex items-center gap-1.5">
               <span className="text-xs font-medium truncate">{eng.login}</span>
-              {eng.metrics.aiPercentage > 0 && (
-                <Badge variant="outline" className="text-[8px] px-1 py-0">{eng.metrics.aiPercentage.toFixed(0)}%AI</Badge>
-              )}
             </div>
             {DIM_CONFIG.map(({ key }) => {
               const v = eng.dimensions[key]

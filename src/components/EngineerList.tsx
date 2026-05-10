@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { Badge } from './ui/badge'
 import type { EngineerImpact, DatasetSummary } from '../types'
 
 interface Props {
@@ -107,9 +106,6 @@ export function EngineerList({ engineers, allEngineers, summary, selectedLogin, 
                     <div className="flex items-center gap-1.5 mt-0.5">
                       <span className="text-[9px] text-muted-foreground">{eng.metrics.prsAuthored} PRs</span>
                       <span className="text-[9px] text-muted-foreground">{eng.metrics.totalEffortHours.toFixed(0)}h</span>
-                      {eng.metrics.aiPercentage > 0 && (
-                        <Badge variant="outline" className="text-[7px] px-1 py-0">{eng.metrics.aiPercentage.toFixed(0)}%AI</Badge>
-                      )}
                     </div>
                   )}
                 </div>
