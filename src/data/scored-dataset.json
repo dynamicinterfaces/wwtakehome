@@ -78,6 +78,15 @@
         "velocity": 85,
         "scope": 100
       },
+      "rawValues": {
+        "effort": 211,
+        "strategic": 1256.5,
+        "impactMix": 0.597560975609756,
+        "quality": 4.451219512195122,
+        "collaboration": 50,
+        "velocity": 22.35283902610733,
+        "scope": 190
+      },
       "metrics": {
         "prsAuthored": 41,
         "prsReviewed": 16,
@@ -155,6 +164,15 @@
         "collaboration": 78,
         "velocity": 93,
         "scope": 99
+      },
+      "rawValues": {
+        "effort": 324.5,
+        "strategic": 1903,
+        "impactMix": 0.672463768115942,
+        "quality": 4.471014492753623,
+        "collaboration": 15.49153718995406,
+        "velocity": 25.81352925432932,
+        "scope": 157
       },
       "metrics": {
         "prsAuthored": 69,
@@ -269,6 +287,15 @@
         "velocity": 61,
         "scope": 96
       },
+      "rawValues": {
+        "effort": 101,
+        "strategic": 772.5,
+        "impactMix": 0.76,
+        "quality": 5.4,
+        "collaboration": 15.474985485524368,
+        "velocity": 13.54885106592253,
+        "scope": 72
+      },
       "metrics": {
         "prsAuthored": 10,
         "prsReviewed": 15,
@@ -342,6 +369,15 @@
         "collaboration": 62,
         "velocity": 95,
         "scope": 81
+      },
+      "rawValues": {
+        "effort": 422,
+        "strategic": 2444.5,
+        "impactMix": 0.6828947368421056,
+        "quality": 4.967105263157895,
+        "collaboration": 12.263775771892515,
+        "velocity": 27.218350481225862,
+        "scope": 41
       },
       "metrics": {
         "prsAuthored": 76,
@@ -426,6 +462,15 @@
         "velocity": 78,
         "scope": 91
       },
+      "rawValues": {
+        "effort": 51.5,
+        "strategic": 423,
+        "impactMix": 0.7166666666666667,
+        "quality": 5.75,
+        "collaboration": 16.66241774893844,
+        "velocity": 19.079794370909642,
+        "scope": 53
+      },
       "metrics": {
         "prsAuthored": 6,
         "prsReviewed": 11,
@@ -502,6 +547,15 @@
         "collaboration": 89,
         "velocity": 75,
         "scope": 98
+      },
+      "rawValues": {
+        "effort": 112.5,
+        "strategic": 552,
+        "impactMix": 0.6105263157894737,
+        "quality": 3.9210526315789473,
+        "collaboration": 25.428460011403445,
+        "velocity": 17.85573110435326,
+        "scope": 116
       },
       "metrics": {
         "prsAuthored": 19,
@@ -586,6 +640,15 @@
         "velocity": 70,
         "scope": 89
       },
+      "rawValues": {
+        "effort": 58,
+        "strategic": 448,
+        "impactMix": 0.58,
+        "quality": 5.633333333333334,
+        "collaboration": 35.174907017886625,
+        "velocity": 15.771280792619411,
+        "scope": 47
+      },
       "metrics": {
         "prsAuthored": 15,
         "prsReviewed": 17,
@@ -662,6 +725,15 @@
         "velocity": 37,
         "scope": 93
       },
+      "rawValues": {
+        "effort": 71,
+        "strategic": 496,
+        "impactMix": 0.7571428571428571,
+        "quality": 6.428571428571429,
+        "collaboration": 23,
+        "velocity": 10.02521152012288,
+        "scope": 56
+      },
       "metrics": {
         "prsAuthored": 7,
         "prsReviewed": 11,
@@ -733,6 +805,15 @@
         "collaboration": 96,
         "velocity": 80,
         "scope": 97
+      },
+      "rawValues": {
+        "effort": 67.5,
+        "strategic": 398.5,
+        "impactMix": 0.5043478260869564,
+        "quality": 4.6521739130434785,
+        "collaboration": 38.90120211894644,
+        "velocity": 19.677404363336056,
+        "scope": 77
       },
       "metrics": {
         "prsAuthored": 23,
@@ -812,6 +893,15 @@
         "velocity": 69,
         "scope": 95
       },
+      "rawValues": {
+        "effort": 76,
+        "strategic": 365,
+        "impactMix": 0.6437499999999999,
+        "quality": 4.78125,
+        "collaboration": 28,
+        "velocity": 15.463456139983794,
+        "scope": 65
+      },
       "metrics": {
         "prsAuthored": 16,
         "prsReviewed": 8,
@@ -887,6 +977,15 @@
         "collaboration": 93,
         "velocity": 63,
         "scope": 72
+      },
+      "rawValues": {
+        "effort": 77,
+        "strategic": 519,
+        "impactMix": 0.7285714285714285,
+        "quality": 4.535714285714286,
+        "collaboration": 31.704603487861764,
+        "velocity": 14.263550221099178,
+        "scope": 35
       },
       "metrics": {
         "prsAuthored": 14,
@@ -965,6 +1064,15 @@
         "velocity": 91,
         "scope": 67
       },
+      "rawValues": {
+        "effort": 155,
+        "strategic": 884.5,
+        "impactMix": 0.7653846153846152,
+        "quality": 5.769230769230769,
+        "collaboration": 6.727201888104568,
+        "velocity": 25.739463900900542,
+        "scope": 33
+      },
       "metrics": {
         "prsAuthored": 26,
         "prsReviewed": 2,
@@ -1033,6 +1141,15 @@
         "collaboration": 92,
         "velocity": 55,
         "scope": 87
+      },
+      "rawValues": {
+        "effort": 40,
+        "strategic": 307,
+        "impactMix": 0.8166666666666668,
+        "quality": 5.333333333333333,
+        "collaboration": 28.141646270402518,
+        "velocity": 13.082377385130659,
+        "scope": 46
       },
       "metrics": {
         "prsAuthored": 6,
@@ -1116,6 +1233,15 @@
         "velocity": 72,
         "scope": 79
       },
+      "rawValues": {
+        "effort": 58,
+        "strategic": 348,
+        "impactMix": 0.8800000000000001,
+        "quality": 4.7,
+        "collaboration": 14,
+        "velocity": 16.6504279163602,
+        "scope": 40
+      },
       "metrics": {
         "prsAuthored": 5,
         "prsReviewed": 10,
@@ -1188,6 +1314,15 @@
         "collaboration": 65,
         "velocity": 42,
         "scope": 82
+      },
+      "rawValues": {
+        "effort": 89.5,
+        "strategic": 556.5,
+        "impactMix": 0.7785714285714285,
+        "quality": 4.714285714285714,
+        "collaboration": 13.29508580953603,
+        "velocity": 11.128577573645268,
+        "scope": 42
       },
       "metrics": {
         "prsAuthored": 14,
@@ -1265,6 +1400,15 @@
         "collaboration": 87,
         "velocity": 33,
         "scope": 85
+      },
+      "rawValues": {
+        "effort": 99,
+        "strategic": 554,
+        "impactMix": 0.5444444444444445,
+        "quality": 5.277777777777778,
+        "collaboration": 23.633968284987766,
+        "velocity": 9.10457749714548,
+        "scope": 44
       },
       "metrics": {
         "prsAuthored": 9,
@@ -1347,6 +1491,15 @@
         "velocity": 60,
         "scope": 70
       },
+      "rawValues": {
+        "effort": 59,
+        "strategic": 373,
+        "impactMix": 0.8800000000000001,
+        "quality": 4.25,
+        "collaboration": 14.49006179748411,
+        "velocity": 13.461490897023607,
+        "scope": 34
+      },
       "metrics": {
         "prsAuthored": 10,
         "prsReviewed": 9,
@@ -1425,6 +1578,15 @@
         "velocity": 76,
         "scope": 90
       },
+      "rawValues": {
+        "effort": 58,
+        "strategic": 351,
+        "impactMix": 0.9166666666666666,
+        "quality": 3.6666666666666665,
+        "collaboration": 9,
+        "velocity": 18.633945154114176,
+        "scope": 50
+      },
       "metrics": {
         "prsAuthored": 6,
         "prsReviewed": 9,
@@ -1497,6 +1659,15 @@
         "collaboration": 70,
         "velocity": 66,
         "scope": 60
+      },
+      "rawValues": {
+        "effort": 52.5,
+        "strategic": 377,
+        "impactMix": 0.8374999999999999,
+        "quality": 3.96875,
+        "collaboration": 13.794021295669772,
+        "velocity": 14.92075121088916,
+        "scope": 28
       },
       "metrics": {
         "prsAuthored": 16,
@@ -1573,6 +1744,15 @@
         "collaboration": 65,
         "velocity": 43,
         "scope": 91
+      },
+      "rawValues": {
+        "effort": 42.5,
+        "strategic": 277.5,
+        "impactMix": 0.8285714285714286,
+        "quality": 5.071428571428571,
+        "collaboration": 13.221223299358142,
+        "velocity": 11.163295268296828,
+        "scope": 53
       },
       "metrics": {
         "prsAuthored": 7,
@@ -1653,6 +1833,15 @@
         "velocity": 94,
         "scope": 33
       },
+      "rawValues": {
+        "effort": 69,
+        "strategic": 377,
+        "impactMix": 1,
+        "quality": 3.3333333333333335,
+        "collaboration": 11.803481353330772,
+        "velocity": 26.97869546184153,
+        "scope": 11
+      },
       "metrics": {
         "prsAuthored": 3,
         "prsReviewed": 3,
@@ -1718,6 +1907,15 @@
         "collaboration": 97,
         "velocity": 70,
         "scope": 76
+      },
+      "rawValues": {
+        "effort": 47.5,
+        "strategic": 267,
+        "impactMix": 0.6300000000000001,
+        "quality": 3.7,
+        "collaboration": 43.07729870117383,
+        "velocity": 15.85676554474371,
+        "scope": 38
       },
       "metrics": {
         "prsAuthored": 10,
@@ -1795,6 +1993,15 @@
         "velocity": 49,
         "scope": 95
       },
+      "rawValues": {
+        "effort": 62,
+        "strategic": 537,
+        "impactMix": 0.7636363636363637,
+        "quality": 6.318181818181818,
+        "collaboration": 0,
+        "velocity": 12.385600059369246,
+        "scope": 71
+      },
       "metrics": {
         "prsAuthored": 11,
         "prsReviewed": 0,
@@ -1868,6 +2075,15 @@
         "velocity": 50,
         "scope": 74
       },
+      "rawValues": {
+        "effort": 48,
+        "strategic": 230,
+        "impactMix": 0.775,
+        "quality": 5.8125,
+        "collaboration": 13.428686168762919,
+        "velocity": 12.420505544257573,
+        "scope": 36
+      },
       "metrics": {
         "prsAuthored": 8,
         "prsReviewed": 8,
@@ -1937,6 +2153,15 @@
         "collaboration": 69,
         "velocity": 50,
         "scope": 74
+      },
+      "rawValues": {
+        "effort": 47.5,
+        "strategic": 388,
+        "impactMix": 0.7333333333333334,
+        "quality": 4.555555555555555,
+        "collaboration": 13.567481390776129,
+        "velocity": 12.519166518402013,
+        "scope": 36
       },
       "metrics": {
         "prsAuthored": 9,
@@ -2013,6 +2238,15 @@
         "collaboration": 22,
         "velocity": 68,
         "scope": 76
+      },
+      "rawValues": {
+        "effort": 52,
+        "strategic": 438,
+        "impactMix": 0.8666666666666667,
+        "quality": 4.5,
+        "collaboration": 5,
+        "velocity": 15.427949717375146,
+        "scope": 38
       },
       "metrics": {
         "prsAuthored": 9,
@@ -2091,6 +2325,15 @@
         "collaboration": 40,
         "velocity": 81,
         "scope": 91
+      },
+      "rawValues": {
+        "effort": 63.5,
+        "strategic": 356.5,
+        "impactMix": 0.73125,
+        "quality": 1.625,
+        "collaboration": 9.24064116640613,
+        "velocity": 19.76542163721381,
+        "scope": 53
       },
       "metrics": {
         "prsAuthored": 16,
@@ -2177,6 +2420,15 @@
         "velocity": 80,
         "scope": 87
       },
+      "rawValues": {
+        "effort": 56,
+        "strategic": 296,
+        "impactMix": 0.7625000000000001,
+        "quality": 3.625,
+        "collaboration": 8.537874941788324,
+        "velocity": 19.518683891347138,
+        "scope": 46
+      },
       "metrics": {
         "prsAuthored": 8,
         "prsReviewed": 2,
@@ -2246,6 +2498,15 @@
         "velocity": 40,
         "scope": 83
       },
+      "rawValues": {
+        "effort": 33,
+        "strategic": 253.5,
+        "impactMix": 0.8285714285714285,
+        "quality": 2.9285714285714284,
+        "collaboration": 46.05863385453069,
+        "velocity": 10.738731016272748,
+        "scope": 43
+      },
       "metrics": {
         "prsAuthored": 7,
         "prsReviewed": 10,
@@ -2314,6 +2575,15 @@
         "collaboration": 88,
         "velocity": 67,
         "scope": 63
+      },
+      "rawValues": {
+        "effort": 34,
+        "strategic": 167,
+        "impactMix": 0.7555555555555556,
+        "quality": 4.722222222222222,
+        "collaboration": 24.89845490766966,
+        "velocity": 15.395636503830534,
+        "scope": 31
       },
       "metrics": {
         "prsAuthored": 9,
@@ -2386,6 +2656,15 @@
         "collaboration": 56,
         "velocity": 35,
         "scope": 94
+      },
+      "rawValues": {
+        "effort": 47.5,
+        "strategic": 367.5,
+        "impactMix": 0.6571428571428571,
+        "quality": 6.071428571428571,
+        "collaboration": 11.506413257981812,
+        "velocity": 9.479307554161387,
+        "scope": 57
       },
       "metrics": {
         "prsAuthored": 7,
@@ -2472,6 +2751,15 @@
         "velocity": 60,
         "scope": 70
       },
+      "rawValues": {
+        "effort": 68.5,
+        "strategic": 448.5,
+        "impactMix": 0.6818181818181818,
+        "quality": 5.045454545454546,
+        "collaboration": 6.479439807315759,
+        "velocity": 13.356184895312193,
+        "scope": 34
+      },
       "metrics": {
         "prsAuthored": 11,
         "prsReviewed": 2,
@@ -2554,6 +2842,15 @@
         "velocity": 90,
         "scope": 57
       },
+      "rawValues": {
+        "effort": 16,
+        "strategic": 84,
+        "impactMix": 0.7999999999999999,
+        "quality": 6.166666666666667,
+        "collaboration": 13.863040524234467,
+        "velocity": 25.079495297298546,
+        "scope": 27
+      },
       "metrics": {
         "prsAuthored": 3,
         "prsReviewed": 2,
@@ -2626,6 +2923,15 @@
         "collaboration": 24,
         "velocity": 55,
         "scope": 78
+      },
+      "rawValues": {
+        "effort": 53,
+        "strategic": 447,
+        "impactMix": 0.7999999999999999,
+        "quality": 4,
+        "collaboration": 5.612850719106806,
+        "velocity": 13.005020422954898,
+        "scope": 39
       },
       "metrics": {
         "prsAuthored": 12,
@@ -2700,6 +3006,15 @@
         "velocity": 32,
         "scope": 48
       },
+      "rawValues": {
+        "effort": 40,
+        "strategic": 262,
+        "impactMix": 0.7666666666666666,
+        "quality": 5.666666666666667,
+        "collaboration": 21,
+        "velocity": 9.078139005866326,
+        "scope": 21
+      },
       "metrics": {
         "prsAuthored": 6,
         "prsReviewed": 9,
@@ -2768,6 +3083,15 @@
         "velocity": 92,
         "scope": 43
       },
+      "rawValues": {
+        "effort": 12,
+        "strategic": 53,
+        "impactMix": 0.7749999999999999,
+        "quality": 6.25,
+        "collaboration": 38,
+        "velocity": 25.804993267349214,
+        "scope": 15
+      },
       "metrics": {
         "prsAuthored": 4,
         "prsReviewed": 8,
@@ -2835,6 +3159,15 @@
         "collaboration": 39,
         "velocity": 52,
         "scope": 87
+      },
+      "rawValues": {
+        "effort": 49,
+        "strategic": 270,
+        "impactMix": 0.7272727272727273,
+        "quality": 3.909090909090909,
+        "collaboration": 9.120023318059955,
+        "velocity": 12.61636781128724,
+        "scope": 46
       },
       "metrics": {
         "prsAuthored": 11,
@@ -2922,6 +3255,15 @@
         "velocity": 88,
         "scope": 63
       },
+      "rawValues": {
+        "effort": 40.5,
+        "strategic": 250.5,
+        "impactMix": 0.7416666666666666,
+        "quality": 4.291666666666667,
+        "collaboration": 8.243221396168199,
+        "velocity": 24.50894521602199,
+        "scope": 31
+      },
       "metrics": {
         "prsAuthored": 24,
         "prsReviewed": 6,
@@ -2994,6 +3336,15 @@
         "velocity": 95,
         "scope": 65
       },
+      "rawValues": {
+        "effort": 50,
+        "strategic": 266,
+        "impactMix": 0.8666666666666667,
+        "quality": 3,
+        "collaboration": 0,
+        "velocity": 27.77420381178422,
+        "scope": 32
+      },
       "metrics": {
         "prsAuthored": 6,
         "prsReviewed": 0,
@@ -3061,6 +3412,15 @@
         "collaboration": 81,
         "velocity": 40,
         "scope": 83
+      },
+      "rawValues": {
+        "effort": 30,
+        "strategic": 220,
+        "impactMix": 0.74,
+        "quality": 3.1,
+        "collaboration": 18,
+        "velocity": 10.763838226072624,
+        "scope": 43
       },
       "metrics": {
         "prsAuthored": 5,
@@ -3143,6 +3503,15 @@
         "velocity": 96,
         "scope": 41
       },
+      "rawValues": {
+        "effort": 5,
+        "strategic": 24,
+        "impactMix": 0.85,
+        "quality": 7.5,
+        "collaboration": 22.34633262673251,
+        "velocity": 29.205184867987374,
+        "scope": 14
+      },
       "metrics": {
         "prsAuthored": 2,
         "prsReviewed": 5,
@@ -3206,6 +3575,15 @@
         "collaboration": 90,
         "velocity": 51,
         "scope": 50
+      },
+      "rawValues": {
+        "effort": 49,
+        "strategic": 215,
+        "impactMix": 0.65,
+        "quality": 4.25,
+        "collaboration": 25.95495819739296,
+        "velocity": 12.59710104146557,
+        "scope": 22
       },
       "metrics": {
         "prsAuthored": 12,
@@ -3282,6 +3660,15 @@
         "velocity": 90,
         "scope": 61
       },
+      "rawValues": {
+        "effort": 39.5,
+        "strategic": 223.5,
+        "impactMix": 0.6666666666666666,
+        "quality": 3.8333333333333335,
+        "collaboration": 10.183882054959122,
+        "velocity": 25.201104620849808,
+        "scope": 29
+      },
       "metrics": {
         "prsAuthored": 9,
         "prsReviewed": 4,
@@ -3349,6 +3736,15 @@
         "collaboration": 86,
         "velocity": 58,
         "scope": 85
+      },
+      "rawValues": {
+        "effort": 35,
+        "strategic": 146.5,
+        "impactMix": 0.5733333333333335,
+        "quality": 3.566666666666667,
+        "collaboration": 23.351863984970187,
+        "velocity": 13.33310571096814,
+        "scope": 44
       },
       "metrics": {
         "prsAuthored": 15,
@@ -3438,6 +3834,15 @@
         "velocity": 45,
         "scope": 74
       },
+      "rawValues": {
+        "effort": 39.5,
+        "strategic": 224,
+        "impactMix": 0.7923076923076924,
+        "quality": 5.423076923076923,
+        "collaboration": 7.138385175754237,
+        "velocity": 11.606133913064587,
+        "scope": 36
+      },
       "metrics": {
         "prsAuthored": 13,
         "prsReviewed": 3,
@@ -3517,6 +3922,15 @@
         "velocity": 99,
         "scope": 35
       },
+      "rawValues": {
+        "effort": 20,
+        "strategic": 84,
+        "impactMix": 0.7,
+        "quality": 6.5,
+        "collaboration": 12.053292010260666,
+        "velocity": 33.353740319805766,
+        "scope": 12
+      },
       "metrics": {
         "prsAuthored": 2,
         "prsReviewed": 3,
@@ -3582,6 +3996,15 @@
         "collaboration": 95,
         "velocity": 56,
         "scope": 53
+      },
+      "rawValues": {
+        "effort": 27,
+        "strategic": 158.5,
+        "impactMix": 0.7,
+        "quality": 4.166666666666667,
+        "collaboration": 37,
+        "velocity": 13.268798439221378,
+        "scope": 25
       },
       "metrics": {
         "prsAuthored": 9,
@@ -3659,6 +4082,15 @@
         "collaboration": 38,
         "velocity": 59,
         "scope": 81
+      },
+      "rawValues": {
+        "effort": 39,
+        "strategic": 233,
+        "impactMix": 0.6625000000000001,
+        "quality": 4.3125,
+        "collaboration": 9,
+        "velocity": 13.34710456324619,
+        "scope": 41
       },
       "metrics": {
         "prsAuthored": 8,
@@ -3743,6 +4175,15 @@
         "velocity": 79,
         "scope": 67
       },
+      "rawValues": {
+        "effort": 22,
+        "strategic": 110.5,
+        "impactMix": 0.675,
+        "quality": 4.6875,
+        "collaboration": 11.777386398475569,
+        "velocity": 19.13921802601139,
+        "scope": 33
+      },
       "metrics": {
         "prsAuthored": 8,
         "prsReviewed": 10,
@@ -3815,6 +4256,15 @@
         "collaboration": 82,
         "velocity": 57,
         "scope": 57
+      },
+      "rawValues": {
+        "effort": 14,
+        "strategic": 64,
+        "impactMix": 0.7999999999999999,
+        "quality": 4.666666666666667,
+        "collaboration": 18.8213885024018,
+        "velocity": 13.30765825680522,
+        "scope": 27
       },
       "metrics": {
         "prsAuthored": 3,
@@ -3892,6 +4342,15 @@
         "velocity": 89,
         "scope": 65
       },
+      "rawValues": {
+        "effort": 17,
+        "strategic": 115,
+        "impactMix": 0.85,
+        "quality": 6.75,
+        "collaboration": 0,
+        "velocity": 25.004640141466226,
+        "scope": 32
+      },
       "metrics": {
         "prsAuthored": 2,
         "prsReviewed": 0,
@@ -3956,6 +4415,15 @@
         "collaboration": 45,
         "velocity": 85,
         "scope": 79
+      },
+      "rawValues": {
+        "effort": 29,
+        "strategic": 119,
+        "impactMix": 0.6200000000000001,
+        "quality": 3.2,
+        "collaboration": 9.861359462197056,
+        "velocity": 22.724572389294572,
+        "scope": 40
       },
       "metrics": {
         "prsAuthored": 5,
@@ -4028,6 +4496,15 @@
         "collaboration": 55,
         "velocity": 46,
         "scope": 60
+      },
+      "rawValues": {
+        "effort": 33,
+        "strategic": 139,
+        "impactMix": 0.8500000000000001,
+        "quality": 4.25,
+        "collaboration": 11.42876974023969,
+        "velocity": 11.955285615975676,
+        "scope": 28
       },
       "metrics": {
         "prsAuthored": 8,
@@ -4111,6 +4588,15 @@
         "velocity": 65,
         "scope": 53
       },
+      "rawValues": {
+        "effort": 17,
+        "strategic": 71,
+        "impactMix": 0.75,
+        "quality": 5.5,
+        "collaboration": 12.625449833164517,
+        "velocity": 14.835600018809231,
+        "scope": 25
+      },
       "metrics": {
         "prsAuthored": 4,
         "prsReviewed": 3,
@@ -4180,6 +4666,15 @@
         "collaboration": 80,
         "velocity": 73,
         "scope": 41
+      },
+      "rawValues": {
+        "effort": 9.5,
+        "strategic": 73,
+        "impactMix": 0.7333333333333334,
+        "quality": 5.5,
+        "collaboration": 15.599613834952759,
+        "velocity": 17.191200071547797,
+        "scope": 14
       },
       "metrics": {
         "prsAuthored": 3,
@@ -4254,6 +4749,15 @@
         "velocity": 86,
         "scope": 24
       },
+      "rawValues": {
+        "effort": 29,
+        "strategic": 198,
+        "impactMix": 0.6200000000000001,
+        "quality": 3.7,
+        "collaboration": 14.78989800802977,
+        "velocity": 23.563364266102848,
+        "scope": 7
+      },
       "metrics": {
         "prsAuthored": 5,
         "prsReviewed": 3,
@@ -4321,6 +4825,15 @@
         "collaboration": 100,
         "velocity": 48,
         "scope": 57
+      },
+      "rawValues": {
+        "effort": 15.5,
+        "strategic": 117,
+        "impactMix": 0.5714285714285715,
+        "quality": 4.428571428571429,
+        "collaboration": 103.02461920510204,
+        "velocity": 12.307241740003384,
+        "scope": 27
       },
       "metrics": {
         "prsAuthored": 7,
@@ -4397,6 +4910,15 @@
         "collaboration": 70,
         "velocity": 38,
         "scope": 70
+      },
+      "rawValues": {
+        "effort": 28,
+        "strategic": 186,
+        "impactMix": 0.6428571428571429,
+        "quality": 3.7857142857142856,
+        "collaboration": 13.78096931987401,
+        "velocity": 10.419987469015648,
+        "scope": 34
       },
       "metrics": {
         "prsAuthored": 7,
@@ -4480,6 +5002,15 @@
         "velocity": 30,
         "scope": 46
       },
+      "rawValues": {
+        "effort": 42,
+        "strategic": 266,
+        "impactMix": 0.7999999999999999,
+        "quality": 4.833333333333333,
+        "collaboration": 6,
+        "velocity": 7.924137864598509,
+        "scope": 20
+      },
       "metrics": {
         "prsAuthored": 6,
         "prsReviewed": 6,
@@ -4553,6 +5084,15 @@
         "collaboration": 27,
         "velocity": 44,
         "scope": 78
+      },
+      "rawValues": {
+        "effort": 28,
+        "strategic": 183,
+        "impactMix": 0.6714285714285715,
+        "quality": 5,
+        "collaboration": 6,
+        "velocity": 11.296434770578635,
+        "scope": 39
       },
       "metrics": {
         "prsAuthored": 7,
@@ -4635,6 +5175,15 @@
         "velocity": 75,
         "scope": 52
       },
+      "rawValues": {
+        "effort": 21.5,
+        "strategic": 149.5,
+        "impactMix": 0.7000000000000001,
+        "quality": 4.75,
+        "collaboration": 4.167650551202573,
+        "velocity": 18.144909846234423,
+        "scope": 24
+      },
       "metrics": {
         "prsAuthored": 8,
         "prsReviewed": 4,
@@ -4708,6 +5257,15 @@
         "velocity": 65,
         "scope": 38
       },
+      "rawValues": {
+        "effort": 12,
+        "strategic": 96,
+        "impactMix": 1,
+        "quality": 8,
+        "collaboration": 4.083751774917728,
+        "velocity": 14.875681570305339,
+        "scope": 13
+      },
       "metrics": {
         "prsAuthored": 2,
         "prsReviewed": 4,
@@ -4769,6 +5327,15 @@
         "collaboration": 19,
         "velocity": 62,
         "scope": 72
+      },
+      "rawValues": {
+        "effort": 24.5,
+        "strategic": 155,
+        "impactMix": 0.6333333333333333,
+        "quality": 4,
+        "collaboration": 4,
+        "velocity": 13.599461706843455,
+        "scope": 35
       },
       "metrics": {
         "prsAuthored": 6,
@@ -4845,6 +5412,15 @@
         "collaboration": 60,
         "velocity": 53,
         "scope": 50
+      },
+      "rawValues": {
+        "effort": 21,
+        "strategic": 166,
+        "impactMix": 0.6142857142857142,
+        "quality": 3.642857142857143,
+        "collaboration": 12.060440358021669,
+        "velocity": 12.732162574261427,
+        "scope": 22
       },
       "metrics": {
         "prsAuthored": 7,
@@ -4927,6 +5503,15 @@
         "velocity": 87,
         "scope": 24
       },
+      "rawValues": {
+        "effort": 9,
+        "strategic": 52,
+        "impactMix": 0.44999999999999996,
+        "quality": 6.5,
+        "collaboration": 13.310017489338062,
+        "velocity": 23.612157933736146,
+        "scope": 7
+      },
       "metrics": {
         "prsAuthored": 2,
         "prsReviewed": 9,
@@ -4988,6 +5573,15 @@
         "collaboration": 43,
         "velocity": 45,
         "scope": 51
+      },
+      "rawValues": {
+        "effort": 23,
+        "strategic": 176,
+        "impactMix": 0.5285714285714286,
+        "quality": 4.714285714285714,
+        "collaboration": 9.751736818889164,
+        "velocity": 11.494432826874128,
+        "scope": 23
       },
       "metrics": {
         "prsAuthored": 7,
@@ -5064,6 +5658,15 @@
         "collaboration": 75,
         "velocity": 71,
         "scope": 57
+      },
+      "rawValues": {
+        "effort": 14.5,
+        "strategic": 41,
+        "impactMix": 0.5833333333333334,
+        "quality": 1.3333333333333333,
+        "collaboration": 14.553366759762586,
+        "velocity": 16.074447134654783,
+        "scope": 27
       },
       "metrics": {
         "prsAuthored": 6,
@@ -5142,6 +5745,15 @@
         "velocity": 98,
         "scope": 33
       },
+      "rawValues": {
+        "effort": 14,
+        "strategic": 62,
+        "impactMix": 0.7,
+        "quality": 4.75,
+        "collaboration": 2.7635020666600205,
+        "velocity": 32.549536657780095,
+        "scope": 11
+      },
       "metrics": {
         "prsAuthored": 4,
         "prsReviewed": 1,
@@ -5210,6 +5822,15 @@
         "velocity": 97,
         "scope": 46
       },
+      "rawValues": {
+        "effort": 7,
+        "strategic": 37,
+        "impactMix": 0.6,
+        "quality": 2.75,
+        "collaboration": 12.623807807952733,
+        "velocity": 30.56908484302225,
+        "scope": 20
+      },
       "metrics": {
         "prsAuthored": 2,
         "prsReviewed": 3,
@@ -5275,6 +5896,15 @@
         "collaboration": 45,
         "velocity": 41,
         "scope": 62
+      },
+      "rawValues": {
+        "effort": 9,
+        "strategic": 51,
+        "impactMix": 0.9,
+        "quality": 3.6666666666666665,
+        "collaboration": 9.984739557722717,
+        "velocity": 11.127986201967518,
+        "scope": 30
       },
       "metrics": {
         "prsAuthored": 3,
@@ -5352,6 +5982,15 @@
         "velocity": 31,
         "scope": 45
       },
+      "rawValues": {
+        "effort": 28,
+        "strategic": 196,
+        "impactMix": 1,
+        "quality": 4.5,
+        "collaboration": 0,
+        "velocity": 9.06671822593626,
+        "scope": 17
+      },
       "metrics": {
         "prsAuthored": 3,
         "prsReviewed": 0,
@@ -5419,6 +6058,15 @@
         "collaboration": 27,
         "velocity": 64,
         "scope": 57
+      },
+      "rawValues": {
+        "effort": 19,
+        "strategic": 119.5,
+        "impactMix": 0.6333333333333333,
+        "quality": 4.333333333333333,
+        "collaboration": 6,
+        "velocity": 14.61662197922115,
+        "scope": 27
       },
       "metrics": {
         "prsAuthored": 6,
@@ -5497,6 +6145,15 @@
         "velocity": 54,
         "scope": 55
       },
+      "rawValues": {
+        "effort": 16,
+        "strategic": 72,
+        "impactMix": 0.6499999999999999,
+        "quality": 5.5,
+        "collaboration": 5,
+        "velocity": 12.734439883575751,
+        "scope": 26
+      },
       "metrics": {
         "prsAuthored": 4,
         "prsReviewed": 3,
@@ -5564,6 +6221,15 @@
         "collaboration": 41,
         "velocity": 35,
         "scope": 50
+      },
+      "rawValues": {
+        "effort": 35.5,
+        "strategic": 175,
+        "impactMix": 0.5833333333333334,
+        "quality": 3.4166666666666665,
+        "collaboration": 9.429509238159254,
+        "velocity": 9.481002525288112,
+        "scope": 22
       },
       "metrics": {
         "prsAuthored": 6,
@@ -5637,6 +6303,15 @@
         "velocity": 34,
         "scope": 33
       },
+      "rawValues": {
+        "effort": 22,
+        "strategic": 96,
+        "impactMix": 0.7250000000000001,
+        "quality": 4.625,
+        "collaboration": 10.194171696876708,
+        "velocity": 9.429365201019674,
+        "scope": 11
+      },
       "metrics": {
         "prsAuthored": 4,
         "prsReviewed": 3,
@@ -5703,6 +6378,15 @@
         "velocity": 100,
         "scope": 38
       },
+      "rawValues": {
+        "effort": 3,
+        "strategic": 13,
+        "impactMix": 0.6,
+        "quality": 2.5,
+        "collaboration": 10.67801624665539,
+        "velocity": 38.55506795105782,
+        "scope": 13
+      },
       "metrics": {
         "prsAuthored": 2,
         "prsReviewed": 1,
@@ -5764,6 +6448,15 @@
         "collaboration": 7,
         "velocity": 47,
         "scope": 48
+      },
+      "rawValues": {
+        "effort": 7.5,
+        "strategic": 51.5,
+        "impactMix": 0.7999999999999999,
+        "quality": 4.5,
+        "collaboration": 0,
+        "velocity": 12.13311234024097,
+        "scope": 21
       },
       "metrics": {
         "prsAuthored": 3,
@@ -5842,6 +6535,15 @@
         "velocity": 74,
         "scope": 67
       },
+      "rawValues": {
+        "effort": 12,
+        "strategic": 39,
+        "impactMix": 0.4666666666666666,
+        "quality": 3,
+        "collaboration": 5,
+        "velocity": 17.809244418426076,
+        "scope": 33
+      },
       "metrics": {
         "prsAuthored": 6,
         "prsReviewed": 3,
@@ -5919,6 +6621,15 @@
         "velocity": 82,
         "scope": 38
       },
+      "rawValues": {
+        "effort": 3,
+        "strategic": 9,
+        "impactMix": 0.7,
+        "quality": 4,
+        "collaboration": 6,
+        "velocity": 20.915540833813267,
+        "scope": 13
+      },
       "metrics": {
         "prsAuthored": 2,
         "prsReviewed": 6,
@@ -5981,6 +6692,15 @@
         "velocity": 15,
         "scope": 24
       },
+      "rawValues": {
+        "effort": 4,
+        "strategic": 24,
+        "impactMix": 0.7,
+        "quality": 5.5,
+        "collaboration": 14.355460298320905,
+        "velocity": 0,
+        "scope": 7
+      },
       "metrics": {
         "prsAuthored": 1,
         "prsReviewed": 12,
@@ -6034,6 +6754,15 @@
         "collaboration": 57,
         "velocity": 36,
         "scope": 44
+      },
+      "rawValues": {
+        "effort": 8,
+        "strategic": 26,
+        "impactMix": 0.575,
+        "quality": 3.875,
+        "collaboration": 11.743109418127183,
+        "velocity": 9.66742616575673,
+        "scope": 16
       },
       "metrics": {
         "prsAuthored": 4,
@@ -6107,6 +6836,15 @@
         "velocity": 15,
         "scope": 38
       },
+      "rawValues": {
+        "effort": 4,
+        "strategic": 20,
+        "impactMix": 0.7,
+        "quality": 5.5,
+        "collaboration": 10.938150853610198,
+        "velocity": 0,
+        "scope": 13
+      },
       "metrics": {
         "prsAuthored": 1,
         "prsReviewed": 1,
@@ -6163,6 +6901,15 @@
         "velocity": 15,
         "scope": 24
       },
+      "rawValues": {
+        "effort": 4,
+        "strategic": 24,
+        "impactMix": 0.7,
+        "quality": 8,
+        "collaboration": 10.76830581638495,
+        "velocity": 0,
+        "scope": 7
+      },
       "metrics": {
         "prsAuthored": 1,
         "prsReviewed": 1,
@@ -6218,6 +6965,15 @@
         "collaboration": 7,
         "velocity": 39,
         "scope": 41
+      },
+      "rawValues": {
+        "effort": 7,
+        "strategic": 44.5,
+        "impactMix": 0.7,
+        "quality": 5.25,
+        "collaboration": 0,
+        "velocity": 10.474283560849656,
+        "scope": 14
       },
       "metrics": {
         "prsAuthored": 4,
@@ -6292,6 +7048,15 @@
         "velocity": 84,
         "scope": 24
       },
+      "rawValues": {
+        "effort": 8.5,
+        "strategic": 34,
+        "impactMix": 0.20000000000000004,
+        "quality": 1.2,
+        "collaboration": 0,
+        "velocity": 21.979814270459002,
+        "scope": 7
+      },
       "metrics": {
         "prsAuthored": 15,
         "prsReviewed": 0,
@@ -6360,6 +7125,15 @@
         "velocity": 15,
         "scope": 24
       },
+      "rawValues": {
+        "effort": 2,
+        "strategic": 12,
+        "impactMix": 0.8,
+        "quality": 2.5,
+        "collaboration": 9.29737546949834,
+        "velocity": 0,
+        "scope": 7
+      },
       "metrics": {
         "prsAuthored": 1,
         "prsReviewed": 8,
@@ -6416,6 +7190,15 @@
         "velocity": 15,
         "scope": 24
       },
+      "rawValues": {
+        "effort": 1,
+        "strategic": 4,
+        "impactMix": 1,
+        "quality": 5.5,
+        "collaboration": 0,
+        "velocity": 0,
+        "scope": 7
+      },
       "metrics": {
         "prsAuthored": 1,
         "prsReviewed": 0,
@@ -6469,6 +7252,15 @@
         "collaboration": 7,
         "velocity": 15,
         "scope": 24
+      },
+      "rawValues": {
+        "effort": 4,
+        "strategic": 20,
+        "impactMix": 1,
+        "quality": 2.5,
+        "collaboration": 0,
+        "velocity": 0,
+        "scope": 7
       },
       "metrics": {
         "prsAuthored": 1,
@@ -6527,6 +7319,15 @@
         "velocity": 15,
         "scope": 38
       },
+      "rawValues": {
+        "effort": 4,
+        "strategic": 20,
+        "impactMix": 0.2,
+        "quality": 2.5,
+        "collaboration": 10.729368070975658,
+        "velocity": 0,
+        "scope": 13
+      },
       "metrics": {
         "prsAuthored": 1,
         "prsReviewed": 1,
@@ -6580,6 +7381,15 @@
         "collaboration": 7,
         "velocity": 77,
         "scope": 35
+      },
+      "rawValues": {
+        "effort": 1.5,
+        "strategic": 7,
+        "impactMix": 0.3,
+        "quality": 1.25,
+        "collaboration": 0,
+        "velocity": 18.796797815492475,
+        "scope": 12
       },
       "metrics": {
         "prsAuthored": 2,
@@ -6645,6 +7455,15 @@
         "velocity": 15,
         "scope": 33
       },
+      "rawValues": {
+        "effort": 1,
+        "strategic": 3,
+        "impactMix": 0.3,
+        "quality": 2.5,
+        "collaboration": 13.8850994556322,
+        "velocity": 0,
+        "scope": 11
+      },
       "metrics": {
         "prsAuthored": 1,
         "prsReviewed": 4,
@@ -6700,6 +7519,15 @@
         "collaboration": 7,
         "velocity": 83,
         "scope": 16
+      },
+      "rawValues": {
+        "effort": 3.5,
+        "strategic": 5.5,
+        "impactMix": 0.19999999999999998,
+        "quality": 0.2857142857142857,
+        "collaboration": 0,
+        "velocity": 20.99185795818092,
+        "scope": 3
       },
       "metrics": {
         "prsAuthored": 7,
@@ -6767,6 +7595,15 @@
         "velocity": 15,
         "scope": 24
       },
+      "rawValues": {
+        "effort": 0.5,
+        "strategic": 1,
+        "impactMix": 0.2,
+        "quality": 0,
+        "collaboration": 25.58854444560058,
+        "velocity": 0,
+        "scope": 7
+      },
       "metrics": {
         "prsAuthored": 1,
         "prsReviewed": 2,
@@ -6822,6 +7659,15 @@
         "collaboration": 7,
         "velocity": 15,
         "scope": 30
+      },
+      "rawValues": {
+        "effort": 1,
+        "strategic": 7,
+        "impactMix": 0.7,
+        "quality": 2.5,
+        "collaboration": 0,
+        "velocity": 0,
+        "scope": 9
       },
       "metrics": {
         "prsAuthored": 1,
@@ -6879,6 +7725,15 @@
         "velocity": 15,
         "scope": 18
       },
+      "rawValues": {
+        "effort": 1,
+        "strategic": 3,
+        "impactMix": 0.2,
+        "quality": 2.5,
+        "collaboration": 11.273297693136028,
+        "velocity": 0,
+        "scope": 5
+      },
       "metrics": {
         "prsAuthored": 1,
         "prsReviewed": 3,
@@ -6932,6 +7787,15 @@
         "collaboration": 7,
         "velocity": 15,
         "scope": 24
+      },
+      "rawValues": {
+        "effort": 1,
+        "strategic": 6,
+        "impactMix": 0.7,
+        "quality": 2.5,
+        "collaboration": 0,
+        "velocity": 0,
+        "scope": 7
       },
       "metrics": {
         "prsAuthored": 1,
@@ -6987,6 +7851,15 @@
         "velocity": 15,
         "scope": 8
       },
+      "rawValues": {
+        "effort": 0,
+        "strategic": 0,
+        "impactMix": 0.5,
+        "quality": 0,
+        "collaboration": 21.302394667583314,
+        "velocity": 0,
+        "scope": 0
+      },
       "metrics": {
         "prsAuthored": 0,
         "prsReviewed": 4,
@@ -7028,6 +7901,15 @@
         "collaboration": 7,
         "velocity": 15,
         "scope": 24
+      },
+      "rawValues": {
+        "effort": 1,
+        "strategic": 2,
+        "impactMix": 0.7,
+        "quality": 2.5,
+        "collaboration": 0,
+        "velocity": 0,
+        "scope": 7
       },
       "metrics": {
         "prsAuthored": 1,
@@ -7082,6 +7964,15 @@
         "collaboration": 36,
         "velocity": 15,
         "scope": 24
+      },
+      "rawValues": {
+        "effort": 2,
+        "strategic": 8,
+        "impactMix": 0.2,
+        "quality": 0,
+        "collaboration": 8.709820064351353,
+        "velocity": 0,
+        "scope": 7
       },
       "metrics": {
         "prsAuthored": 1,
@@ -7139,6 +8030,15 @@
         "velocity": 15,
         "scope": 8
       },
+      "rawValues": {
+        "effort": 0,
+        "strategic": 0,
+        "impactMix": 0.5,
+        "quality": 0,
+        "collaboration": 15.582287872302267,
+        "velocity": 0,
+        "scope": 0
+      },
       "metrics": {
         "prsAuthored": 0,
         "prsReviewed": 3,
@@ -7180,6 +8080,15 @@
         "collaboration": 16,
         "velocity": 15,
         "scope": 24
+      },
+      "rawValues": {
+        "effort": 2,
+        "strategic": 6,
+        "impactMix": 0.3,
+        "quality": 2.5,
+        "collaboration": 3,
+        "velocity": 0,
+        "scope": 7
       },
       "metrics": {
         "prsAuthored": 1,
@@ -7235,6 +8144,15 @@
         "velocity": 15,
         "scope": 8
       },
+      "rawValues": {
+        "effort": 0,
+        "strategic": 0,
+        "impactMix": 0.5,
+        "quality": 0,
+        "collaboration": 13.397637698848193,
+        "velocity": 0,
+        "scope": 0
+      },
       "metrics": {
         "prsAuthored": 0,
         "prsReviewed": 4,
@@ -7276,6 +8194,15 @@
         "collaboration": 61,
         "velocity": 15,
         "scope": 8
+      },
+      "rawValues": {
+        "effort": 0,
+        "strategic": 0,
+        "impactMix": 0.5,
+        "quality": 0,
+        "collaboration": 12.186592865075514,
+        "velocity": 0,
+        "scope": 0
       },
       "metrics": {
         "prsAuthored": 0,
@@ -7319,6 +8246,15 @@
         "velocity": 15,
         "scope": 8
       },
+      "rawValues": {
+        "effort": 0,
+        "strategic": 0,
+        "impactMix": 0.5,
+        "quality": 0,
+        "collaboration": 10.53945731883147,
+        "velocity": 0,
+        "scope": 0
+      },
       "metrics": {
         "prsAuthored": 0,
         "prsReviewed": 1,
@@ -7360,6 +8296,15 @@
         "collaboration": 50,
         "velocity": 15,
         "scope": 8
+      },
+      "rawValues": {
+        "effort": 0,
+        "strategic": 0,
+        "impactMix": 0.5,
+        "quality": 0,
+        "collaboration": 10.22025461137488,
+        "velocity": 0,
+        "scope": 0
       },
       "metrics": {
         "prsAuthored": 0,
@@ -7403,6 +8348,15 @@
         "velocity": 15,
         "scope": 8
       },
+      "rawValues": {
+        "effort": 0,
+        "strategic": 0,
+        "impactMix": 0.5,
+        "quality": 0,
+        "collaboration": 10.154337982002572,
+        "velocity": 0,
+        "scope": 0
+      },
       "metrics": {
         "prsAuthored": 0,
         "prsReviewed": 1,
@@ -7444,6 +8398,15 @@
         "collaboration": 46,
         "velocity": 15,
         "scope": 8
+      },
+      "rawValues": {
+        "effort": 0,
+        "strategic": 0,
+        "impactMix": 0.5,
+        "quality": 0,
+        "collaboration": 10.037172470672763,
+        "velocity": 0,
+        "scope": 0
       },
       "metrics": {
         "prsAuthored": 0,
@@ -7487,6 +8450,15 @@
         "velocity": 15,
         "scope": 8
       },
+      "rawValues": {
+        "effort": 0,
+        "strategic": 0,
+        "impactMix": 0.5,
+        "quality": 0,
+        "collaboration": 9.810637516665324,
+        "velocity": 0,
+        "scope": 0
+      },
       "metrics": {
         "prsAuthored": 0,
         "prsReviewed": 1,
@@ -7529,6 +8501,15 @@
         "velocity": 15,
         "scope": 8
       },
+      "rawValues": {
+        "effort": 0,
+        "strategic": 0,
+        "impactMix": 0.5,
+        "quality": 0,
+        "collaboration": 9.59665547165692,
+        "velocity": 0,
+        "scope": 0
+      },
       "metrics": {
         "prsAuthored": 0,
         "prsReviewed": 1,
@@ -7570,6 +8551,15 @@
         "collaboration": 7,
         "velocity": 15,
         "scope": 16
+      },
+      "rawValues": {
+        "effort": 0.5,
+        "strategic": 1.5,
+        "impactMix": 0.3,
+        "quality": 2.5,
+        "collaboration": 0,
+        "velocity": 0,
+        "scope": 3
       },
       "metrics": {
         "prsAuthored": 1,
@@ -7625,6 +8615,15 @@
         "velocity": 15,
         "scope": 24
       },
+      "rawValues": {
+        "effort": 1,
+        "strategic": 3,
+        "impactMix": 0.2,
+        "quality": 0,
+        "collaboration": 0,
+        "velocity": 0,
+        "scope": 7
+      },
       "metrics": {
         "prsAuthored": 1,
         "prsReviewed": 0,
@@ -7679,6 +8678,15 @@
         "velocity": 15,
         "scope": 8
       },
+      "rawValues": {
+        "effort": 0,
+        "strategic": 0,
+        "impactMix": 0.5,
+        "quality": 0,
+        "collaboration": 7.523064761337124,
+        "velocity": 0,
+        "scope": 0
+      },
       "metrics": {
         "prsAuthored": 0,
         "prsReviewed": 3,
@@ -7720,6 +8728,15 @@
         "collaboration": 35,
         "velocity": 15,
         "scope": 8
+      },
+      "rawValues": {
+        "effort": 0,
+        "strategic": 0,
+        "impactMix": 0.5,
+        "quality": 0,
+        "collaboration": 8.68699102864002,
+        "velocity": 0,
+        "scope": 0
       },
       "metrics": {
         "prsAuthored": 0,
@@ -7763,6 +8780,15 @@
         "velocity": 15,
         "scope": 8
       },
+      "rawValues": {
+        "effort": 0,
+        "strategic": 0,
+        "impactMix": 0.5,
+        "quality": 0,
+        "collaboration": 7.550214476268737,
+        "velocity": 0,
+        "scope": 0
+      },
       "metrics": {
         "prsAuthored": 0,
         "prsReviewed": 1,
@@ -7804,6 +8830,15 @@
         "collaboration": 33,
         "velocity": 15,
         "scope": 8
+      },
+      "rawValues": {
+        "effort": 0,
+        "strategic": 0,
+        "impactMix": 0.5,
+        "quality": 0,
+        "collaboration": 7.972583403022223,
+        "velocity": 0,
+        "scope": 0
       },
       "metrics": {
         "prsAuthored": 0,
@@ -7847,6 +8882,15 @@
         "velocity": 15,
         "scope": 8
       },
+      "rawValues": {
+        "effort": 0,
+        "strategic": 0,
+        "impactMix": 0.5,
+        "quality": 0,
+        "collaboration": 5.899977284339741,
+        "velocity": 0,
+        "scope": 0
+      },
       "metrics": {
         "prsAuthored": 0,
         "prsReviewed": 1,
@@ -7888,6 +8932,15 @@
         "collaboration": 7,
         "velocity": 15,
         "scope": 16
+      },
+      "rawValues": {
+        "effort": 0.5,
+        "strategic": 1,
+        "impactMix": 0.2,
+        "quality": 0,
+        "collaboration": 0,
+        "velocity": 0,
+        "scope": 3
       },
       "metrics": {
         "prsAuthored": 1,
@@ -7943,6 +8996,15 @@
         "velocity": 15,
         "scope": 8
       },
+      "rawValues": {
+        "effort": 0,
+        "strategic": 0,
+        "impactMix": 0.5,
+        "quality": 0,
+        "collaboration": 3.7471649926379804,
+        "velocity": 0,
+        "scope": 0
+      },
       "metrics": {
         "prsAuthored": 0,
         "prsReviewed": 1,
@@ -7985,6 +9047,15 @@
         "velocity": 15,
         "scope": 8
       },
+      "rawValues": {
+        "effort": 0,
+        "strategic": 0,
+        "impactMix": 0.5,
+        "quality": 0,
+        "collaboration": 3.4881477877289315,
+        "velocity": 0,
+        "scope": 0
+      },
       "metrics": {
         "prsAuthored": 0,
         "prsReviewed": 1,
@@ -8026,6 +9097,15 @@
         "collaboration": 15,
         "velocity": 15,
         "scope": 8
+      },
+      "rawValues": {
+        "effort": 0,
+        "strategic": 0,
+        "impactMix": 0.5,
+        "quality": 0,
+        "collaboration": 2.531497216594145,
+        "velocity": 0,
+        "scope": 0
       },
       "metrics": {
         "prsAuthored": 0,
@@ -8070,6 +9150,15 @@
         "collaboration": 99,
         "velocity": 85,
         "scope": 100
+      },
+      "rawValues": {
+        "effort": 211,
+        "strategic": 1256.5,
+        "impactMix": 0.597560975609756,
+        "quality": 4.451219512195122,
+        "collaboration": 50,
+        "velocity": 22.35283902610733,
+        "scope": 190
       },
       "metrics": {
         "prsAuthored": 41,
@@ -8148,6 +9237,15 @@
         "collaboration": 78,
         "velocity": 93,
         "scope": 99
+      },
+      "rawValues": {
+        "effort": 324.5,
+        "strategic": 1903,
+        "impactMix": 0.672463768115942,
+        "quality": 4.471014492753623,
+        "collaboration": 15.49153718995406,
+        "velocity": 25.81352925432932,
+        "scope": 157
       },
       "metrics": {
         "prsAuthored": 69,
@@ -8262,6 +9360,15 @@
         "velocity": 61,
         "scope": 96
       },
+      "rawValues": {
+        "effort": 101,
+        "strategic": 772.5,
+        "impactMix": 0.76,
+        "quality": 5.4,
+        "collaboration": 15.474985485524368,
+        "velocity": 13.54885106592253,
+        "scope": 72
+      },
       "metrics": {
         "prsAuthored": 10,
         "prsReviewed": 15,
@@ -8335,6 +9442,15 @@
         "collaboration": 62,
         "velocity": 95,
         "scope": 81
+      },
+      "rawValues": {
+        "effort": 422,
+        "strategic": 2444.5,
+        "impactMix": 0.6828947368421056,
+        "quality": 4.967105263157895,
+        "collaboration": 12.263775771892515,
+        "velocity": 27.218350481225862,
+        "scope": 41
       },
       "metrics": {
         "prsAuthored": 76,
@@ -8418,6 +9534,15 @@
         "collaboration": 80,
         "velocity": 78,
         "scope": 91
+      },
+      "rawValues": {
+        "effort": 51.5,
+        "strategic": 423,
+        "impactMix": 0.7166666666666667,
+        "quality": 5.75,
+        "collaboration": 16.66241774893844,
+        "velocity": 19.079794370909642,
+        "scope": 53
       },
       "metrics": {
         "prsAuthored": 6,

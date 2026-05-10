@@ -470,6 +470,7 @@ export function computeScores(
       login,
       impactScore,
       dimensions,
+      rawValues: raw as DimensionScores,
       metrics: {
         prsAuthored: eng.authoredPRs.length,
         prsReviewed: reviewsGiven,

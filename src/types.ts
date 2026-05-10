@@ -161,6 +161,8 @@ export interface EngineerImpact {
   impactScore: number
   /** 7 dimension scores, each 0-100 (percentile-normalized) */
   dimensions: DimensionScores
+  /** Raw values before percentile normalization — for context */
+  rawValues: DimensionScores
   /** Supporting metrics */
   metrics: {
     prsAuthored: number

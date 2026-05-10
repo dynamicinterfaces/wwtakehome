@@ -17,8 +17,18 @@ function dur(m: number | null): string {
   return h < 24 ? h.toFixed(1) + 'h' : (h / 24).toFixed(1) + 'd'
 }
 
+const RAW_LABELS: Record<keyof DimensionScores, (v: number) => string> = {
+  effort: v => v.toFixed(0) + 'h',
+  strategic: v => v.toFixed(0) + ' pts',
+  impactMix: v => (v * 100).toFixed(0) + '%',
+  quality: v => v.toFixed(1) + '/10',
+  collaboration: v => v.toFixed(0) + ' pts',
+  velocity: v => v.toFixed(1),
+  scope: v => v.toFixed(0) + ' pts',
+}
+
 export function EngineerView({ engineer, weights, focusedDimension, onDimensionClick }: Props) {
-  const { dimensions, metrics } = engineer
+  const { dimensions, metrics, rawValues } = engineer
 
   return (
     <div className="p-6 max-w-3xl mx-auto space-y-5">
@@ -58,8 +68,8 @@ export function EngineerView({ engineer, weights, focusedDimension, onDimensionC
                 <div className="h-full rounded-full bg-primary transition-all duration-500"
                   style={{ width: `${score}%`, opacity: 0.4 + score / 170 }} />
               </div>
+              <span className="text-[10px] text-muted-foreground w-14 text-right tabular-nums">{RAW_LABELS[key](rawValues[key])}</span>
               <span className="text-sm font-semibold tabular-nums w-8 text-right">{score}</span>
-              <span className="text-[10px] text-muted-foreground w-8 text-right tabular-nums">{(weights[key] * 100).toFixed(0)}%</span>
             </button>
           )
         })}
