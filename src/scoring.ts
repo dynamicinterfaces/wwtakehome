@@ -113,17 +113,15 @@ function scoreEffort(eng: EngineerRaw): number {
 // ============================================================
 // D2: STRATEGIC ALIGNMENT — Advances PostHog's north star
 // ============================================================
-// Rubric: Effort-weighted average of per-PR strategic scores.
-// A 20h PR scoring 8/10 counts 4× more than a 5h PR scoring 8/10.
-// Data: LLM strategicScore (0–10) × effortHours.
-// Measures: how much of this engineer's output moves the product forward.
+// Rubric: Total strategic value shipped = Σ(effortHours × strategicScore).
+// Not average quality — total impact. 422h at 5.4 avg (2,279 pts) beats
+// 52h at 8.2 avg (426 pts). Volume of strategic work matters.
+// Data: LLM strategicScore (0–10) × effortHours per PR.
 
 function scoreStrategic(eng: EngineerRaw): number {
   if (eng.analyses.length === 0) return 0
-  const totalEffort = eng.analyses.reduce((s, a) => s + a.effortHours, 0)
-  if (totalEffort === 0) return 0
   return eng.analyses.reduce(
-    (s, a) => s + a.strategicScore * (a.effortHours / totalEffort), 0
+    (s, a) => s + a.strategicScore * a.effortHours, 0
   )
 }
 
